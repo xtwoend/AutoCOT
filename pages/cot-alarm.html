@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Auto COT Pump</title>
+        
+      <script type="module" crossorigin src="/assets/vendor.5a24ffb3.js"></script>
+      <script type="module" crossorigin src="/assets/app.18fc03af.js"></script>
+      <link rel="stylesheet" href="/assets/app.21e81e89.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="table-wrapper">
+                <v-table
+                    url="http://192.168.170.87:9501/alarm"
+                    title="Alarm Notification"
+                    :headers="[
+                        {text: 'Timestamp', value: 'started_at', sortable: true},
+                        {text: 'Alarm Code', value: 'code', sortable: true},
+                        {text: 'Device', value: 'device.name'},
+                        {text: 'Status', value: 'status', sortable: true},
+                        {text: 'Normal On', value: 'finished_at', sortable: true},
+                        {text: 'Duration(s)', value: 'duration', soratable: true},
+                        {text: 'Message', value: 'message', sortable: true},
+                    ]"
+                    ref="vtable"
+                ></v-table>
+            </div>
+        </div>
+        
+    </body>
+</html>
