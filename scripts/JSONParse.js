@@ -5,7 +5,7 @@ debugString(mqttdata_ktwm);
 
 eval('obj_ktwm =' + mqttdata_ktwm);
 
-if(typeof obj_ktwm === 'object' && obj_ktwm !== null) {
+if(typeof obj_ktwm == 'object') {
 	setTag( 'level_ktwm', obj_ktwm.Level);
 	setTag( 'temp_ktwm', obj_ktwm.Temp);
 	setTag( 'mode_ktwm', obj_ktwm.Auto_State);
@@ -14,6 +14,38 @@ if(typeof obj_ktwm === 'object' && obj_ktwm !== null) {
 	setTag( 'pump3_ktwm', obj_ktwm.Pump3_State);
 }
 
+
+//var mqttdata_ktwm= getTag('dataMQTT_cotpump_ktwm');
+
+//debugString(mqttdata_ktwm);
+
+//eval('obj_ktwm =' + mqttdata_ktwm );
+
+//setTag( 'level_ktwm', obj_ktwm.Level);
+//setTag( 'temp_ktwm', obj_ktwm.Temp);
+//setTag( 'mode_ktwm', obj_ktwm.Auto_State);
+//setTag( 'pump1_ktwm', obj_ktwm.Pump1_Speed);
+//setTag( 'pump2_ktwm', obj_ktwm.Pump2_Speed);
+//setTag( 'pump3_ktwm', obj_ktwm.Pump3_State);
+
+
+
+//Data LMDM COT PUMP
+//var mqttdata_lmdm= getTag('dataMQTT_cotpump_lmdm');
+
+//debugString(mqttdata_lmdm);
+
+//eval('obj_lmdm =' + mqttdata_lmdm );
+
+//setTag( 'level_lmdm', obj_lmdm.Level);
+//setTag( 'temp_lmdm', obj_lmdm.Temp);
+//setTag( 'mode_lmdm', obj_lmdm.Auto_State);
+//setTag( 'pump1_lmdm', obj_lmdm.Pump1_Speed);
+//setTag( 'pump2_lmdm', obj_lmdm.Pump2_Speed);
+//setTag( 'pump3_lmdm', obj_lmdm.Pump3_State);
+
+
+
 //Data LMDM COT PUMP
 var mqttdata_lmdm = getTag('dataMQTT_cotpump_lmdm');
 
@@ -21,7 +53,7 @@ debugString(mqttdata_lmdm);
 
 eval('obj_lmdm =' + mqttdata_lmdm);
 
-if(typeof obj_lmdm === 'object' && obj_lmdm !== null) {
+if(typeof obj_lmdm === 'object') {
 	setTag( 'level_lmdm', obj_lmdm.Level);
 	setTag( 'temp_lmdm', obj_lmdm.Temp);
 	setTag( 'mode_lmdm', obj_lmdm.Auto_State);
