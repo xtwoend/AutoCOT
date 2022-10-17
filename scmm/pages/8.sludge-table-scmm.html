@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Auto COT Pump</title>
+        
+        <script type="module" crossorigin src="/assets/vendor.8c2e5e27.js"></script>
+        <script type="module" crossorigin src="/assets/app.fbc79216.js"></script>
+        <link rel="stylesheet" href="/assets/app.b3d103bb.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="table-wrapper">
+                <log-table
+                    url="http://192.168.170.87:9501/table/1/data"
+                    export="http://192.168.170.87:9501/table/1/export"
+                    title="KTWM - Auto COT Pump Data Logger"
+                    :headers="[
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
+                        {text: 'Level', value: 'level', sortable: true},
+                        {text: 'Temperature', value: 'temp', sortable: true},
+                        {text: 'Mode', value: 'mode', sortable: true},
+                        {text: 'Pump 1', value: 'pump_1_hz', sortable: true},
+                        {text: 'Pump 2', value: 'pump_2_hz', sortable: true},
+                        {text: 'Pump 3', value: 'pump_3_state', sortable: true},
+                    ]"
+                    ref="vtable"
+                    >
+                    <template #item-mode="item">
+                        <div class="operation-wrapper">
+                            {{ item.mode == 1 ? 'Auto': 'Manual' }}
+                        </div>
+                    </template>
+                    <template #item-pump_3_state="item">
+                        <div class="operation-wrapper">
+                            {{ item.pump_3_state == 1 ? 'On': 'Off' }}
+                        </div>
+                    </template>
+                </log-table>
+            </div>
+        </div>
+        
+    </body>
+</html>

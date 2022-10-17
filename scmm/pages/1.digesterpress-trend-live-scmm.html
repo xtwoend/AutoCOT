@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+  <script type="module" crossorigin src="/assets/vendor.8c2e5e27.js"></script>
+  <script type="module" crossorigin src="/assets/app.fbc79216.js"></script>
+  <link rel="stylesheet" href="/assets/app.b3d103bb.css">
+</head>
+<body>
+    <div id="app">
+        <trend-live 
+            title="Auto COT Pump Station"
+            url="http://192.168.170.87:9501/mqtt/2/log"
+            :mqtt="{
+                url: 'ws://192.168.170.87:9001',
+                username: 'admin-autocot',
+                password: 'Bumitama123!',
+                topic: 'data/bga/cotpump/lmdm'
+            }"
+            :default-data="[{data: 'Level', text: 'Level (%)'}]"
+            :columns="[
+                {data: 'Level', text: 'Level (%)'},
+                {data: 'Temp', text: 'Temperature (&#8451;)'},
+                {data: 'Auto_State', text: 'Mode (0: Manual, 1: Auto)'},
+                {data: 'Pump1_Speed', text: 'Motor Pump 1 (Hz)'},
+                {data: 'Pump2_Speed', text: 'Motor Pump 2 (Hz)'},
+                {data: 'Pump3_State', text: 'Motor Pump 3 (0: Off, 1: On)'}
+            ]"></trend-live>
+    </div>
+    
+</body>
+</html>
