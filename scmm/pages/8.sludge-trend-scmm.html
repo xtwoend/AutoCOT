@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <script type="module" crossorigin src="/assets/vendor.8c2e5e27.js"></script>
-    <script type="module" crossorigin src="/assets/app.fbc79216.js"></script>
-    <link rel="stylesheet" href="/assets/app.b3d103bb.css">
+  <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
+  <script type="module" crossorigin src="/assets/app.6ebd495e.js"></script>
+  <link rel="stylesheet" href="/assets/app.ca473573.css">
 </head>
 <body>
     <div id="app">
@@ -28,36 +28,69 @@
         </div>
         <trend-live 
             v-if="active == null || active == 'live'"
-            title="LMDM - COT Pump Monitoring"
-            url="http://192.168.170.87:9501/mqtt/2/log"
+            title="Sludge Centrifudge"
+            url="http://192.168.170.87:9501/mqtt/3/log"
             :mqtt="{
                 url: 'ws://192.168.170.87:9001',
                 username: 'admin-autocot',
                 password: 'Bumitama123!',
-                topic: 'data/bga/cotpump/lmdm'
+                topic: 'data/bga/clarification/scmm',
+                timefield: 'ts'
             }"
-            :default-data="[{data: 'Level', text: 'Level (%)'}]"
+            :default-data="[
+                {data: 'amp_sludge1', text: 'CURRENT SLUDGE 01'},
+                {data: 'rpm_sludge1', text: 'RPM SLUDGE 01'},
+                {data: 'hm_sludge1', text: 'HM SLUDGE 01'},
+            ]"
             :columns="[
-                {data: 'Level', text: 'Level (%)'},
-                {data: 'Temp', text: 'Temperature (&#8451;)'},
-                {data: 'Auto_State', text: 'Mode (0: Manual, 1: Auto)'},
-                {data: 'Pump1_Speed', text: 'Motor Pump 1 (Hz)'},
-                {data: 'Pump2_Speed', text: 'Motor Pump 2 (Hz)'},
-                {data: 'Pump3_State', text: 'Motor Pump 3 (0: Off, 1: On)'}
+                {data: 'amp_sludge1', text: 'CURRENT SLUDGE 01'},
+                {data: 'amp_sludge2', text: 'CURRENT SLUDGE 02'},
+                {data: 'amp_sludge3', text: 'CURRENT SLUDGE 03'},
+                {data: 'amp_sludge4', text: 'CURRENT SLUDGE 04'},
+                {data: 'amp_sludge5', text: 'CURRENT SLUDGE 05'},
+                {data: 'amp_sludge6', text: 'CURRENT SLUDGE 06'},
+                {data: 'rpm_sludge1', text: 'RPM SLUDGE 01'},
+                {data: 'rpm_sludge2', text: 'RPM SLUDGE 02'},
+                {data: 'rpm_sludge3', text: 'RPM SLUDGE 03'},
+                {data: 'rpm_sludge4', text: 'RPM SLUDGE 04'},
+                {data: 'rpm_sludge5', text: 'RPM SLUDGE 05'},
+                {data: 'rpm_sludge6', text: 'RPM SLUDGE 06'},
+                {data: 'hm_sludge1', text: 'HM SLUDGE 01'},
+                {data: 'hm_sludge2', text: 'HM SLUDGE 02'},
+                {data: 'hm_sludge3', text: 'HM SLUDGE 03'},
+                {data: 'hm_sludge4', text: 'HM SLUDGE 04'},
+                {data: 'hm_sludge5', text: 'HM SLUDGE 05'},
+                {data: 'hm_sludge6', text: 'HM SLUDGE 06'},
             ]"></trend-live>
-
+             
         <trend-view 
             v-if="active == 'history'"
-            title="LMDM - COT Pump Monitoring"
-            url="http://192.168.170.87:9501/trend/2/data"
-            :default-data="[{data: 'level', text: 'Level (%)'}]"
+            title="Sludge Centrifudge"
+            url="http://192.168.170.87:9501/trend/3/data"
+            :default-data="[
+                {data: 'amp_sludge1', text: 'CURRENT SLUDGE 01'},
+                {data: 'rpm_sludge1', text: 'RPM SLUDGE 01'},
+                {data: 'hm_sludge1', text: 'HM SLUDGE 01'},
+            ]"
             :columns="[
-                    {data: 'level', text: 'Level (%)'},
-                    {data: 'temp', text: 'Temperature (&#8451;)'},
-                    {data: 'mode', text: 'Mode (0: Manual, 1: Auto)'},
-                    {data: 'pump_1_hz', text: 'Motor Pump 1 (Hz)'},
-                    {data: 'pump_2_hz', text: 'Motor Pump 2 (Hz)'},
-                    {data: 'pump_3_state', text: 'Motor Pump 3 (0: Off, 1: On)'}
+                {data: 'amp_sludge1', text: 'CURRENT SLUDGE 01'},
+                {data: 'amp_sludge2', text: 'CURRENT SLUDGE 02'},
+                {data: 'amp_sludge3', text: 'CURRENT SLUDGE 03'},
+                {data: 'amp_sludge4', text: 'CURRENT SLUDGE 04'},
+                {data: 'amp_sludge5', text: 'CURRENT SLUDGE 05'},
+                {data: 'amp_sludge6', text: 'CURRENT SLUDGE 06'},
+                {data: 'rpm_sludge1', text: 'RPM SLUDGE 01'},
+                {data: 'rpm_sludge2', text: 'RPM SLUDGE 02'},
+                {data: 'rpm_sludge3', text: 'RPM SLUDGE 03'},
+                {data: 'rpm_sludge4', text: 'RPM SLUDGE 04'},
+                {data: 'rpm_sludge5', text: 'RPM SLUDGE 05'},
+                {data: 'rpm_sludge6', text: 'RPM SLUDGE 06'},
+                {data: 'hm_sludge1', text: 'HM SLUDGE 01'},
+                {data: 'hm_sludge2', text: 'HM SLUDGE 02'},
+                {data: 'hm_sludge3', text: 'HM SLUDGE 03'},
+                {data: 'hm_sludge4', text: 'HM SLUDGE 04'},
+                {data: 'hm_sludge5', text: 'HM SLUDGE 05'},
+                {data: 'hm_sludge6', text: 'HM SLUDGE 06'},
             ]"></trend-view>
 
     </div>

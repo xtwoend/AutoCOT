@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <script type="module" crossorigin src="/assets/vendor.8c2e5e27.js"></script>
-    <script type="module" crossorigin src="/assets/app.fbc79216.js"></script>
-    <link rel="stylesheet" href="/assets/app.b3d103bb.css">
+  <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
+  <script type="module" crossorigin src="/assets/app.6ebd495e.js"></script>
+  <link rel="stylesheet" href="/assets/app.ca473573.css">
 </head>
 <body>
     <div id="app">
@@ -28,36 +28,33 @@
         </div>
         <trend-live 
             v-if="active == null || active == 'live'"
-            title="LMDM - COT Pump Monitoring"
-            url="http://192.168.170.87:9501/mqtt/2/log"
+            title="Vacuum Drier"
+            url="http://192.168.170.87:9501/mqtt/3/log"
             :mqtt="{
                 url: 'ws://192.168.170.87:9001',
                 username: 'admin-autocot',
                 password: 'Bumitama123!',
-                topic: 'data/bga/cotpump/lmdm'
+                topic: 'data/bga/clarification/scmm',
+                timefield: 'ts'
             }"
-            :default-data="[{data: 'Level', text: 'Level (%)'}]"
+            :default-data="[{data: 'vacum1', text: 'VACUUM 01'},{data: 'hm_vacuum1', text: 'HM VACUUM 1'}]"
             :columns="[
-                {data: 'Level', text: 'Level (%)'},
-                {data: 'Temp', text: 'Temperature (&#8451;)'},
-                {data: 'Auto_State', text: 'Mode (0: Manual, 1: Auto)'},
-                {data: 'Pump1_Speed', text: 'Motor Pump 1 (Hz)'},
-                {data: 'Pump2_Speed', text: 'Motor Pump 2 (Hz)'},
-                {data: 'Pump3_State', text: 'Motor Pump 3 (0: Off, 1: On)'}
+                {data: 'vacum1', text: 'VACUUM 01'},
+                {data: 'vacum2', text: 'VACUUM 02'},
+                {data: 'hm_vacuum1', text: 'HM VACUUM 1'},
+                {data: 'hm_vacuum2', text: 'HM VACUUM 2'},
             ]"></trend-live>
 
         <trend-view 
             v-if="active == 'history'"
-            title="LMDM - COT Pump Monitoring"
-            url="http://192.168.170.87:9501/trend/2/data"
-            :default-data="[{data: 'level', text: 'Level (%)'}]"
+            title="Vacuum Drier"
+            url="http://192.168.170.87:9501/trend/3/data"
+            :default-data="[{data: 'vacum1', text: 'VACUUM 01'},{data: 'hm_vacuum1', text: 'HM VACUUM 1'}]"
             :columns="[
-                    {data: 'level', text: 'Level (%)'},
-                    {data: 'temp', text: 'Temperature (&#8451;)'},
-                    {data: 'mode', text: 'Mode (0: Manual, 1: Auto)'},
-                    {data: 'pump_1_hz', text: 'Motor Pump 1 (Hz)'},
-                    {data: 'pump_2_hz', text: 'Motor Pump 2 (Hz)'},
-                    {data: 'pump_3_state', text: 'Motor Pump 3 (0: Off, 1: On)'}
+                {data: 'vacum1', text: 'VACUUM 01'},
+                {data: 'vacum2', text: 'VACUUM 02'},
+                {data: 'hm_vacuum1', text: 'HM VACUUM 1'},
+                {data: 'hm_vacuum2', text: 'HM VACUUM 2'},
             ]"></trend-view>
 
     </div>

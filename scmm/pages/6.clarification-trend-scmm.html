@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <script type="module" crossorigin src="/assets/vendor.8c2e5e27.js"></script>
-    <script type="module" crossorigin src="/assets/app.fbc79216.js"></script>
-    <link rel="stylesheet" href="/assets/app.b3d103bb.css">
+  <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
+  <script type="module" crossorigin src="/assets/app.6ebd495e.js"></script>
+  <link rel="stylesheet" href="/assets/app.ca473573.css">
 </head>
 <body>
     <div id="app">
@@ -28,38 +28,54 @@
         </div>
         <trend-live 
             v-if="active == null || active == 'live'"
-            title="LMDM - COT Pump Monitoring"
-            url="http://192.168.170.87:9501/mqtt/2/log"
+            title="Station Clarification"
+            url="http://192.168.170.87:9501/mqtt/3/log"
             :mqtt="{
                 url: 'ws://192.168.170.87:9001',
                 username: 'admin-autocot',
                 password: 'Bumitama123!',
-                topic: 'data/bga/cotpump/lmdm'
+                topic: 'data/bga/clarification/scmm',
+                timefield: 'ts'
             }"
-            :default-data="[{data: 'Level', text: 'Level (%)'}]"
+            :default-data="[{data: 'level_oiltank1', text: 'LEVEL OIL TANK 01'}]"
             :columns="[
-                {data: 'Level', text: 'Level (%)'},
-                {data: 'Temp', text: 'Temperature (&#8451;)'},
-                {data: 'Auto_State', text: 'Mode (0: Manual, 1: Auto)'},
-                {data: 'Pump1_Speed', text: 'Motor Pump 1 (Hz)'},
-                {data: 'Pump2_Speed', text: 'Motor Pump 2 (Hz)'},
-                {data: 'Pump3_State', text: 'Motor Pump 3 (0: Off, 1: On)'}
+                {data: 'level_oiltank1', text: 'LEVEL OIL TANK 01'},
+                {data: 'level_oiltank2', text: 'LEVEL OIL TANK 02'},
+                {data: 'temp_cst1', text: 'TEMPERATURE CST 01'},
+                {data: 'temp_cst2', text: 'TEMPERATURE CST 02'}, 
+                {data: 'temp_sludge1', text: 'TEMPERATURE SLUDGE 01'},
+                {data: 'temp_sludge2', text: 'TEMPERATURE SLUDGE 02'},
+                {data: 'temp_oiltank1', text: 'TEMPERATURE OIL TANK 01'},
+                {data: 'temp_oiltank2', text: 'TEMPERATURE OIL TANK 02'},
+                {data: 'temp_buffertank', text: 'TEMPERATURE BUFFER TANK'},
+                {data: 'level_buffertank', text: 'LEVEL BUFFER TANK'},
+                {data: 'hm_cst1', text: 'HM CST 1'},
+                {data: 'hm_cst2', text: 'HM CST 2'},
+                {data: 'hm_oilpump1', text: 'HM OIL PUMP 1'},
+                {data: 'hm_oilpump2', text: 'HM OIL PUMP 2'},
             ]"></trend-live>
-
+             
         <trend-view 
             v-if="active == 'history'"
-            title="LMDM - COT Pump Monitoring"
-            url="http://192.168.170.87:9501/trend/2/data"
-            :default-data="[{data: 'level', text: 'Level (%)'}]"
+            title="Clarification Station"
+            url="http://192.168.170.87:9501/trend/3/data"
+            :default-data="[{data: 'level_oiltank1', text: 'LEVEL OIL TANK 01'}]"
             :columns="[
-                    {data: 'level', text: 'Level (%)'},
-                    {data: 'temp', text: 'Temperature (&#8451;)'},
-                    {data: 'mode', text: 'Mode (0: Manual, 1: Auto)'},
-                    {data: 'pump_1_hz', text: 'Motor Pump 1 (Hz)'},
-                    {data: 'pump_2_hz', text: 'Motor Pump 2 (Hz)'},
-                    {data: 'pump_3_state', text: 'Motor Pump 3 (0: Off, 1: On)'}
+                {data: 'level_oiltank1', text: 'LEVEL OIL TANK 01'},
+                {data: 'level_oiltank2', text: 'LEVEL OIL TANK 02'},
+                {data: 'temp_cst1', text: 'TEMPERATURE CST 01'},
+                {data: 'temp_cst2', text: 'TEMPERATURE CST 02'}, 
+                {data: 'temp_sludge1', text: 'TEMPERATURE SLUDGE 01'},
+                {data: 'temp_sludge2', text: 'TEMPERATURE SLUDGE 02'},
+                {data: 'temp_oiltank1', text: 'TEMPERATURE OIL TANK 01'},
+                {data: 'temp_oiltank2', text: 'TEMPERATURE OIL TANK 02'},
+                {data: 'temp_buffertank', text: 'TEMPERATURE BUFFER TANK'},
+                {data: 'level_buffertank', text: 'LEVEL BUFFER TANK'},
+                {data: 'hm_cst1', text: 'HM CST 1'},
+                {data: 'hm_cst2', text: 'HM CST 2'},
+                {data: 'hm_oilpump1', text: 'HM OIL PUMP 1'},
+                {data: 'hm_oilpump2', text: 'HM OIL PUMP 2'},
             ]"></trend-view>
-
     </div>
     
 </body>

@@ -5,38 +5,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Auto COT Pump</title>
         
-        <script type="module" crossorigin src="/assets/vendor.8c2e5e27.js"></script>
-        <script type="module" crossorigin src="/assets/app.fbc79216.js"></script>
-        <link rel="stylesheet" href="/assets/app.b3d103bb.css">
+      <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
+      <script type="module" crossorigin src="/assets/app.6ebd495e.js"></script>
+      <link rel="stylesheet" href="/assets/app.ca473573.css">
     </head>
     <body>
         <div id="app">
             <div class="table-wrapper">
                 <log-table
-                    url="http://192.168.170.87:9501/table/1/data"
-                    export="http://192.168.170.87:9501/table/1/export"
-                    title="KTWM - Auto COT Pump Data Logger"
+                    url="http://192.168.170.87:9501/table/5/data"
+                    export="http://192.168.170.87:9501/table/5/export?type=kernel_silo"
+                    title="Nut Silo Data Logger"
                     :headers="[
-                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
-                        {text: 'Level', value: 'level', sortable: true},
-                        {text: 'Temperature', value: 'temp', sortable: true},
-                        {text: 'Mode', value: 'mode', sortable: true},
-                        {text: 'Pump 1', value: 'pump_1_hz', sortable: true},
-                        {text: 'Pump 2', value: 'pump_2_hz', sortable: true},
-                        {text: 'Pump 3', value: 'pump_3_state', sortable: true},
+                        {value: 'terminal_time', text: 'Timestamp', sortable: true},
+                        {value: 'level_kernelsilo1', text: 'LEVEL KERNEL SILO 01'},
+                        {value: 'temp1_kernelsilo1', text: 'TEMPERATURE#1 KERNEL SILO 01'},
+                        {value: 'temp2_kernelsilo1', text: 'TEMPERATURE#2 KERNEL SILO 01'},
+                        {value: 'temp3_kernelsilo1', text: 'TEMPERATURE#3 KERNEL SILO 01'}, 
+                        {value: 'level_kernelsilo2', text: 'LEVEL KERNEL SILO 02'},
+                        {value: 'temp1_kernelsilo2', text: 'TEMPERATURE#1 KERNEL SILO 02'},
+                        {value: 'temp2_kernelsilo2', text: 'TEMPERATURE#2 KERNEL SILO 02'},
+                        {value: 'temp3_kernelsilo2', text: 'TEMPERATURE#3 KERNEL SILO 02'}, 
+                        {value: 'level_kernelsilo3', text: 'LEVEL KERNEL SILO 03'},
+                        {value: 'temp1_kernelsilo3', text: 'TEMPERATURE#1 KERNEL SILO 03'},
+                        {value: 'temp2_kernelsilo3', text: 'TEMPERATURE#2 KERNEL SILO 03'},
+                        {value: 'temp3_kernelsilo3', text: 'TEMPERATURE#3 KERNEL SILO 03'}, 
+                        {value: 'level_kernelsilo4', text: 'LEVEL KERNEL SILO 04'},
+                        {value: 'temp1_kernelsilo4', text: 'TEMPERATURE#1 KERNEL SILO 04'},
+                        {value: 'temp2_kernelsilo4', text: 'TEMPERATURE#2 KERNEL SILO 04'},
+                        {value: 'temp3_kernelsilo4', text: 'TEMPERATURE#3 KERNEL SILO 04'},
+                        {value: 'hm_kernelsilo1', text: 'HM KERNEL SILO 01'}, 
+                        {value: 'hm_kernelsilo2', text: 'HM KERNEL SILO 02'}, 
+                        {value: 'hm_kernelsilo3', text: 'HM KERNEL SILO 03'}, 
+                        {value: 'hm_kernelsilo4', text: 'HM KERNEL SILO4'},
                     ]"
                     ref="vtable"
                     >
-                    <template #item-mode="item">
-                        <div class="operation-wrapper">
-                            {{ item.mode == 1 ? 'Auto': 'Manual' }}
-                        </div>
-                    </template>
-                    <template #item-pump_3_state="item">
-                        <div class="operation-wrapper">
-                            {{ item.pump_3_state == 1 ? 'On': 'Off' }}
-                        </div>
-                    </template>
                 </log-table>
             </div>
         </div>

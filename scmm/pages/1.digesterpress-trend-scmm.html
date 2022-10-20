@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <script type="module" crossorigin src="/assets/vendor.8c2e5e27.js"></script>
-    <script type="module" crossorigin src="/assets/app.fbc79216.js"></script>
-    <link rel="stylesheet" href="/assets/app.b3d103bb.css">
+  <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
+  <script type="module" crossorigin src="/assets/app.6ebd495e.js"></script>
+  <link rel="stylesheet" href="/assets/app.ca473573.css">
 </head>
 <body>
     <div id="app">
@@ -28,36 +28,109 @@
         </div>
         <trend-live 
             v-if="active == null || active == 'live'"
-            title="LMDM - COT Pump Monitoring"
-            url="http://192.168.170.87:9501/mqtt/2/log"
+            title="Digester and Press"
+            url="http://192.168.170.87:9501/mqtt/4/log"
             :mqtt="{
                 url: 'ws://192.168.170.87:9001',
                 username: 'admin-autocot',
                 password: 'Bumitama123!',
-                topic: 'data/bga/cotpump/lmdm'
+                topic: 'data/bga/digester/scmm',
+                timefield: 'ts'
             }"
-            :default-data="[{data: 'Level', text: 'Level (%)'}]"
+            :default-data="[{data: 'temp_dig1', text: 'TEMPERATURE DIGESTER #01'},{data: 'level_dig1', text: 'LEVEL DIGESTER #01'}]"
             :columns="[
-                {data: 'Level', text: 'Level (%)'},
-                {data: 'Temp', text: 'Temperature (&#8451;)'},
-                {data: 'Auto_State', text: 'Mode (0: Manual, 1: Auto)'},
-                {data: 'Pump1_Speed', text: 'Motor Pump 1 (Hz)'},
-                {data: 'Pump2_Speed', text: 'Motor Pump 2 (Hz)'},
-                {data: 'Pump3_State', text: 'Motor Pump 3 (0: Off, 1: On)'}
+                {data: 'temp_dig1', text: 'TEMPERATURE DIGESTER #01'},
+                {data: 'level_dig1', text: 'LEVEL DIGESTER #01'},
+                {data: 'temp_dig2', text: 'TEMPERATURE DIGESTER #02'},
+                {data: 'level_dig2', text: 'LEVEL DIGESTER #02'},
+                {data: 'temp_dig3', text: 'TEMPERATURE DIGESTER #03'},
+                {data: 'level_dig3', text: 'LEVEL DIGESTER #03'},
+                {data: 'temp_dig4', text: 'TEMPERATURE DIGESTER #04'},
+                {data: 'level_dig4', text: 'LEVEL DIGESTER #04'},
+                {data: 'temp_dig5', text: 'TEMPERATURE DIGESTER #05'},
+                {data: 'level_dig5', text: 'LEVEL DIGESTER #05'},
+                {data: 'temp_dig6', text: 'TEMPERATURE DIGESTER #06'},
+                {data: 'level_dig6', text: 'LEVEL DIGESTER #06'},
+                {data: 'amp_dig1', text: 'CURRENT DIGESTER #01'},
+                {data: 'amp_press1', text: 'CURRENT PRESS #01'},
+                {data: 'amp_dig2', text: 'CURRENT DIGESTER #02'},
+                {data: 'amp_press2', text: 'CURRENT PRESS #02'},
+                {data: 'amp_dig3', text: 'CURRENT DIGESTER #03'},
+                {data: 'amp_press3', text: 'CURRENT PRESS #03'},
+                {data: 'amp_dig4', text: 'CURRENT DIGESTER #04'},
+                {data: 'amp_press4', text: 'CURRENT PRESS #04'},
+                {data: 'amp_dig5', text: 'CURRENT DIGESTER #05'},
+                {data: 'amp_press5', text: 'CURRENT PRESS #05'},
+                {data: 'amp_dig6', text: 'CURRENT DIGESTER #06'},
+                {data: 'amp_press6', text: 'CURRENT PRESS #06'},
+                {data: 'pressure_dig1', text: 'PRESSURE DIGESTER #01'},
+                {data: 'pressure_dig2', text: 'PRESSURE DIGESTER #02'},
+                {data: 'pressure_dig3', text: 'PRESSURE DIGESTER #03'},
+                {data: 'pressure_dig4', text: 'PRESSURE DIGESTER #04'},
+                {data: 'pressure_dig5', text: 'PRESSURE DIGESTER #05'},
+                {data: 'pressure_dig6', text: 'PRESSURE DIGESTER #06'},
+                {data: 'hm_dig1', text: 'HM DIGESTER #01'},
+                {data: 'hm_dig2', text: 'HM DIGESTER #02'},
+                {data: 'hm_dig3', text: 'HM DIGESTER #03'},
+                {data: 'hm_dig4', text: 'HM DIGESTER #04'},
+                {data: 'hm_dig5', text: 'HM DIGESTER #05'},
+                {data: 'hm_dig6', text: 'HM DIGESTER #06'},
+                {data: 'hm_press1', text: 'HM PRESS #01'},
+                {data: 'hm_press2', text: 'HM PRESS #02'},
+                {data: 'hm_press3', text: 'HM PRESS #03'},
+                {data: 'hm_press4', text: 'HM PRESS #04'},
+                {data: 'hm_press5', text: 'HM PRESS #05'},
+                {data: 'hm_press6', text: 'HM PRESS #06'},
             ]"></trend-live>
 
         <trend-view 
             v-if="active == 'history'"
-            title="LMDM - COT Pump Monitoring"
-            url="http://192.168.170.87:9501/trend/2/data"
-            :default-data="[{data: 'level', text: 'Level (%)'}]"
+            title="Digester and Press"
+            url="http://192.168.170.87:9501/trend/4/data"
+            :default-data="[{data: 'temp_dig1', text: 'TEMPERATURE DIGESTER #01'},{data: 'level_dig1', text: 'LEVEL DIGESTER #01'}]"
             :columns="[
-                    {data: 'level', text: 'Level (%)'},
-                    {data: 'temp', text: 'Temperature (&#8451;)'},
-                    {data: 'mode', text: 'Mode (0: Manual, 1: Auto)'},
-                    {data: 'pump_1_hz', text: 'Motor Pump 1 (Hz)'},
-                    {data: 'pump_2_hz', text: 'Motor Pump 2 (Hz)'},
-                    {data: 'pump_3_state', text: 'Motor Pump 3 (0: Off, 1: On)'}
+            {data: 'temp_dig1', text: 'TEMPERATURE DIGESTER #01'},
+            {data: 'level_dig1', text: 'LEVEL DIGESTER #01'},
+            {data: 'temp_dig2', text: 'TEMPERATURE DIGESTER #02'},
+            {data: 'level_dig2', text: 'LEVEL DIGESTER #02'},
+            {data: 'temp_dig3', text: 'TEMPERATURE DIGESTER #03'},
+            {data: 'level_dig3', text: 'LEVEL DIGESTER #03'},
+            {data: 'temp_dig4', text: 'TEMPERATURE DIGESTER #04'},
+            {data: 'level_dig4', text: 'LEVEL DIGESTER #04'},
+            {data: 'temp_dig5', text: 'TEMPERATURE DIGESTER #05'},
+            {data: 'level_dig5', text: 'LEVEL DIGESTER #05'},
+            {data: 'temp_dig6', text: 'TEMPERATURE DIGESTER #06'},
+            {data: 'level_dig6', text: 'LEVEL DIGESTER #06'},
+            {data: 'amp_dig1', text: 'CURRENT DIGESTER #01'},
+            {data: 'amp_press1', text: 'CURRENT PRESS #01'},
+            {data: 'amp_dig2', text: 'CURRENT DIGESTER #02'},
+            {data: 'amp_press2', text: 'CURRENT PRESS #02'},
+            {data: 'amp_dig3', text: 'CURRENT DIGESTER #03'},
+            {data: 'amp_press3', text: 'CURRENT PRESS #03'},
+            {data: 'amp_dig4', text: 'CURRENT DIGESTER #04'},
+            {data: 'amp_press4', text: 'CURRENT PRESS #04'},
+            {data: 'amp_dig5', text: 'CURRENT DIGESTER #05'},
+            {data: 'amp_press5', text: 'CURRENT PRESS #05'},
+            {data: 'amp_dig6', text: 'CURRENT DIGESTER #06'},
+            {data: 'amp_press6', text: 'CURRENT PRESS #06'},
+            {data: 'pressure_dig1', text: 'PRESSURE DIGESTER #01'},
+            {data: 'pressure_dig2', text: 'PRESSURE DIGESTER #02'},
+            {data: 'pressure_dig3', text: 'PRESSURE DIGESTER #03'},
+            {data: 'pressure_dig4', text: 'PRESSURE DIGESTER #04'},
+            {data: 'pressure_dig5', text: 'PRESSURE DIGESTER #05'},
+            {data: 'pressure_dig6', text: 'PRESSURE DIGESTER #06'},
+            {data: 'hm_dig1', text: 'HM DIGESTER #01'},
+            {data: 'hm_dig2', text: 'HM DIGESTER #02'},
+            {data: 'hm_dig3', text: 'HM DIGESTER #03'},
+            {data: 'hm_dig4', text: 'HM DIGESTER #04'},
+            {data: 'hm_dig5', text: 'HM DIGESTER #05'},
+            {data: 'hm_dig6', text: 'HM DIGESTER #06'},
+            {data: 'hm_press1', text: 'HM PRESS #01'},
+            {data: 'hm_press2', text: 'HM PRESS #02'},
+            {data: 'hm_press3', text: 'HM PRESS #03'},
+            {data: 'hm_press4', text: 'HM PRESS #04'},
+            {data: 'hm_press5', text: 'HM PRESS #05'},
+            {data: 'hm_press6', text: 'HM PRESS #06'},
             ]"></trend-view>
 
     </div>
