@@ -140,9 +140,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.4638252"
-     inkscape:cx="551.6261"
-     inkscape:cy="375.23629"
+     inkscape:zoom="1.2319126"
+     inkscape:cx="1013.9539"
+     inkscape:cy="278.30959"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -243,7 +243,7 @@
        height="125.97933"
        x="70.591766"
        y="223.51492"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sludge1&quot;}"
        transform="matrix(0.98943399,-0.14498405,0,1,0,0)" />
     <text
        xml:space="preserve"
@@ -372,7 +372,7 @@
        height="125.97933"
        x="200.62427"
        y="242.77254"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sludge2&quot;}"
        transform="matrix(0.98943399,-0.14498405,0,1,0,0)" />
     <text
        xml:space="preserve"
@@ -484,7 +484,7 @@
        height="125.97933"
        x="371.32776"
        y="264.22925"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_cst1&quot;}"
        transform="matrix(0.98943399,-0.14498405,0,1,0,0)" />
     <text
        xml:space="preserve"
@@ -556,20 +556,6 @@
          y="126.98281"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.94931507px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Temperature</tspan></text>
     <rect
-       style="fill:#ffffff;fill-opacity:1"
-       id="rect3739-7-3-6-3-9-0"
-       width="36.307182"
-       height="15.347925"
-       x="512.26746"
-       y="168.34402" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1"
-       id="rect3739-7-3-6-3-8-94"
-       width="36.307182"
-       height="15.347925"
-       x="512.26746"
-       y="168.34402" />
-    <rect
        style="fill:#000000"
        id="rect4307-16-8-1-3"
        width="57.970852"
@@ -604,7 +590,7 @@
        height="125.97933"
        x="547.71686"
        y="290.61462"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_cst2&quot;}"
        transform="matrix(0.98943399,-0.14498405,0,1,0,0)" />
     <text
        xml:space="preserve"
@@ -690,7 +676,7 @@
        height="125.97933"
        x="729.24591"
        y="318.15103"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_oiltank1&quot;}"
        transform="matrix(0.98943399,-0.14498405,0,1,0,0)" />
     <ellipse
        style="opacity:1;fill:#ff0000;fill-opacity:1;stroke-width:1.79999995;stroke-miterlimit:4;stroke-dasharray:none"
@@ -756,7 +742,7 @@
        height="125.97933"
        x="885.12463"
        y="340.75098"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_oiltank2&quot;}"
        transform="matrix(0.98943399,-0.14498405,0,1,0,0)" />
     <text
        xml:space="preserve"
@@ -892,7 +878,7 @@
        height="128.52931"
        x="923.20111"
        y="328.70798"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;level_oiltank2&quot;}"
        transform="matrix(0.99208297,-0.12558417,0,1,0,0)" />
     <rect
        style="fill:#00ffff;fill-opacity:1"
@@ -936,7 +922,7 @@
        height="128.52931"
        x="767.73853"
        y="310.83658"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;level_oiltank1&quot;}"
        transform="matrix(0.99208297,-0.12558417,0,1,0,0)" />
     <rect
        style="fill:#ffffff;fill-opacity:1"

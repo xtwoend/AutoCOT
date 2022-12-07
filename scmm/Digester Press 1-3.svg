@@ -140,9 +140,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2319126"
-     inkscape:cx="541.09237"
-     inkscape:cy="182.30923"
+     inkscape:zoom="1.7421875"
+     inkscape:cx="638.60022"
+     inkscape:cy="222.82527"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -257,7 +257,7 @@
        height="102.27995"
        x="123.56948"
        y="156.31924"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;level_dig1&quot;}"
        transform="matrix(0.99018246,-0.13978087,0,1,0,0)" />
     <rect
        style="fill:#ffffff;fill-opacity:1"
@@ -280,7 +280,7 @@
        height="100.0834"
        x="260.69174"
        y="177.76595"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_dig1&quot;}"
        transform="matrix(0.98930411,-0.1458677,0,1,0,0)" />
     <ellipse
        style="opacity:1;fill:#ff0000;fill-opacity:1;stroke-width:1.79999995;stroke-miterlimit:4;stroke-dasharray:none"
@@ -326,7 +326,7 @@
        height="102.27995"
        x="427.37485"
        y="201.8293"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;level_dig2&quot;}"
        transform="matrix(0.99018246,-0.13978087,0,1,0,0)" />
     <rect
        style="fill:#ffffff;fill-opacity:1"
@@ -349,7 +349,7 @@
        height="100.0834"
        x="564.76685"
        y="223.16457"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_dig2&quot;}"
        transform="matrix(0.98930411,-0.1458677,0,1,0,0)" />
     <ellipse
        style="opacity:1;fill:#ff0000;fill-opacity:1;stroke-width:1.79999995;stroke-miterlimit:4;stroke-dasharray:none"
@@ -395,7 +395,7 @@
        height="102.27995"
        x="738.19543"
        y="246.44022"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;level_dig3&quot;}"
        transform="matrix(0.99018246,-0.13978087,0,1,0,0)" />
     <rect
        style="fill:#ffffff;fill-opacity:1"
@@ -418,7 +418,7 @@
        height="100.0834"
        x="875.86353"
        y="267.70764"
-       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_sandtrap2&quot;}"
+       inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;temp_dig3&quot;}"
        transform="matrix(0.98930411,-0.1458677,0,1,0,0)" />
     <ellipse
        style="opacity:1;fill:#ff0000;fill-opacity:1;stroke-width:1.79999995;stroke-miterlimit:4;stroke-dasharray:none"

@@ -18,8 +18,8 @@ setTag('temp_cst2', data.temp_cst2);
 setTag('temp_sludge1', data.temp_sludge1);
 setTag('temp_sludge2', data.temp_sludge2);
 
-setTag('temp_oiltank1', data.temp_oiltank1);
-setTag('temp_oiltank2', data.temp_oiltank2);
+setTag('temp_oiltank1', data.temp_oiltank1/10);
+setTag('temp_oiltank2', data.temp_oiltank2/10);
 setTag('temp_buffertank', data.temp_buffertank);
 
 setTag('amp_sludge1', data.amp_sludge1);
