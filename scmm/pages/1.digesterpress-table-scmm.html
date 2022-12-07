@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Auto COT Pump</title>
         
-      <script type="module" crossorigin src="/assets/vendor.a3c19d1b.js"></script>
-      <script type="module" crossorigin src="/assets/app.66c7d587.js"></script>
+      <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
+      <script type="module" crossorigin src="/assets/app.da4f50b9.js"></script>
       <link rel="stylesheet" href="/assets/app.ca473573.css">
     </head>
     <body>
@@ -17,6 +17,7 @@
                     export="http://192.168.170.87:9501/table/4/export?type=digester_and_press"
                     title="DIGESTER & PRESS DATA LOGGER"
                     :headers="[
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
                         {value: 'temp_dig1', text: 'TEMPERATURE DIGESTER #01'},
                         {value: 'level_dig1', text: 'LEVEL DIGESTER #01'},
                         {value: 'temp_dig2', text: 'TEMPERATURE DIGESTER #02'},

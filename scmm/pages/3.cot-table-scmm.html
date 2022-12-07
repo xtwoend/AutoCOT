@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script type="module" crossorigin src="/assets/vendor.a3c19d1b.js"></script>
-        <script type="module" crossorigin src="/assets/app.66c7d587.js"></script>
+        <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
+        <script type="module" crossorigin src="/assets/app.da4f50b9.js"></script>
         <link rel="stylesheet" href="/assets/app.ca473573.css">
     </head>
     <body>
@@ -15,6 +15,7 @@
                     export="http://192.168.170.87:9501/table/4/export?type=cot"
                     title="CRUDE OIL TANK DATA LOGGER"
                     :headers="[
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
                         {value: 'level_cot', text: 'LEVEL'},
                         {value: 'temp_cot', text: 'TEMPERATURE'},
                         {value: 'hmcot_motor1', text: 'HM COT MOTOR 1'},
