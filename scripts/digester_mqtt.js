@@ -62,6 +62,11 @@ if(typeof obj_digester == 'object') {
 	setTag( 'hmcot_motor1 ', obj_digester.hmcot_motor1);      
 	setTag( 'hmcot_motor2 ', obj_digester.hmcot_motor2);      
 	setTag( 'hmcot_motor3', obj_digester.hmcot_motor3); 
+	
+	setTag( 'status_cot_m1 ', obj_digester.status_cot_m1);      
+	setTag( 'status_cot_m2 ', obj_digester.status_cot_m2);      
+	setTag( 'status_cot_m3', obj_digester.status_cot_m3); 
+	
 }
 
 
