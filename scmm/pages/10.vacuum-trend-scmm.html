@@ -7,7 +7,7 @@
     <title>Document</title>
     
   <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
-  <script type="module" crossorigin src="/assets/app.41537eed.js"></script>
+  <script type="module" crossorigin src="/assets/app.2ed33e8a.js"></script>
   <link rel="stylesheet" href="/assets/app.ca473573.css">
 </head>
 <body>
@@ -39,8 +39,8 @@
             }"
             :default-data="[{data: 'vacum1', text: 'VACUUM 01'},{data: 'hm_vacuum1', text: 'HM VACUUM 1'}]"
             :columns="[
-                {data: 'vacum1', text: 'VACUUM 01'},
-                {data: 'vacum2', text: 'VACUUM 02'},
+                {data: 'vacum1', text: 'VACUUM 01', range: [-760, 0]},
+                {data: 'vacum2', text: 'VACUUM 02', range: [-760, 0]},
                 {data: 'hm_vacuum1', text: 'HM VACUUM 1'},
                 {data: 'hm_vacuum2', text: 'HM VACUUM 2'},
             ]"></trend-live>
@@ -51,11 +51,11 @@
             url="http://192.168.170.87:9501/trend/3/data"
             :default-data="[{data: 'vacum1', text: 'VACUUM 01'},{data: 'hm_vacuum1', text: 'HM VACUUM 1'}]"
             :columns="[
-                {data: 'vacum1', text: 'VACUUM 01'},
-                {data: 'vacum2', text: 'VACUUM 02'},
+                {data: 'vacum1', text: 'VACUUM 01', range: [-760, 0]},
+                {data: 'vacum2', text: 'VACUUM 02', range: [-760, 0]},
                 {data: 'hm_vacuum1', text: 'HM VACUUM 1'},
                 {data: 'hm_vacuum2', text: 'HM VACUUM 2'},
-            ]"></trend-view>
+            ]"></trend-live>
 
     </div>
     

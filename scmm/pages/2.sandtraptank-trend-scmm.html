@@ -7,7 +7,7 @@
     <title>Document</title>
     
   <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
-  <script type="module" crossorigin src="/assets/app.41537eed.js"></script>
+  <script type="module" crossorigin src="/assets/app.2ed33e8a.js"></script>
   <link rel="stylesheet" href="/assets/app.ca473573.css">
 </head>
 <body>
@@ -38,12 +38,12 @@
                 timefield: 'ts'
             }"
             :default-data="[
-                {data: 'temp_sandtrap1', text: 'TEMPERATUR SANDTRAP 1'},
-                {data: 'temp_sandtrap2', text: 'TEMPERATUR SANDTRAP 2'},
+                {data: 'temp_sandtrap1', text: 'TEMPERATUR SANDTRAP 1', range: [0, 120]},
+                {data: 'temp_sandtrap2', text: 'TEMPERATUR SANDTRAP 2', range: [0, 120]},
             ]"
             :columns="[
-                {data: 'temp_sandtrap1', text: 'TEMPERATUR SANDTRAP 1'},
-                {data: 'temp_sandtrap2', text: 'TEMPERATUR SANDTRAP 2'},
+                {data: 'temp_sandtrap1', text: 'TEMPERATUR SANDTRAP 1', range: [0, 120]},
+                {data: 'temp_sandtrap2', text: 'TEMPERATUR SANDTRAP 2', range: [0, 120]},
             ]"></trend-live>
 
         <trend-view 
@@ -51,12 +51,12 @@
             title="Sand Trap Tank"
             url="http://192.168.170.87:9501/trend/4/data"
             :default-data="[
-                {data: 'temp_sandtrap1', text: 'TEMPERATUR SANDTRAP 1'},
-                {data: 'temp_sandtrap2', text: 'TEMPERATUR SANDTRAP 2'},
+                {data: 'temp_sandtrap1', text: 'TEMPERATUR SANDTRAP 1', range: [0, 120]},
+                {data: 'temp_sandtrap2', text: 'TEMPERATUR SANDTRAP 2', range: [0, 120]},
             ]"
             :columns="[
-                {data: 'temp_sandtrap1', text: 'TEMPERATUR SANDTRAP 1'},
-                {data: 'temp_sandtrap2', text: 'TEMPERATUR SANDTRAP 2'},
+                {data: 'temp_sandtrap1', text: 'TEMPERATUR SANDTRAP 1', range: [0, 120]},
+                {data: 'temp_sandtrap2', text: 'TEMPERATUR SANDTRAP 2', range: [0, 120]},
             ]"></trend-view>
 
     </div>

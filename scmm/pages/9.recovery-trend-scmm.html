@@ -7,7 +7,7 @@
     <title>Document</title>
     
   <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
-  <script type="module" crossorigin src="/assets/app.41537eed.js"></script>
+  <script type="module" crossorigin src="/assets/app.2ed33e8a.js"></script>
   <link rel="stylesheet" href="/assets/app.ca473573.css">
 </head>
 <body>
@@ -38,14 +38,14 @@
                 timefield: 'ts'
             }"
             :default-data="[
-                {data: 'temp_inlet_recpit', text: 'TEMPERATUR INLET RECPIT'},
-                {data: 'temp_center_recpit', text: 'TEMPERATUR CENTER RECPIT'},
-                {data: 'temp_outlet_recpit', text: 'TEMPERATUR OUTLET RECPIT'},
+                {data: 'temp_inlet_recpit', text: 'TEMPERATUR INLET RECPIT', range: [0, 120]},
+                {data: 'temp_center_recpit', text: 'TEMPERATUR CENTER RECPIT', range: [0, 120]},
+                {data: 'temp_outlet_recpit', text: 'TEMPERATUR OUTLET RECPIT', range: [0, 120]},
             ]"
             :columns="[
-                {data: 'temp_inlet_recpit', text: 'TEMPERATUR INLET RECPIT'},
-                {data: 'temp_center_recpit', text: 'TEMPERATUR CENTER RECPIT'},
-                {data: 'temp_outlet_recpit', text: 'TEMPERATUR OUTLET RECPIT'},
+                {data: 'temp_inlet_recpit', text: 'TEMPERATUR INLET RECPIT', range: [0, 120]},
+                {data: 'temp_center_recpit', text: 'TEMPERATUR CENTER RECPIT', range: [0, 120]},
+                {data: 'temp_outlet_recpit', text: 'TEMPERATUR OUTLET RECPIT', range: [0, 120]},
             ]"></trend-live>
 
         <trend-view 
@@ -53,15 +53,15 @@
             title="Recovery Pit"
             url="http://192.168.170.87:9501/trend/3/data"
             :default-data="[
-                {data: 'temp_inlet_recpit', text: 'TEMPERATUR INLET RECPIT'},
-                {data: 'temp_center_recpit', text: 'TEMPERATUR CENTER RECPIT'},
-                {data: 'temp_outlet_recpit', text: 'TEMPERATUR OUTLET RECPIT'},
+                {data: 'temp_inlet_recpit', text: 'TEMPERATUR INLET RECPIT', range: [0, 120]},
+                {data: 'temp_center_recpit', text: 'TEMPERATUR CENTER RECPIT', range: [0, 120]},
+                {data: 'temp_outlet_recpit', text: 'TEMPERATUR OUTLET RECPIT', range: [0, 120]},
             ]"
             :columns="[
-                {data: 'temp_inlet_recpit', text: 'TEMPERATUR INLET RECPIT'},
-                {data: 'temp_center_recpit', text: 'TEMPERATUR CENTER RECPIT'},
-                {data: 'temp_outlet_recpit', text: 'TEMPERATUR OUTLET RECPIT'},
-            ]"></trend-view>
+                {data: 'temp_inlet_recpit', text: 'TEMPERATUR INLET RECPIT', range: [0, 120]},
+                {data: 'temp_center_recpit', text: 'TEMPERATUR CENTER RECPIT', range: [0, 120]},
+                {data: 'temp_outlet_recpit', text: 'TEMPERATUR OUTLET RECPIT', range: [0, 120]},
+            ]"></trend-live>
 
     </div>
     

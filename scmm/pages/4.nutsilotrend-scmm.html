@@ -7,7 +7,7 @@
     <title>Document</title>
     
   <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
-  <script type="module" crossorigin src="/assets/app.41537eed.js"></script>
+  <script type="module" crossorigin src="/assets/app.2ed33e8a.js"></script>
   <link rel="stylesheet" href="/assets/app.ca473573.css">
 </head>
 <body>
@@ -37,18 +37,18 @@
                 topic: 'data/bga/nutkernel/scmm',
                 timefield: 'ts'
             }"
-            :default-data="[{data: 'level_nutsilo1', text: 'LEVEL NUT SILO 01'},]"
+            :default-data="[{data: 'level_nutsilo1', text: 'LEVEL NUT SILO 01', range: [0,100]}]"
             :columns="[
-                {data: 'level_nutsilo1', text: 'LEVEL NUT SILO 01'},
-                {data: 'temp1_nutsilo1', text: 'TEMPERATUR#1 NUT SILO 01'},
-                {data: 'temp2_nutsilo1', text: 'TEMPERATUR#2 NUT SILO 01'},
-                {data: 'temp3_nutsilo1', text: 'TEMPERATUR#3 NUT SILO 01'},
-                {data: 'level_nutsilo2', text: 'LEVEL NUT SILO 02'},
-                {data: 'temp1_nutsilo2', text: 'TEMPERATUR#1 NUT SILO 02'},
-                {data: 'temp2_nutsilo2', text: 'TEMPERATUR#2 NUT SILO 02'},
-                {data: 'temp3_nutsilo2', text: 'TEMPERATUR#3 NUT SILO 02'},
-                {data: 'hm_nutsilo3', text: 'HM NUT SILO 03'}, 
-                {data: 'hm_nutsilo4', text: 'HM NUT SILO 04'},
+                {data: 'level_nutsilo1', text: 'LEVEL NUT SILO 01', range: [0,100]},
+                {data: 'temp1_nutsilo1', text: 'TEMPERATUR#1 NUT SILO 01', range: [0,150]},
+                {data: 'temp2_nutsilo1', text: 'TEMPERATUR#2 NUT SILO 01', range: [0,150]},
+                {data: 'temp3_nutsilo1', text: 'TEMPERATUR#3 NUT SILO 01', range: [0,150]},
+                {data: 'level_nutsilo2', text: 'LEVEL NUT SILO 02', range: [0,100]},
+                {data: 'temp1_nutsilo2', text: 'TEMPERATUR#1 NUT SILO 02', range: [0,150]},
+                {data: 'temp2_nutsilo2', text: 'TEMPERATUR#2 NUT SILO 02', range: [0,150]},
+                {data: 'temp3_nutsilo2', text: 'TEMPERATUR#3 NUT SILO 02', range: [0,150]},
+                {data: 'hm_nutsilo1', text: 'HM NUT SILO 01'}, 
+                {data: 'hm_nutsilo2', text: 'HM NUT SILO 02'},
             ]"></trend-live>
              
         <trend-view 
@@ -57,16 +57,16 @@
             url="http://192.168.170.87:9501/trend/5/data"
             :default-data="[{data: 'level_nutsilo1', text: 'LEVEL NUT SILO 01'},]"
             :columns="[
-                {data: 'level_nutsilo1', text: 'LEVEL NUT SILO 01'},
-                {data: 'temp1_nutsilo1', text: 'TEMPERATUR#1 NUT SILO 01'},
-                {data: 'temp2_nutsilo1', text: 'TEMPERATUR#2 NUT SILO 01'},
-                {data: 'temp3_nutsilo1', text: 'TEMPERATUR#3 NUT SILO 01'},
-                {data: 'level_nutsilo2', text: 'LEVEL NUT SILO 02'},
-                {data: 'temp1_nutsilo2', text: 'TEMPERATUR#1 NUT SILO 02'},
-                {data: 'temp2_nutsilo2', text: 'TEMPERATUR#2 NUT SILO 02'},
-                {data: 'temp3_nutsilo2', text: 'TEMPERATUR#3 NUT SILO 02'},
-                {data: 'hm_nutsilo3', text: 'HM NUT SILO 03'}, 
-                {data: 'hm_nutsilo4', text: 'HM NUT SILO 04'},
+                {data: 'level_nutsilo1', text: 'LEVEL NUT SILO 01', range: [0,100]},
+                {data: 'temp1_nutsilo1', text: 'TEMPERATUR#1 NUT SILO 01', range: [0,150]},
+                {data: 'temp2_nutsilo1', text: 'TEMPERATUR#2 NUT SILO 01', range: [0,150]},
+                {data: 'temp3_nutsilo1', text: 'TEMPERATUR#3 NUT SILO 01', range: [0,150]},
+                {data: 'level_nutsilo2', text: 'LEVEL NUT SILO 02', range: [0,100]},
+                {data: 'temp1_nutsilo2', text: 'TEMPERATUR#1 NUT SILO 02', range: [0,150]},
+                {data: 'temp2_nutsilo2', text: 'TEMPERATUR#2 NUT SILO 02', range: [0,150]},
+                {data: 'temp3_nutsilo2', text: 'TEMPERATUR#3 NUT SILO 02', range: [0,150]},
+                {data: 'hm_nutsilo1', text: 'HM NUT SILO 01'}, 
+                {data: 'hm_nutsilo2', text: 'HM NUT SILO 02'},
             ]"></trend-view>
     </div>
     
