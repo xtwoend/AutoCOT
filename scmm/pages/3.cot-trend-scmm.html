@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
-    <script type="module" crossorigin src="/assets/app.da4f50b9.js"></script>
+    <script type="module" crossorigin src="/assets/app.41537eed.js"></script>
     <link rel="stylesheet" href="/assets/app.ca473573.css">
 </head>
 <body>
@@ -35,10 +35,10 @@
                 topic: 'data/bga/digester/scmm',
                 timefield: 'ts'
             }"
-            :default-data="[{data: 'level_cot', text: 'LEVEL'},{data: 'temp_cot', text: 'TEMPERATURE'}]"
+            :default-data="[{data: 'level_cot', text: 'LEVEL'},{data: 'temp_cot', text: 'TEMPERATUR'}]"
             :columns="[
                 {data: 'level_cot', text: 'LEVEL'},
-                {data: 'temp_cot', text: 'TEMPERATURE'},
+                {data: 'temp_cot', text: 'TEMPERATUR'},
                 {data: 'hmcot_motor1', text: 'HM COT MOTOR 1'},
                 {data: 'hmcot_motor2', text: 'HM COT MOTOR 2'},
                 {data: 'hmcot_motor3', text: 'HM COT MOTOR 3'},
@@ -48,10 +48,10 @@
             v-if="active == 'history'"
             title="Crude Oil Tank"
             url="http://192.168.170.87:9501/trend/4/data"
-            :default-data="[{data: 'level_cot', text: 'LEVEL'},{data: 'temp_cot', text: 'TEMPERATURE'}]"
+            :default-data="[{data: 'level_cot', text: 'LEVEL'},{data: 'temp_cot', text: 'TEMPERATUR'}]"
             :columns="[
             {data: 'level_cot', text: 'LEVEL'},
-                {data: 'temp_cot', text: 'TEMPERATURE'},
+                {data: 'temp_cot', text: 'TEMPERATUR'},
                 {data: 'hmcot_motor1', text: 'HM COT MOTOR 1'},
                 {data: 'hmcot_motor2', text: 'HM COT MOTOR 2'},
                 {data: 'hmcot_motor3', text: 'HM COT MOTOR 3'},

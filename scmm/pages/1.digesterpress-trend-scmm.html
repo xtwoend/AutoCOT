@@ -7,7 +7,7 @@
     <title>Document</title>
     
   <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
-  <script type="module" crossorigin src="/assets/app.da4f50b9.js"></script>
+  <script type="module" crossorigin src="/assets/app.41537eed.js"></script>
   <link rel="stylesheet" href="/assets/app.ca473573.css">
 </head>
 <body>
@@ -37,32 +37,32 @@
                 topic: 'data/bga/digester/scmm',
                 timefield: 'ts'
             }"
-            :default-data="[{data: 'temp_dig1', text: 'TEMPERATURE DIGESTER #01'},{data: 'level_dig1', text: 'LEVEL DIGESTER #01'}]"
+            :default-data="[{data: 'temp_dig1', text: 'TEMPERATUR DIGESTER #01'},{data: 'level_dig1', text: 'LEVEL DIGESTER #01'}]"
             :columns="[
-                {data: 'temp_dig1', text: 'TEMPERATURE DIGESTER #01'},
+                {data: 'temp_dig1', text: 'TEMPERATUR DIGESTER #01'},
                 {data: 'level_dig1', text: 'LEVEL DIGESTER #01'},
-                {data: 'temp_dig2', text: 'TEMPERATURE DIGESTER #02'},
+                {data: 'temp_dig2', text: 'TEMPERATUR DIGESTER #02'},
                 {data: 'level_dig2', text: 'LEVEL DIGESTER #02'},
-                {data: 'temp_dig3', text: 'TEMPERATURE DIGESTER #03'},
+                {data: 'temp_dig3', text: 'TEMPERATUR DIGESTER #03'},
                 {data: 'level_dig3', text: 'LEVEL DIGESTER #03'},
-                {data: 'temp_dig4', text: 'TEMPERATURE DIGESTER #04'},
+                {data: 'temp_dig4', text: 'TEMPERATUR DIGESTER #04'},
                 {data: 'level_dig4', text: 'LEVEL DIGESTER #04'},
-                {data: 'temp_dig5', text: 'TEMPERATURE DIGESTER #05'},
+                {data: 'temp_dig5', text: 'TEMPERATUR DIGESTER #05'},
                 {data: 'level_dig5', text: 'LEVEL DIGESTER #05'},
-                {data: 'temp_dig6', text: 'TEMPERATURE DIGESTER #06'},
+                {data: 'temp_dig6', text: 'TEMPERATUR DIGESTER #06'},
                 {data: 'level_dig6', text: 'LEVEL DIGESTER #06'},
-                {data: 'amp_dig1', text: 'CURRENT DIGESTER #01'},
-                {data: 'amp_press1', text: 'CURRENT PRESS #01'},
-                {data: 'amp_dig2', text: 'CURRENT DIGESTER #02'},
-                {data: 'amp_press2', text: 'CURRENT PRESS #02'},
-                {data: 'amp_dig3', text: 'CURRENT DIGESTER #03'},
-                {data: 'amp_press3', text: 'CURRENT PRESS #03'},
-                {data: 'amp_dig4', text: 'CURRENT DIGESTER #04'},
-                {data: 'amp_press4', text: 'CURRENT PRESS #04'},
-                {data: 'amp_dig5', text: 'CURRENT DIGESTER #05'},
-                {data: 'amp_press5', text: 'CURRENT PRESS #05'},
-                {data: 'amp_dig6', text: 'CURRENT DIGESTER #06'},
-                {data: 'amp_press6', text: 'CURRENT PRESS #06'},
+                {data: 'amp_dig1', text: 'AMPERE DIGESTER #01'},
+                {data: 'amp_press1', text: 'AMPERE PRESS #01'},
+                {data: 'amp_dig2', text: 'AMPERE DIGESTER #02'},
+                {data: 'amp_press2', text: 'AMPERE PRESS #02'},
+                {data: 'amp_dig3', text: 'AMPERE DIGESTER #03'},
+                {data: 'amp_press3', text: 'AMPERE PRESS #03'},
+                {data: 'amp_dig4', text: 'AMPERE DIGESTER #04'},
+                {data: 'amp_press4', text: 'AMPERE PRESS #04'},
+                {data: 'amp_dig5', text: 'AMPERE DIGESTER #05'},
+                {data: 'amp_press5', text: 'AMPERE PRESS #05'},
+                {data: 'amp_dig6', text: 'AMPERE DIGESTER #06'},
+                {data: 'amp_press6', text: 'AMPERE PRESS #06'},
                 {data: 'pressure_dig1', text: 'PRESSURE DIGESTER #01'},
                 {data: 'pressure_dig2', text: 'PRESSURE DIGESTER #02'},
                 {data: 'pressure_dig3', text: 'PRESSURE DIGESTER #03'},
@@ -87,32 +87,32 @@
             v-if="active == 'history'"
             title="Digester and Press"
             url="http://192.168.170.87:9501/trend/4/data"
-            :default-data="[{data: 'temp_dig1', text: 'TEMPERATURE DIGESTER #01'},{data: 'level_dig1', text: 'LEVEL DIGESTER #01'}]"
+            :default-data="[{data: 'temp_dig1', text: 'TEMPERATUR DIGESTER #01'},{data: 'level_dig1', text: 'LEVEL DIGESTER #01'}]"
             :columns="[
-            {data: 'temp_dig1', text: 'TEMPERATURE DIGESTER #01'},
+            {data: 'temp_dig1', text: 'TEMPERATUR DIGESTER #01'},
             {data: 'level_dig1', text: 'LEVEL DIGESTER #01'},
-            {data: 'temp_dig2', text: 'TEMPERATURE DIGESTER #02'},
+            {data: 'temp_dig2', text: 'TEMPERATUR DIGESTER #02'},
             {data: 'level_dig2', text: 'LEVEL DIGESTER #02'},
-            {data: 'temp_dig3', text: 'TEMPERATURE DIGESTER #03'},
+            {data: 'temp_dig3', text: 'TEMPERATUR DIGESTER #03'},
             {data: 'level_dig3', text: 'LEVEL DIGESTER #03'},
-            {data: 'temp_dig4', text: 'TEMPERATURE DIGESTER #04'},
+            {data: 'temp_dig4', text: 'TEMPERATUR DIGESTER #04'},
             {data: 'level_dig4', text: 'LEVEL DIGESTER #04'},
-            {data: 'temp_dig5', text: 'TEMPERATURE DIGESTER #05'},
+            {data: 'temp_dig5', text: 'TEMPERATUR DIGESTER #05'},
             {data: 'level_dig5', text: 'LEVEL DIGESTER #05'},
-            {data: 'temp_dig6', text: 'TEMPERATURE DIGESTER #06'},
+            {data: 'temp_dig6', text: 'TEMPERATUR DIGESTER #06'},
             {data: 'level_dig6', text: 'LEVEL DIGESTER #06'},
-            {data: 'amp_dig1', text: 'CURRENT DIGESTER #01'},
-            {data: 'amp_press1', text: 'CURRENT PRESS #01'},
-            {data: 'amp_dig2', text: 'CURRENT DIGESTER #02'},
-            {data: 'amp_press2', text: 'CURRENT PRESS #02'},
-            {data: 'amp_dig3', text: 'CURRENT DIGESTER #03'},
-            {data: 'amp_press3', text: 'CURRENT PRESS #03'},
-            {data: 'amp_dig4', text: 'CURRENT DIGESTER #04'},
-            {data: 'amp_press4', text: 'CURRENT PRESS #04'},
-            {data: 'amp_dig5', text: 'CURRENT DIGESTER #05'},
-            {data: 'amp_press5', text: 'CURRENT PRESS #05'},
-            {data: 'amp_dig6', text: 'CURRENT DIGESTER #06'},
-            {data: 'amp_press6', text: 'CURRENT PRESS #06'},
+            {data: 'amp_dig1', text: 'AMPERE DIGESTER #01'},
+            {data: 'amp_press1', text: 'AMPERE PRESS #01'},
+            {data: 'amp_dig2', text: 'AMPERE DIGESTER #02'},
+            {data: 'amp_press2', text: 'AMPERE PRESS #02'},
+            {data: 'amp_dig3', text: 'AMPERE DIGESTER #03'},
+            {data: 'amp_press3', text: 'AMPERE PRESS #03'},
+            {data: 'amp_dig4', text: 'AMPERE DIGESTER #04'},
+            {data: 'amp_press4', text: 'AMPERE PRESS #04'},
+            {data: 'amp_dig5', text: 'AMPERE DIGESTER #05'},
+            {data: 'amp_press5', text: 'AMPERE PRESS #05'},
+            {data: 'amp_dig6', text: 'AMPERE DIGESTER #06'},
+            {data: 'amp_press6', text: 'AMPERE PRESS #06'},
             {data: 'pressure_dig1', text: 'PRESSURE DIGESTER #01'},
             {data: 'pressure_dig2', text: 'PRESSURE DIGESTER #02'},
             {data: 'pressure_dig3', text: 'PRESSURE DIGESTER #03'},
