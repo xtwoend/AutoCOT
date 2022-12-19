@@ -66,7 +66,7 @@ if(typeof obj_digester == 'object') {
 	setTag( 'status_cot_m1 ', obj_digester.status_cot_m1);      
 	setTag( 'status_cot_m2 ', obj_digester.status_cot_m2);      
 	setTag( 'status_cot_m3', obj_digester.status_cot_m3); 
-	
+	setTag( 'temp_vnotch', obj_digester.temp_vnotch); 
 }
 
 

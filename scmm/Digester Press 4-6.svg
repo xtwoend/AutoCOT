@@ -140,9 +140,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2319126"
-     inkscape:cx="869.75857"
-     inkscape:cy="234.33863"
+     inkscape:zoom="2.4638252"
+     inkscape:cx="989.86966"
+     inkscape:cy="341.91971"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -283,7 +283,7 @@
        id="rect514-9"
        width="66.008972"
        height="19.515694"
-       x="216.74573"
+       x="214.74573"
        y="215.05789" />
     <rect
        style="fill:#5a5353;fill-opacity:1"
@@ -352,7 +352,7 @@
        id="rect514-9-6"
        width="66.008972"
        height="19.515694"
-       x="525.56836"
+       x="519.56836"
        y="212.10178" />
     <rect
        style="fill:#5a5353;fill-opacity:1"
@@ -421,7 +421,7 @@
        id="rect514-9-3"
        width="66.008972"
        height="19.515694"
-       x="839.33765"
+       x="831.33765"
        y="207.2659" />
     <rect
        style="fill:#5a5353;fill-opacity:1"
@@ -499,714 +499,6 @@
        x="760.62506"
        y="156.63901"
        inkscape:label="{&quot;attr&quot;:&quot;bar&quot;,&quot;max&quot;:100,&quot;min&quot;:0,&quot;tag&quot;:&quot;level_dig6&quot;}" />
-    <g
-       id="g409"
-       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d6_1&quot;}"
-       transform="translate(-308.85535,-69.291807)">
-      <rect
-         y="268.02603"
-         x="1076.9064"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1105.4874"
-         x="225.47374"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-1"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1080.7682"
-         x="262.02603"
-         height="3.8617685"
-         width="17.581913"
-         id="rect259-1-1"
-         style="fill:#666666" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1126.187"
-         x="261.84476"
-         height="3.8617685"
-         width="18.616991"
-         id="rect259-1-1-5"
-         style="fill:#666666" />
-      <rect
-         y="243.96776"
-         x="1077.1586"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-18"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1080.4445"
-         x="237.81529"
-         height="3.8617685"
-         width="19.002468"
-         id="rect259-1-1-7"
-         style="fill:#666666" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1125.8633"
-         x="238.27762"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0"
-         style="fill:#666666" />
-    </g>
-    <g
-       id="g507"
-       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d6_2&quot;}"
-       transform="translate(-307.81128,-125.18504)">
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1115.1429"
-         x="317.73801"
-         height="3.8617685"
-         width="18.616991"
-         id="rect259-1-1-5-2"
-         style="fill:#4d4d4d" />
-      <rect
-         y="323.91928"
-         x="1085.8623"
-         height="7.3057146"
-         width="25.061758"
-         id="rect259-5"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1104.4434"
-         x="281.36697"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-1-6"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1089.7241"
-         x="317.91928"
-         height="3.8617685"
-         width="17.581913"
-         id="rect259-1-1-8"
-         style="fill:#4d4d4d" />
-      <rect
-         y="299.86099"
-         x="1085.9995"
-         height="7.3057146"
-         width="26.496737"
-         id="rect259-18-0"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1089.4004"
-         x="293.70853"
-         height="3.8617685"
-         width="19.002468"
-         id="rect259-1-1-7-4"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1114.8192"
-         x="294.17087"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-0"
-         style="fill:#4d4d4d" />
-    </g>
-    <g
-       id="g459"
-       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d6_3&quot;}"
-       transform="translate(-308.62137,-186.8506)">
-      <rect
-         y="385.58484"
-         x="1093.5546"
-         height="7.3057146"
-         width="11.960596"
-         id="rect259-5-3"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1104.83"
-         x="343.03253"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-1-6-8"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1098.1107"
-         x="379.58484"
-         height="3.8617685"
-         width="17.581913"
-         id="rect259-1-1-8-8"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1108.7472"
-         x="379.20062"
-         height="3.8617685"
-         width="18.616991"
-         id="rect259-1-1-5-2-7"
-         style="fill:#4d4d4d" />
-      <rect
-         y="361.52655"
-         x="1093.6166"
-         height="7.3057146"
-         width="11.960596"
-         id="rect259-18-0-9"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1097.787"
-         x="355.37408"
-         height="3.8617685"
-         width="19.002468"
-         id="rect259-1-1-7-4-8"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1108.4235"
-         x="355.63348"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-0-8"
-         style="fill:#4d4d4d" />
-    </g>
-    <g
-       id="g537"
-       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d6_4&quot;}"
-       transform="translate(-309.08716,-250.99956)">
-      <rect
-         y="449.7338"
-         x="1087.2225"
-         height="7.3057146"
-         width="26.496737"
-         id="rect259-5-1"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1105.8036"
-         x="407.18149"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-1-6-5"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1091.0844"
-         x="443.7338"
-         height="3.8617685"
-         width="17.581913"
-         id="rect259-1-1-8-4"
-         style="fill:#4d4d4d" />
-      <rect
-         y="425.67551"
-         x="1087.3597"
-         height="7.3057146"
-         width="26.496737"
-         id="rect259-18-0-1"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1090.7606"
-         x="419.52304"
-         height="3.8617685"
-         width="19.002468"
-         id="rect259-1-1-7-4-3"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1116.1794"
-         x="419.98538"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-0-4"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1116.3345"
-         x="443.65906"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-0-4-8"
-         style="fill:#4d4d4d" />
-    </g>
-    <g
-       id="g409-3"
-       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d5_1&quot;}"
-       transform="translate(-619.80638,-68.088824)">
-      <rect
-         y="268.02603"
-         x="1076.9064"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-4"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1105.4874"
-         x="225.47374"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-1-8"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1080.7682"
-         x="262.02603"
-         height="3.8617685"
-         width="17.581913"
-         id="rect259-1-1-86"
-         style="fill:#666666" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1126.187"
-         x="261.84476"
-         height="3.8617685"
-         width="18.616991"
-         id="rect259-1-1-5-7"
-         style="fill:#666666" />
-      <rect
-         y="243.96776"
-         x="1077.1586"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-18-5"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1080.4445"
-         x="237.81529"
-         height="3.8617685"
-         width="19.002468"
-         id="rect259-1-1-7-1"
-         style="fill:#666666" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1125.8633"
-         x="238.27762"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-7"
-         style="fill:#666666" />
-    </g>
-    <g
-       id="g507-9"
-       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d5_2&quot;}"
-       transform="translate(-618.76231,-123.98206)">
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1115.1429"
-         x="317.73801"
-         height="3.8617685"
-         width="18.616991"
-         id="rect259-1-1-5-2-72"
-         style="fill:#4d4d4d" />
-      <rect
-         y="323.91928"
-         x="1085.8623"
-         height="7.3057146"
-         width="25.061758"
-         id="rect259-5-16"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1104.4434"
-         x="281.36697"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-1-6-7"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1089.7241"
-         x="317.91928"
-         height="3.8617685"
-         width="17.581913"
-         id="rect259-1-1-8-7"
-         style="fill:#4d4d4d" />
-      <rect
-         y="299.86099"
-         x="1085.9995"
-         height="7.3057146"
-         width="26.496737"
-         id="rect259-18-0-8"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1089.4004"
-         x="293.70853"
-         height="3.8617685"
-         width="19.002468"
-         id="rect259-1-1-7-4-5"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1114.8192"
-         x="294.17087"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-0-44"
-         style="fill:#4d4d4d" />
-    </g>
-    <g
-       id="g459-4"
-       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d5_3&quot;}"
-       transform="translate(-619.57241,-185.64762)">
-      <rect
-         y="385.58484"
-         x="1093.5546"
-         height="7.3057146"
-         width="11.960596"
-         id="rect259-5-3-5"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1104.83"
-         x="343.03253"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-1-6-8-0"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1098.1107"
-         x="379.58484"
-         height="3.8617685"
-         width="17.581913"
-         id="rect259-1-1-8-8-2"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1108.7472"
-         x="379.20062"
-         height="3.8617685"
-         width="18.616991"
-         id="rect259-1-1-5-2-7-3"
-         style="fill:#4d4d4d" />
-      <rect
-         y="361.52655"
-         x="1093.6166"
-         height="7.3057146"
-         width="11.960596"
-         id="rect259-18-0-9-0"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1097.787"
-         x="355.37408"
-         height="3.8617685"
-         width="19.002468"
-         id="rect259-1-1-7-4-8-5"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1108.4235"
-         x="355.63348"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-0-8-4"
-         style="fill:#4d4d4d" />
-    </g>
-    <g
-       id="g537-9"
-       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d5_4&quot;}"
-       transform="translate(-620.03819,-249.79657)">
-      <rect
-         y="449.7338"
-         x="1087.2225"
-         height="7.3057146"
-         width="26.496737"
-         id="rect259-5-1-2"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1105.8036"
-         x="407.18149"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-1-6-5-6"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1091.0844"
-         x="443.7338"
-         height="3.8617685"
-         width="17.581913"
-         id="rect259-1-1-8-4-3"
-         style="fill:#4d4d4d" />
-      <rect
-         y="425.67551"
-         x="1087.3597"
-         height="7.3057146"
-         width="26.496737"
-         id="rect259-18-0-1-4"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1090.7606"
-         x="419.52304"
-         height="3.8617685"
-         width="19.002468"
-         id="rect259-1-1-7-4-3-9"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1116.1794"
-         x="419.98538"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-0-4-4"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1116.3345"
-         x="443.65906"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-0-4-8-1"
-         style="fill:#4d4d4d" />
-    </g>
-    <g
-       id="g409-0"
-       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d4_1&quot;}"
-       transform="translate(-926.89162,-64.644881)">
-      <rect
-         y="268.02603"
-         x="1076.9064"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-56"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1105.4874"
-         x="225.47374"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-1-4"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1080.7682"
-         x="262.02603"
-         height="3.8617685"
-         width="17.581913"
-         id="rect259-1-1-9"
-         style="fill:#666666" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1126.187"
-         x="261.84476"
-         height="3.8617685"
-         width="18.616991"
-         id="rect259-1-1-5-1"
-         style="fill:#666666" />
-      <rect
-         y="243.96776"
-         x="1077.1586"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-18-4"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1080.4445"
-         x="237.81529"
-         height="3.8617685"
-         width="19.002468"
-         id="rect259-1-1-7-2"
-         style="fill:#666666" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1125.8633"
-         x="238.27762"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-9"
-         style="fill:#666666" />
-    </g>
-    <g
-       id="g507-5"
-       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d4_2&quot;}"
-       transform="translate(-925.84752,-120.53812)">
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1115.1429"
-         x="317.73801"
-         height="3.8617685"
-         width="18.616991"
-         id="rect259-1-1-5-2-6"
-         style="fill:#4d4d4d" />
-      <rect
-         y="323.91928"
-         x="1085.8623"
-         height="7.3057146"
-         width="25.061758"
-         id="rect259-5-5"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1104.4434"
-         x="281.36697"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-1-6-6"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1089.7241"
-         x="317.91928"
-         height="3.8617685"
-         width="17.581913"
-         id="rect259-1-1-8-2"
-         style="fill:#4d4d4d" />
-      <rect
-         y="299.86099"
-         x="1085.9995"
-         height="7.3057146"
-         width="26.496737"
-         id="rect259-18-0-7"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1089.4004"
-         x="293.70853"
-         height="3.8617685"
-         width="19.002468"
-         id="rect259-1-1-7-4-6"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1114.8192"
-         x="294.17087"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-0-6"
-         style="fill:#4d4d4d" />
-    </g>
-    <g
-       id="g459-9"
-       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d4_3&quot;}"
-       transform="translate(-926.65762,-182.20368)">
-      <rect
-         y="385.58484"
-         x="1093.5546"
-         height="7.3057146"
-         width="11.960596"
-         id="rect259-5-3-9"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1104.83"
-         x="343.03253"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-1-6-8-07"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1098.1107"
-         x="379.58484"
-         height="3.8617685"
-         width="17.581913"
-         id="rect259-1-1-8-8-1"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1108.7472"
-         x="379.20062"
-         height="3.8617685"
-         width="18.616991"
-         id="rect259-1-1-5-2-7-32"
-         style="fill:#4d4d4d" />
-      <rect
-         y="361.52655"
-         x="1093.6166"
-         height="7.3057146"
-         width="11.960596"
-         id="rect259-18-0-9-6"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1097.787"
-         x="355.37408"
-         height="3.8617685"
-         width="19.002468"
-         id="rect259-1-1-7-4-8-6"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1108.4235"
-         x="355.63348"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-0-8-8"
-         style="fill:#4d4d4d" />
-    </g>
-    <g
-       id="g537-8"
-       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d4_4&quot;}"
-       transform="translate(-927.12342,-246.35264)">
-      <rect
-         y="449.7338"
-         x="1087.2225"
-         height="7.3057146"
-         width="26.496737"
-         id="rect259-5-1-0"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1105.8036"
-         x="407.18149"
-         height="7.3057146"
-         width="48.704754"
-         id="rect259-1-6-5-4"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1091.0844"
-         x="443.7338"
-         height="3.8617685"
-         width="17.581913"
-         id="rect259-1-1-8-4-6"
-         style="fill:#4d4d4d" />
-      <rect
-         y="425.67551"
-         x="1087.3597"
-         height="7.3057146"
-         width="26.496737"
-         id="rect259-18-0-1-3"
-         style="fill:#cccccc" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1090.7606"
-         x="419.52304"
-         height="3.8617685"
-         width="19.002468"
-         id="rect259-1-1-7-4-3-97"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1116.1794"
-         x="419.98538"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-0-4-2"
-         style="fill:#4d4d4d" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-1116.3345"
-         x="443.65906"
-         height="3.8617685"
-         width="17.973364"
-         id="rect259-1-1-5-0-0-4-8-9"
-         style="fill:#4d4d4d" />
-    </g>
     <rect
        style="fill:#000000"
        id="rect4307-16-8-1-8-7-9-8-1-2-1-8-3"
@@ -2488,5 +1780,144 @@
        preserveAspectRatio="none"
        height="28.226322"
        width="21.546312" />
+    <image
+       y="158.48975"
+       x="168.26646"
+       id="image4152"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAG5BAMAAADxP07uAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAAB5QTFRFAAAAdnVwjIuHoqKeurm30dHP5+fm////0dDPo6OfwJnVCwAAAAp0 Uk5TAP///////////36JFFYAAAB/SURBVHic7dxBEYAgAABBKmgDqUAFjKAR0ARSgQq0tYA+fOk4 e+/NcCHo3w3X3fExppTnZS1brfUoe8u59zjhOI7jOI7jOI7jOI7jOI7jOI7jOI7jOI7jOI7jOI7j OI7jOI7jOI7jOI7jOI7jOI7jOI7jOI7jOP4F/vAvJr3fCfQ2oppOPVW/AAAAAElFTkSuQmCC "
+       preserveAspectRatio="none"
+       height="58.86451"
+       width="12.280126" />
+    <image
+       y="168.07495"
+       x="147.67818"
+       id="image4141"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYIAAABxBAMAAAAqpbm5AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAAC1QTFRFAAAA8vLydnVwkI+LrKypyMfF4+Pi////5+fm0dDPurm3o6OfjIuH sbCnAAAARbVvQAAAAA90Uk5TAP//////////////////5Y2epgAAAn1JREFUeJzt2stxwjAQBmBR gGdCB3ncc0kLSQlJCUkJtEALtOAWoAQOUIAPaYAaEmIDfqysXUm7kjL7X8G2Pu/vGR4yRqPRaDQa jUaj0Wg0Go1Go9HknMUyKI9A7mUFYYDl08vr2/vH59dqtVqvN5u63u72soJAQHpBKCC5IPAhSC8I ByQWRACkFVABDZTELaqKF/yuoGxB9beGggXVZRVoAXCS1M8ByYAVdG/P0NAccIL9w+CwO25Dgzag Bc8n8Hg+ytVwdAigg2HB6XvuRPEJFc5AETgM8SkoA1Qiu+AEVwlMlH41bgNVgBpDTIrTAB41J6CM AXMtZyqHASO4nMB7Cl18hzFvwAjqevSpA7wXiHgK+lWaXhsn2O7Az09US8AT0b+on2B/bzHAp40u 6FdpeDG8YHgf/CwBAquBIkAbuhyjDmF8eT/B8D7gE0kAGogC4hQm0wgVjG6hnCDeEKaG8gTjNQgJ 4tVosgqqwPNRjjuEwTKkBdG+PlwXIiWIXKNzhAWxa3QzUAW+j3L8Gp1TSQoYatQaxAQsNbKGVSDy ux+LgKlGKQQSNWIRiNaIRyBZI2aBQI14BJI1YhIIDkEFtsjViEsgN4T/LQj4iiBYI+f/ydkPAfGP ePkCzzJJ1Qi7KyFAwDwE/L4KqkCqRpSdIcQyCdWIuLfFS8A7BPLuHI8a8Q7BY38RukwyAr9911nV yDMZ1cg7iDJlLjDuQeRdozbzgsMi+yEYR5nMZXd+6lU6Mitod1dnXKM21hp1r2c/BGMrE7itLN9Y a1RQih+CmZapPIFBbSTIPsUPwfTLVKrA3AaReh0hKX4Ipi1T2QJzHkTqFWg0Go0m0/wATNlHHljb PU4AAAAASUVORK5CYII= "
+       preserveAspectRatio="none"
+       height="17.072029"
+       width="58.316845"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d4_1&quot;}" />
+    <image
+       y="189.62808"
+       x="144.43617"
+       id="image4130"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYoAAACmBAMAAAA2SdXaAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAACFQTFRFAAAA8vLyo6OjAAAAdnVwkI+LrKypyMfF4+Pi////vr6+17KM1gAA AAt0Uk5TAP////////////99dn3VAAADTUlEQVR4nO3by3GcQBSFYajSalZqr6xZdZGCE5BdTkHK wHIGVgqTgnd4JxOlBxig3y8snb7U/dcy1V91XwbGUtNwHMdxHMdxHMdxHMdxHMdRqRXoFexPCPKI VpBHTATiCCFWRCfRiymrFRuio4nYCEJ86WgiFIL41I2hV5RdaxuoITTCYiCG0Aii6wgiWo+B0mQL n4EOQvgNVBDGSVpHmhLC3AbdQGKyTYJlqB9hniR9HECIu+9Wj4EftwgOA2Ao7p6eX36+Xi6/r10u r79efjw9+n7WJrgMiMlOVtgnyW2A3J4SFQ6CNdLAe2yKwrUNHgPo9hRVuAh+A+geG1G4CO5xQCKC Cuc2hAywTzuvwk0IGnBPTx6FmxA2AB8BXQrPNvhHGo1wKb4WGaAP44mKqg2JihgB/lKUoKjekKAg YIgqSBjCiuhIV2IIKegY/ApKBp8iSqjK4FZQMzgV30gZrqf/vkAh0etWWp5bcxUSvXAl5XMtSyHR C98yHpPSFRK98jXHG1CiQqKXvuZ4c7iWopDopS+5CWNRhUSv/ZbnXfpWWCHRi58LEyaGXyHRq5+L EsZ8Cole/VR8GzaGrZDo5Y8lE2aGqZDo9Y/lEMSDtRcSvf4mkyA+W9Mt0YDMkyTEeXgzFBItyN2G q+Ham6qQaEEuQYhhLuX/WD+ozJO0GWZGFYpsgmIYhr81KPIJmmHaDLAi/yTNM72U+LsHlRGUbcj5 DYr3q4CwbMP07ytQlGzDshF9U4WijHDbin65ClZRSJi3ot+uA1SUE8at6NVLARWlh+lICu1SyLlg Rc+K/9qOwTjrV2LFzoY/5Yr7ahSnoVxh/CkgVYW+Gci5OIhix2DoR4oVezvtUWhHCqooH4yKPrvL FYP+YI591yscjGGgr1C/+6hCUTDe61dQFSlyB0P5JpCsQvtCtq9GkfUMYnytXJMieTBCBiqKsAGt SLtJxQxwRcJgxA3ZfwH64YoUA7yIgoQhMt5nGobgeJMxBAaDkMGrIGVo3ONNzeAab3oGW0HRYN6k DAN6ccmp403VoCroGpr1JkXacBtv4oZpvMkbxsGgbzAV6NUUdwSDokAvZFdHMNwGA72I3Z0OYOA4 juM4juM4juM4juO49+sf0axBjXf3BjcAAAAASUVORK5CYII= "
+       preserveAspectRatio="none"
+       height="25.709354"
+       width="61.021"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d4_1&quot;}" />
+    <image
+       y="191.9024"
+       x="146.94917"
+       id="image4238"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXsAAACUCAMAAABFhXnaAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAADNQTFRFAAAA8vLyo6OjAAAAdnVwkI+LrKypyMfF4+Pi////5+fm0dDPurm3 o6OfjIuHsbCnvr6+DpUEDAAAABF0Uk5TAP////////////////////8QFUChAAAERElEQVR4nO3b 6XbaMBCGYexm6ZaQ+7/aGqiJFy0jaRYt3/szh2M0j1RDIL1cEEIIIYQQQgghhBBCCCGEEFJqWrJe w4BNj6yXMVrTM+uVDNW0zXox4zQduv9wnmfjZfXekf0hP8+QF83BvvRjniEvmFt9mubvrJfYYz72 rTvk2fOy790hzxuZHfSc+dld7pBnKsDudoc8RyF2nzvki8tjB31ZQfWIO+Szi7DH3CGfVzE76HOK sdPcIZ9YlJ3qDvmU4ux0d9CTY2YXliesli3JOUiDJLoLn3lp7nAvr6+vb29v70s/l349+r30Z+nv 0sfHx+fn5wvDDMnuXcsz2NOeJoO9e/oie+JTZLr3Lp9tT718trv0mxtJU2rp9uRLF7gPcOinRHvy VcvYhzj0U4I9+YrF7o3LX8nx2jO4q/wWe712Zc/CrvTpwf/Zu7Bvyf0pL+V/uyptIcX2bbmvXeU2 gNu+K/c1IX8yffm5L9sDUdx4VwF/Zfus3RBFTej4ClhuT31mIfvIZkhaZnR6B1Kd/QpXuAtrkpgZ sfmT6en2u3PLxL9PEJaW4y14xhjS9lL8hwSdfZX7h6+/fVS2vRJ/ylxMOfhT/KPszweG7Y9LGAPf 40/cAAr7o/i5dy6D4TUpLy18Dz9hWor6I9o9J+avuB16+Jn+JPZ79Pt9or/Ufqjae/kD85DY76W9 1hb6s2yHNn6Ov4Q9v3/GOAb4fv4S/6z3mLL8selM7IP+mRuQ9/5eD941mRl+iD/DvwX7mvA5/WGf UfA7WWn7cfG/10BdK6/9JfjvTqQK8B14pKWy2a8LUaY/D2TN7vcXsd8txxq/BnY3v4D9YU3a9vr4 dMO9/wD2kvhp7Ad+2oO/lrL/74M5fk3sW3+ae9v23PiF6sS+NrVjL4ivw76Hb8te4q6jpX5yb92+ DF+P3eV+W0FL9mz4iuxH9+0ymrIvv+toqh/pT4tp2z4FX539lo+9Qfs8fAPzR372Luyrxu/Lvq2D H6Zvzr4p/O7tKfj67PfC9O3ZZx18A/dbUvZ2G3AasVr8MH2hvckGnGcc117d/zRjBH55yTOAj6+L yV51A5KHrBSf017NP3XIQex1NiBxyIuVfXhdIvbi/olDVnrwxexlNyBxSjP74LJk7eX806as9Kaj k739wPgXbv+0KW3sI58paDcMfugLK8O6tw99SVtDyvhq9oG/S6iqMnvHJ2SB59LA9/wdTr2V4N+q xN7h3gD+Jdv/+wJxfEl7n3sT9vdK7O+Z4LfvvlaGH0zAPuTeGPyaGD7cSVV98Dt2f8aLz2M/gvta TTedkdyf2R/8IHu37mvl+Ln2Y7s/Uz/4cN+ldvDh7i4LP8Ee7uGkDj7ciTEffLhLFbaHu2he/LA7 4Bly2sNdp6M93PXaHny467baw92gCDrcBYO7XXA3DO52wd0uuBsGd7vgjhBCCCGEEEIIIYQQQmP3 DwHzDidEn23GAAAAAElFTkSuQmCC "
+       preserveAspectRatio="none"
+       height="22.126755"
+       width="56.662434"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d4_2&quot;}" />
+    <image
+       y="166.24741"
+       x="146.70218"
+       id="image4238-9"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXsAAACUCAMAAABFhXnaAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAADNQTFRFAAAA8vLyo6OjAAAAdnVwkI+LrKypyMfF4+Pi////5+fm0dDPurm3 o6OfjIuHsbCnvr6+DpUEDAAAABF0Uk5TAP////////////////////8QFUChAAAERElEQVR4nO3b 6XbaMBCGYexm6ZaQ+7/aGqiJFy0jaRYt3/szh2M0j1RDIL1cEEIIIYQQQgghhBBCCCGEEFJqWrJe w4BNj6yXMVrTM+uVDNW0zXox4zQduv9wnmfjZfXekf0hP8+QF83BvvRjniEvmFt9mubvrJfYYz72 rTvk2fOy790hzxuZHfSc+dld7pBnKsDudoc8RyF2nzvki8tjB31ZQfWIO+Szi7DH3CGfVzE76HOK sdPcIZ9YlJ3qDvmU4ux0d9CTY2YXliesli3JOUiDJLoLn3lp7nAvr6+vb29v70s/l349+r30Z+nv 0sfHx+fn5wvDDMnuXcsz2NOeJoO9e/oie+JTZLr3Lp9tT718trv0mxtJU2rp9uRLF7gPcOinRHvy VcvYhzj0U4I9+YrF7o3LX8nx2jO4q/wWe712Zc/CrvTpwf/Zu7Bvyf0pL+V/uyptIcX2bbmvXeU2 gNu+K/c1IX8yffm5L9sDUdx4VwF/Zfus3RBFTej4ClhuT31mIfvIZkhaZnR6B1Kd/QpXuAtrkpgZ sfmT6en2u3PLxL9PEJaW4y14xhjS9lL8hwSdfZX7h6+/fVS2vRJ/ylxMOfhT/KPszweG7Y9LGAPf 40/cAAr7o/i5dy6D4TUpLy18Dz9hWor6I9o9J+avuB16+Jn+JPZ79Pt9or/Ufqjae/kD85DY76W9 1hb6s2yHNn6Ov4Q9v3/GOAb4fv4S/6z3mLL8selM7IP+mRuQ9/5eD941mRl+iD/DvwX7mvA5/WGf UfA7WWn7cfG/10BdK6/9JfjvTqQK8B14pKWy2a8LUaY/D2TN7vcXsd8txxq/BnY3v4D9YU3a9vr4 dMO9/wD2kvhp7Ad+2oO/lrL/74M5fk3sW3+ae9v23PiF6sS+NrVjL4ivw76Hb8te4q6jpX5yb92+ DF+P3eV+W0FL9mz4iuxH9+0ymrIvv+toqh/pT4tp2z4FX539lo+9Qfs8fAPzR372Luyrxu/Lvq2D H6Zvzr4p/O7tKfj67PfC9O3ZZx18A/dbUvZ2G3AasVr8MH2hvckGnGcc117d/zRjBH55yTOAj6+L yV51A5KHrBSf017NP3XIQex1NiBxyIuVfXhdIvbi/olDVnrwxexlNyBxSjP74LJk7eX806as9Kaj k739wPgXbv+0KW3sI58paDcMfugLK8O6tw99SVtDyvhq9oG/S6iqMnvHJ2SB59LA9/wdTr2V4N+q xN7h3gD+Jdv/+wJxfEl7n3sT9vdK7O+Z4LfvvlaGH0zAPuTeGPyaGD7cSVV98Dt2f8aLz2M/gvta TTedkdyf2R/8IHu37mvl+Ln2Y7s/Uz/4cN+ldvDh7i4LP8Ee7uGkDj7ciTEffLhLFbaHu2he/LA7 4Bly2sNdp6M93PXaHny467baw92gCDrcBYO7XXA3DO52wd0uuBsGd7vgjhBCCCGEEEIIIYQQQmP3 DwHzDidEn23GAAAAAElFTkSuQmCC "
+       preserveAspectRatio="none"
+       height="22.126755"
+       width="56.662434"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d4_2&quot;}" />
+    <image
+       y="156.18385"
+       x="475.22833"
+       id="image4152-9-4"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAG5BAMAAADxP07uAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAAB5QTFRFAAAAdnVwjIuHoqKeurm30dHP5+fm////0dDPo6OfwJnVCwAAAAp0 Uk5TAP///////////36JFFYAAAB/SURBVHic7dxBEYAgAABBKmgDqUAFjKAR0ARSgQq0tYA+fOk4 e+/NcCHo3w3X3fExppTnZS1brfUoe8u59zjhOI7jOI7jOI7jOI7jOI7jOI7jOI7jOI7jOI7jOI7j OI7jOI7jOI7jOI7jOI7jOI7jOI7jOI7jOP4F/vAvJr3fCfQ2oppOPVW/AAAAAElFTkSuQmCC "
+       preserveAspectRatio="none"
+       height="58.86451"
+       width="12.280126" />
+    <image
+       y="165.76906"
+       x="454.64005"
+       id="image4141-0-2"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYIAAABxBAMAAAAqpbm5AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAAC1QTFRFAAAA8vLydnVwkI+LrKypyMfF4+Pi////5+fm0dDPurm3o6OfjIuH sbCnAAAARbVvQAAAAA90Uk5TAP//////////////////5Y2epgAAAn1JREFUeJzt2stxwjAQBmBR gGdCB3ncc0kLSQlJCUkJtEALtOAWoAQOUIAPaYAaEmIDfqysXUm7kjL7X8G2Pu/vGR4yRqPRaDQa jUaj0Wg0Go1Go9HknMUyKI9A7mUFYYDl08vr2/vH59dqtVqvN5u63u72soJAQHpBKCC5IPAhSC8I ByQWRACkFVABDZTELaqKF/yuoGxB9beGggXVZRVoAXCS1M8ByYAVdG/P0NAccIL9w+CwO25Dgzag Bc8n8Hg+ytVwdAigg2HB6XvuRPEJFc5AETgM8SkoA1Qiu+AEVwlMlH41bgNVgBpDTIrTAB41J6CM AXMtZyqHASO4nMB7Cl18hzFvwAjqevSpA7wXiHgK+lWaXhsn2O7Az09US8AT0b+on2B/bzHAp40u 6FdpeDG8YHgf/CwBAquBIkAbuhyjDmF8eT/B8D7gE0kAGogC4hQm0wgVjG6hnCDeEKaG8gTjNQgJ 4tVosgqqwPNRjjuEwTKkBdG+PlwXIiWIXKNzhAWxa3QzUAW+j3L8Gp1TSQoYatQaxAQsNbKGVSDy ux+LgKlGKQQSNWIRiNaIRyBZI2aBQI14BJI1YhIIDkEFtsjViEsgN4T/LQj4iiBYI+f/ydkPAfGP ePkCzzJJ1Qi7KyFAwDwE/L4KqkCqRpSdIcQyCdWIuLfFS8A7BPLuHI8a8Q7BY38RukwyAr9911nV yDMZ1cg7iDJlLjDuQeRdozbzgsMi+yEYR5nMZXd+6lU6Mitod1dnXKM21hp1r2c/BGMrE7itLN9Y a1RQih+CmZapPIFBbSTIPsUPwfTLVKrA3AaReh0hKX4Ipi1T2QJzHkTqFWg0Go0m0/wATNlHHljb PU4AAAAASUVORK5CYII= "
+       preserveAspectRatio="none"
+       height="17.072029"
+       width="58.316845"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d5_1&quot;}" />
+    <image
+       y="187.32219"
+       x="451.39804"
+       id="image4130-4-7"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYoAAACmBAMAAAA2SdXaAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAACFQTFRFAAAA8vLyo6OjAAAAdnVwkI+LrKypyMfF4+Pi////vr6+17KM1gAA AAt0Uk5TAP////////////99dn3VAAADTUlEQVR4nO3by3GcQBSFYajSalZqr6xZdZGCE5BdTkHK wHIGVgqTgnd4JxOlBxig3y8snb7U/dcy1V91XwbGUtNwHMdxHMdxHMdxHMdxHMdRqRXoFexPCPKI VpBHTATiCCFWRCfRiymrFRuio4nYCEJ86WgiFIL41I2hV5RdaxuoITTCYiCG0Aii6wgiWo+B0mQL n4EOQvgNVBDGSVpHmhLC3AbdQGKyTYJlqB9hniR9HECIu+9Wj4EftwgOA2Ao7p6eX36+Xi6/r10u r79efjw9+n7WJrgMiMlOVtgnyW2A3J4SFQ6CNdLAe2yKwrUNHgPo9hRVuAh+A+geG1G4CO5xQCKC Cuc2hAywTzuvwk0IGnBPTx6FmxA2AB8BXQrPNvhHGo1wKb4WGaAP44mKqg2JihgB/lKUoKjekKAg YIgqSBjCiuhIV2IIKegY/ApKBp8iSqjK4FZQMzgV30gZrqf/vkAh0etWWp5bcxUSvXAl5XMtSyHR C98yHpPSFRK98jXHG1CiQqKXvuZ4c7iWopDopS+5CWNRhUSv/ZbnXfpWWCHRi58LEyaGXyHRq5+L EsZ8Cole/VR8GzaGrZDo5Y8lE2aGqZDo9Y/lEMSDtRcSvf4mkyA+W9Mt0YDMkyTEeXgzFBItyN2G q+Ham6qQaEEuQYhhLuX/WD+ozJO0GWZGFYpsgmIYhr81KPIJmmHaDLAi/yTNM72U+LsHlRGUbcj5 DYr3q4CwbMP07ytQlGzDshF9U4WijHDbin65ClZRSJi3ot+uA1SUE8at6NVLARWlh+lICu1SyLlg Rc+K/9qOwTjrV2LFzoY/5Yr7ahSnoVxh/CkgVYW+Gci5OIhix2DoR4oVezvtUWhHCqooH4yKPrvL FYP+YI591yscjGGgr1C/+6hCUTDe61dQFSlyB0P5JpCsQvtCtq9GkfUMYnytXJMieTBCBiqKsAGt SLtJxQxwRcJgxA3ZfwH64YoUA7yIgoQhMt5nGobgeJMxBAaDkMGrIGVo3ONNzeAab3oGW0HRYN6k DAN6ccmp403VoCroGpr1JkXacBtv4oZpvMkbxsGgbzAV6NUUdwSDokAvZFdHMNwGA72I3Z0OYOA4 juM4juM4juM4juO49+sf0axBjXf3BjcAAAAASUVORK5CYII= "
+       preserveAspectRatio="none"
+       height="25.709354"
+       width="61.021"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d5_1&quot;}" />
+    <image
+       y="187.59651"
+       x="453.91104"
+       id="image4238-1-0"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXsAAACUCAMAAABFhXnaAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAADNQTFRFAAAA8vLyo6OjAAAAdnVwkI+LrKypyMfF4+Pi////5+fm0dDPurm3 o6OfjIuHsbCnvr6+DpUEDAAAABF0Uk5TAP////////////////////8QFUChAAAERElEQVR4nO3b 6XbaMBCGYexm6ZaQ+7/aGqiJFy0jaRYt3/szh2M0j1RDIL1cEEIIIYQQQgghhBBCCCGEEFJqWrJe w4BNj6yXMVrTM+uVDNW0zXox4zQduv9wnmfjZfXekf0hP8+QF83BvvRjniEvmFt9mubvrJfYYz72 rTvk2fOy790hzxuZHfSc+dld7pBnKsDudoc8RyF2nzvki8tjB31ZQfWIO+Szi7DH3CGfVzE76HOK sdPcIZ9YlJ3qDvmU4ux0d9CTY2YXliesli3JOUiDJLoLn3lp7nAvr6+vb29v70s/l349+r30Z+nv 0sfHx+fn5wvDDMnuXcsz2NOeJoO9e/oie+JTZLr3Lp9tT718trv0mxtJU2rp9uRLF7gPcOinRHvy VcvYhzj0U4I9+YrF7o3LX8nx2jO4q/wWe712Zc/CrvTpwf/Zu7Bvyf0pL+V/uyptIcX2bbmvXeU2 gNu+K/c1IX8yffm5L9sDUdx4VwF/Zfus3RBFTej4ClhuT31mIfvIZkhaZnR6B1Kd/QpXuAtrkpgZ sfmT6en2u3PLxL9PEJaW4y14xhjS9lL8hwSdfZX7h6+/fVS2vRJ/ylxMOfhT/KPszweG7Y9LGAPf 40/cAAr7o/i5dy6D4TUpLy18Dz9hWor6I9o9J+avuB16+Jn+JPZ79Pt9or/Ufqjae/kD85DY76W9 1hb6s2yHNn6Ov4Q9v3/GOAb4fv4S/6z3mLL8selM7IP+mRuQ9/5eD941mRl+iD/DvwX7mvA5/WGf UfA7WWn7cfG/10BdK6/9JfjvTqQK8B14pKWy2a8LUaY/D2TN7vcXsd8txxq/BnY3v4D9YU3a9vr4 dMO9/wD2kvhp7Ad+2oO/lrL/74M5fk3sW3+ae9v23PiF6sS+NrVjL4ivw76Hb8te4q6jpX5yb92+ DF+P3eV+W0FL9mz4iuxH9+0ymrIvv+toqh/pT4tp2z4FX539lo+9Qfs8fAPzR372Luyrxu/Lvq2D H6Zvzr4p/O7tKfj67PfC9O3ZZx18A/dbUvZ2G3AasVr8MH2hvckGnGcc117d/zRjBH55yTOAj6+L yV51A5KHrBSf017NP3XIQex1NiBxyIuVfXhdIvbi/olDVnrwxexlNyBxSjP74LJk7eX806as9Kaj k739wPgXbv+0KW3sI58paDcMfugLK8O6tw99SVtDyvhq9oG/S6iqMnvHJ2SB59LA9/wdTr2V4N+q xN7h3gD+Jdv/+wJxfEl7n3sT9vdK7O+Z4LfvvlaGH0zAPuTeGPyaGD7cSVV98Dt2f8aLz2M/gvta TTedkdyf2R/8IHu37mvl+Ln2Y7s/Uz/4cN+ldvDh7i4LP8Ee7uGkDj7ciTEffLhLFbaHu2he/LA7 4Bly2sNdp6M93PXaHny467baw92gCDrcBYO7XXA3DO52wd0uuBsGd7vgjhBCCCGEEEIIIYQQQmP3 DwHzDidEn23GAAAAAElFTkSuQmCC "
+       preserveAspectRatio="none"
+       height="22.126755"
+       width="56.662434"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d5_2&quot;}" />
+    <image
+       y="161.94151"
+       x="453.66403"
+       id="image4238-9-2-0"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXsAAACUCAMAAABFhXnaAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAADNQTFRFAAAA8vLyo6OjAAAAdnVwkI+LrKypyMfF4+Pi////5+fm0dDPurm3 o6OfjIuHsbCnvr6+DpUEDAAAABF0Uk5TAP////////////////////8QFUChAAAERElEQVR4nO3b 6XbaMBCGYexm6ZaQ+7/aGqiJFy0jaRYt3/szh2M0j1RDIL1cEEIIIYQQQgghhBBCCCGEEFJqWrJe w4BNj6yXMVrTM+uVDNW0zXox4zQduv9wnmfjZfXekf0hP8+QF83BvvRjniEvmFt9mubvrJfYYz72 rTvk2fOy790hzxuZHfSc+dld7pBnKsDudoc8RyF2nzvki8tjB31ZQfWIO+Szi7DH3CGfVzE76HOK sdPcIZ9YlJ3qDvmU4ux0d9CTY2YXliesli3JOUiDJLoLn3lp7nAvr6+vb29v70s/l349+r30Z+nv 0sfHx+fn5wvDDMnuXcsz2NOeJoO9e/oie+JTZLr3Lp9tT718trv0mxtJU2rp9uRLF7gPcOinRHvy VcvYhzj0U4I9+YrF7o3LX8nx2jO4q/wWe712Zc/CrvTpwf/Zu7Bvyf0pL+V/uyptIcX2bbmvXeU2 gNu+K/c1IX8yffm5L9sDUdx4VwF/Zfus3RBFTej4ClhuT31mIfvIZkhaZnR6B1Kd/QpXuAtrkpgZ sfmT6en2u3PLxL9PEJaW4y14xhjS9lL8hwSdfZX7h6+/fVS2vRJ/ylxMOfhT/KPszweG7Y9LGAPf 40/cAAr7o/i5dy6D4TUpLy18Dz9hWor6I9o9J+avuB16+Jn+JPZ79Pt9or/Ufqjae/kD85DY76W9 1hb6s2yHNn6Ov4Q9v3/GOAb4fv4S/6z3mLL8selM7IP+mRuQ9/5eD941mRl+iD/DvwX7mvA5/WGf UfA7WWn7cfG/10BdK6/9JfjvTqQK8B14pKWy2a8LUaY/D2TN7vcXsd8txxq/BnY3v4D9YU3a9vr4 dMO9/wD2kvhp7Ad+2oO/lrL/74M5fk3sW3+ae9v23PiF6sS+NrVjL4ivw76Hb8te4q6jpX5yb92+ DF+P3eV+W0FL9mz4iuxH9+0ymrIvv+toqh/pT4tp2z4FX539lo+9Qfs8fAPzR372Luyrxu/Lvq2D H6Zvzr4p/O7tKfj67PfC9O3ZZx18A/dbUvZ2G3AasVr8MH2hvckGnGcc117d/zRjBH55yTOAj6+L yV51A5KHrBSf017NP3XIQex1NiBxyIuVfXhdIvbi/olDVnrwxexlNyBxSjP74LJk7eX806as9Kaj k739wPgXbv+0KW3sI58paDcMfugLK8O6tw99SVtDyvhq9oG/S6iqMnvHJ2SB59LA9/wdTr2V4N+q xN7h3gD+Jdv/+wJxfEl7n3sT9vdK7O+Z4LfvvlaGH0zAPuTeGPyaGD7cSVV98Dt2f8aLz2M/gvta TTedkdyf2R/8IHu37mvl+Ln2Y7s/Uz/4cN+ldvDh7i4LP8Ee7uGkDj7ciTEffLhLFbaHu2he/LA7 4Bly2sNdp6M93PXaHny467baw92gCDrcBYO7XXA3DO52wd0uuBsGd7vgjhBCCCGEEEIIIYQQQmP3 DwHzDidEn23GAAAAAElFTkSuQmCC "
+       preserveAspectRatio="none"
+       height="22.126755"
+       width="56.662434"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d5_2&quot;}" />
+    <image
+       y="155.8765"
+       x="786.30646"
+       id="image4152-9-0"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAG5BAMAAADxP07uAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAAB5QTFRFAAAAdnVwjIuHoqKeurm30dHP5+fm////0dDPo6OfwJnVCwAAAAp0 Uk5TAP///////////36JFFYAAAB/SURBVHic7dxBEYAgAABBKmgDqUAFjKAR0ARSgQq0tYA+fOk4 e+/NcCHo3w3X3fExppTnZS1brfUoe8u59zjhOI7jOI7jOI7jOI7jOI7jOI7jOI7jOI7jOI7jOI7j OI7jOI7jOI7jOI7jOI7jOI7jOI7jOI7jOP4F/vAvJr3fCfQ2oppOPVW/AAAAAElFTkSuQmCC "
+       preserveAspectRatio="none"
+       height="58.86451"
+       width="12.280126" />
+    <image
+       y="165.96169"
+       x="765.7182"
+       id="image4141-0-8"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYIAAABxBAMAAAAqpbm5AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAAC1QTFRFAAAA8vLydnVwkI+LrKypyMfF4+Pi////5+fm0dDPurm3o6OfjIuH sbCnAAAARbVvQAAAAA90Uk5TAP//////////////////5Y2epgAAAn1JREFUeJzt2stxwjAQBmBR gGdCB3ncc0kLSQlJCUkJtEALtOAWoAQOUIAPaYAaEmIDfqysXUm7kjL7X8G2Pu/vGR4yRqPRaDQa jUaj0Wg0Go1Go9HknMUyKI9A7mUFYYDl08vr2/vH59dqtVqvN5u63u72soJAQHpBKCC5IPAhSC8I ByQWRACkFVABDZTELaqKF/yuoGxB9beGggXVZRVoAXCS1M8ByYAVdG/P0NAccIL9w+CwO25Dgzag Bc8n8Hg+ytVwdAigg2HB6XvuRPEJFc5AETgM8SkoA1Qiu+AEVwlMlH41bgNVgBpDTIrTAB41J6CM AXMtZyqHASO4nMB7Cl18hzFvwAjqevSpA7wXiHgK+lWaXhsn2O7Az09US8AT0b+on2B/bzHAp40u 6FdpeDG8YHgf/CwBAquBIkAbuhyjDmF8eT/B8D7gE0kAGogC4hQm0wgVjG6hnCDeEKaG8gTjNQgJ 4tVosgqqwPNRjjuEwTKkBdG+PlwXIiWIXKNzhAWxa3QzUAW+j3L8Gp1TSQoYatQaxAQsNbKGVSDy ux+LgKlGKQQSNWIRiNaIRyBZI2aBQI14BJI1YhIIDkEFtsjViEsgN4T/LQj4iiBYI+f/ydkPAfGP ePkCzzJJ1Qi7KyFAwDwE/L4KqkCqRpSdIcQyCdWIuLfFS8A7BPLuHI8a8Q7BY38RukwyAr9911nV yDMZ1cg7iDJlLjDuQeRdozbzgsMi+yEYR5nMZXd+6lU6Mitod1dnXKM21hp1r2c/BGMrE7itLN9Y a1RQih+CmZapPIFBbSTIPsUPwfTLVKrA3AaReh0hKX4Ipi1T2QJzHkTqFWg0Go0m0/wATNlHHljb PU4AAAAASUVORK5CYII= "
+       preserveAspectRatio="none"
+       height="17.072029"
+       width="58.316845"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d6_1&quot;}" />
+    <image
+       y="187.51482"
+       x="762.4762"
+       id="image4130-4-6"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYoAAACmBAMAAAA2SdXaAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAACFQTFRFAAAA8vLyo6OjAAAAdnVwkI+LrKypyMfF4+Pi////vr6+17KM1gAA AAt0Uk5TAP////////////99dn3VAAADTUlEQVR4nO3by3GcQBSFYajSalZqr6xZdZGCE5BdTkHK wHIGVgqTgnd4JxOlBxig3y8snb7U/dcy1V91XwbGUtNwHMdxHMdxHMdxHMdxHMdRqRXoFexPCPKI VpBHTATiCCFWRCfRiymrFRuio4nYCEJ86WgiFIL41I2hV5RdaxuoITTCYiCG0Aii6wgiWo+B0mQL n4EOQvgNVBDGSVpHmhLC3AbdQGKyTYJlqB9hniR9HECIu+9Wj4EftwgOA2Ao7p6eX36+Xi6/r10u r79efjw9+n7WJrgMiMlOVtgnyW2A3J4SFQ6CNdLAe2yKwrUNHgPo9hRVuAh+A+geG1G4CO5xQCKC Cuc2hAywTzuvwk0IGnBPTx6FmxA2AB8BXQrPNvhHGo1wKb4WGaAP44mKqg2JihgB/lKUoKjekKAg YIgqSBjCiuhIV2IIKegY/ApKBp8iSqjK4FZQMzgV30gZrqf/vkAh0etWWp5bcxUSvXAl5XMtSyHR C98yHpPSFRK98jXHG1CiQqKXvuZ4c7iWopDopS+5CWNRhUSv/ZbnXfpWWCHRi58LEyaGXyHRq5+L EsZ8Cole/VR8GzaGrZDo5Y8lE2aGqZDo9Y/lEMSDtRcSvf4mkyA+W9Mt0YDMkyTEeXgzFBItyN2G q+Ham6qQaEEuQYhhLuX/WD+ozJO0GWZGFYpsgmIYhr81KPIJmmHaDLAi/yTNM72U+LsHlRGUbcj5 DYr3q4CwbMP07ytQlGzDshF9U4WijHDbin65ClZRSJi3ot+uA1SUE8at6NVLARWlh+lICu1SyLlg Rc+K/9qOwTjrV2LFzoY/5Yr7ahSnoVxh/CkgVYW+Gci5OIhix2DoR4oVezvtUWhHCqooH4yKPrvL FYP+YI591yscjGGgr1C/+6hCUTDe61dQFSlyB0P5JpCsQvtCtq9GkfUMYnytXJMieTBCBiqKsAGt SLtJxQxwRcJgxA3ZfwH64YoUA7yIgoQhMt5nGobgeJMxBAaDkMGrIGVo3ONNzeAab3oGW0HRYN6k DAN6ccmp403VoCroGpr1JkXacBtv4oZpvMkbxsGgbzAV6NUUdwSDokAvZFdHMNwGA72I3Z0OYOA4 juM4juM4juM4juO49+sf0axBjXf3BjcAAAAASUVORK5CYII= "
+       preserveAspectRatio="none"
+       height="25.709354"
+       width="61.021"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d6_1&quot;}" />
+    <image
+       y="189.78914"
+       x="764.9892"
+       id="image4238-1-6"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXsAAACUCAMAAABFhXnaAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAADNQTFRFAAAA8vLyo6OjAAAAdnVwkI+LrKypyMfF4+Pi////5+fm0dDPurm3 o6OfjIuHsbCnvr6+DpUEDAAAABF0Uk5TAP////////////////////8QFUChAAAERElEQVR4nO3b 6XbaMBCGYexm6ZaQ+7/aGqiJFy0jaRYt3/szh2M0j1RDIL1cEEIIIYQQQgghhBBCCCGEEFJqWrJe w4BNj6yXMVrTM+uVDNW0zXox4zQduv9wnmfjZfXekf0hP8+QF83BvvRjniEvmFt9mubvrJfYYz72 rTvk2fOy790hzxuZHfSc+dld7pBnKsDudoc8RyF2nzvki8tjB31ZQfWIO+Szi7DH3CGfVzE76HOK sdPcIZ9YlJ3qDvmU4ux0d9CTY2YXliesli3JOUiDJLoLn3lp7nAvr6+vb29v70s/l349+r30Z+nv 0sfHx+fn5wvDDMnuXcsz2NOeJoO9e/oie+JTZLr3Lp9tT718trv0mxtJU2rp9uRLF7gPcOinRHvy VcvYhzj0U4I9+YrF7o3LX8nx2jO4q/wWe712Zc/CrvTpwf/Zu7Bvyf0pL+V/uyptIcX2bbmvXeU2 gNu+K/c1IX8yffm5L9sDUdx4VwF/Zfus3RBFTej4ClhuT31mIfvIZkhaZnR6B1Kd/QpXuAtrkpgZ sfmT6en2u3PLxL9PEJaW4y14xhjS9lL8hwSdfZX7h6+/fVS2vRJ/ylxMOfhT/KPszweG7Y9LGAPf 40/cAAr7o/i5dy6D4TUpLy18Dz9hWor6I9o9J+avuB16+Jn+JPZ79Pt9or/Ufqjae/kD85DY76W9 1hb6s2yHNn6Ov4Q9v3/GOAb4fv4S/6z3mLL8selM7IP+mRuQ9/5eD941mRl+iD/DvwX7mvA5/WGf UfA7WWn7cfG/10BdK6/9JfjvTqQK8B14pKWy2a8LUaY/D2TN7vcXsd8txxq/BnY3v4D9YU3a9vr4 dMO9/wD2kvhp7Ad+2oO/lrL/74M5fk3sW3+ae9v23PiF6sS+NrVjL4ivw76Hb8te4q6jpX5yb92+ DF+P3eV+W0FL9mz4iuxH9+0ymrIvv+toqh/pT4tp2z4FX539lo+9Qfs8fAPzR372Luyrxu/Lvq2D H6Zvzr4p/O7tKfj67PfC9O3ZZx18A/dbUvZ2G3AasVr8MH2hvckGnGcc117d/zRjBH55yTOAj6+L yV51A5KHrBSf017NP3XIQex1NiBxyIuVfXhdIvbi/olDVnrwxexlNyBxSjP74LJk7eX806as9Kaj k739wPgXbv+0KW3sI58paDcMfugLK8O6tw99SVtDyvhq9oG/S6iqMnvHJ2SB59LA9/wdTr2V4N+q xN7h3gD+Jdv/+wJxfEl7n3sT9vdK7O+Z4LfvvlaGH0zAPuTeGPyaGD7cSVV98Dt2f8aLz2M/gvta TTedkdyf2R/8IHu37mvl+Ln2Y7s/Uz/4cN+ldvDh7i4LP8Ee7uGkDj7ciTEffLhLFbaHu2he/LA7 4Bly2sNdp6M93PXaHny467baw92gCDrcBYO7XXA3DO52wd0uuBsGd7vgjhBCCCGEEEIIIYQQQmP3 DwHzDidEn23GAAAAAElFTkSuQmCC "
+       preserveAspectRatio="none"
+       height="22.126755"
+       width="56.662434"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d6_2&quot;}" />
+    <image
+       y="164.13414"
+       x="764.74219"
+       id="image4238-9-2-7"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXsAAACUCAMAAABFhXnaAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL EwAACxMBAJqcGAAAADNQTFRFAAAA8vLyo6OjAAAAdnVwkI+LrKypyMfF4+Pi////5+fm0dDPurm3 o6OfjIuHsbCnvr6+DpUEDAAAABF0Uk5TAP////////////////////8QFUChAAAERElEQVR4nO3b 6XbaMBCGYexm6ZaQ+7/aGqiJFy0jaRYt3/szh2M0j1RDIL1cEEIIIYQQQgghhBBCCCGEEFJqWrJe w4BNj6yXMVrTM+uVDNW0zXox4zQduv9wnmfjZfXekf0hP8+QF83BvvRjniEvmFt9mubvrJfYYz72 rTvk2fOy790hzxuZHfSc+dld7pBnKsDudoc8RyF2nzvki8tjB31ZQfWIO+Szi7DH3CGfVzE76HOK sdPcIZ9YlJ3qDvmU4ux0d9CTY2YXliesli3JOUiDJLoLn3lp7nAvr6+vb29v70s/l349+r30Z+nv 0sfHx+fn5wvDDMnuXcsz2NOeJoO9e/oie+JTZLr3Lp9tT718trv0mxtJU2rp9uRLF7gPcOinRHvy VcvYhzj0U4I9+YrF7o3LX8nx2jO4q/wWe712Zc/CrvTpwf/Zu7Bvyf0pL+V/uyptIcX2bbmvXeU2 gNu+K/c1IX8yffm5L9sDUdx4VwF/Zfus3RBFTej4ClhuT31mIfvIZkhaZnR6B1Kd/QpXuAtrkpgZ sfmT6en2u3PLxL9PEJaW4y14xhjS9lL8hwSdfZX7h6+/fVS2vRJ/ylxMOfhT/KPszweG7Y9LGAPf 40/cAAr7o/i5dy6D4TUpLy18Dz9hWor6I9o9J+avuB16+Jn+JPZ79Pt9or/Ufqjae/kD85DY76W9 1hb6s2yHNn6Ov4Q9v3/GOAb4fv4S/6z3mLL8selM7IP+mRuQ9/5eD941mRl+iD/DvwX7mvA5/WGf UfA7WWn7cfG/10BdK6/9JfjvTqQK8B14pKWy2a8LUaY/D2TN7vcXsd8txxq/BnY3v4D9YU3a9vr4 dMO9/wD2kvhp7Ad+2oO/lrL/74M5fk3sW3+ae9v23PiF6sS+NrVjL4ivw76Hb8te4q6jpX5yb92+ DF+P3eV+W0FL9mz4iuxH9+0ymrIvv+toqh/pT4tp2z4FX539lo+9Qfs8fAPzR372Luyrxu/Lvq2D H6Zvzr4p/O7tKfj67PfC9O3ZZx18A/dbUvZ2G3AasVr8MH2hvckGnGcc117d/zRjBH55yTOAj6+L yV51A5KHrBSf017NP3XIQex1NiBxyIuVfXhdIvbi/olDVnrwxexlNyBxSjP74LJk7eX806as9Kaj k739wPgXbv+0KW3sI58paDcMfugLK8O6tw99SVtDyvhq9oG/S6iqMnvHJ2SB59LA9/wdTr2V4N+q xN7h3gD+Jdv/+wJxfEl7n3sT9vdK7O+Z4LfvvlaGH0zAPuTeGPyaGD7cSVV98Dt2f8aLz2M/gvta TTedkdyf2R/8IHu37mvl+Ln2Y7s/Uz/4cN+ldvDh7i4LP8Ee7uGkDj7ciTEffLhLFbaHu2he/LA7 4Bly2sNdp6M93PXaHny467baw92gCDrcBYO7XXA3DO52wd0uuBsGd7vgjhBCCCGEEEIIIYQQQmP3 DwHzDidEn23GAAAAAElFTkSuQmCC "
+       preserveAspectRatio="none"
+       height="22.126755"
+       width="56.662434"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;agitator_d6_2&quot;}" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1"
+       id="rect514-9-3-5"
+       width="40.179375"
+       height="19.515694"
+       x="969.58972"
+       y="68.358749" />
   </g>
 </svg>
