@@ -140,9 +140,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2319126"
-     inkscape:cx="615.38458"
-     inkscape:cy="219.62385"
+     inkscape:zoom="0.87109375"
+     inkscape:cx="487.95918"
+     inkscape:cy="252.81392"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -200,53 +200,54 @@
        width="73.041107"
        height="21.556707"
        x="8.4328518"
-       y="163.27571" />
+       y="115.27571" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.29516602px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="58.54192"
-       y="180.55"
+       x="59.675484"
+       y="132.46349"
        id="text4309-4-8-2-7-1-1-9-7-8-4-9-1-2"
        sodipodi:linespacing="125%"
        transform="scale(1.004807,0.995216)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;amp_sludge1&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
-         x="58.54192"
-         y="180.55"
+         x="59.675484"
+         y="132.46349"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:39.39098358px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="67.565491"
-       y="172.81215"
+       y="126.6776"
        id="text413-1-0-2-0-4-5-8-4"
        sodipodi:linespacing="125%"
        transform="scale(0.96113866,1.0404326)"><tspan
          sodipodi:role="line"
          id="tspan415-7-2-6-0-2-37-0-0"
          x="67.565491"
-         y="172.81215"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">A</tspan></text>
+         y="126.6776"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00;">A</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2"
        width="72.83812"
        height="17.088524"
        x="8.4328518"
-       y="146.18718" />
+       y="98.18718"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;24&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;amp_sludge1&quot;},{&quot;data&quot;:&quot;25&quot;,&quot;param&quot;:&quot;#00FFFF&quot;,&quot;tag&quot;:&quot;amp_sludge1&quot;}]}" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.34228897px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="19.321112"
-       y="163.48271"
+       y="115.15768"
        id="text532-76-30-8-0"
        sodipodi:linespacing="125%"
        transform="scale(1.0374763,0.96387744)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5"
          x="19.321112"
-         y="163.48271"
+         y="115.15768"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">AMPERE</tspan></text>
     <rect
        style="fill:#000000"
@@ -268,7 +269,7 @@
          x="60.157997"
          y="223.87184"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-4-7"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.49999998px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00;">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:39.39098358px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -281,7 +282,7 @@
          id="tspan415-7-2-6-0-2-37-0-0-5-1"
          x="67.272202"
          y="214.25114"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">H</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.50000003px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00;">H</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-2-1"
@@ -386,40 +387,40 @@
        width="73.041107"
        height="20.982718"
        x="8.4328518"
-       y="117.67393" />
+       y="69.673927" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.29516602px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="68.950752"
-       y="134.72903"
+       y="86.498306"
        id="text4309-4-8-2-7-1-1-9-7-8-4-9-1-2-49"
        sodipodi:linespacing="125%"
        transform="scale(1.004807,0.995216)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;rpm_sludge1&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
          x="68.950752"
-         y="134.72903"
+         y="86.498306"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-58"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00;">0.00</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-9"
        width="72.83812"
        height="17.088524"
        x="8.4328518"
-       y="100.58541" />
+       y="52.585411" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.34228897px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="30.144934"
-       y="116.17194"
+       y="66.373116"
        id="text532-76-30-8-0-4"
        sodipodi:linespacing="125%"
        transform="scale(1.0374763,0.96387744)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-16"
          x="30.144934"
-         y="116.17194"
+         y="66.373116"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">RPM</tspan></text>
     <rect
        style="fill:#000000"
@@ -427,53 +428,54 @@
        width="73.041107"
        height="21.556707"
        x="288.88806"
-       y="158.31403" />
+       y="110.31403" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.29516602px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="337.65543"
-       y="175.56445"
+       x="339.64584"
+       y="127.33374"
        id="text4309-4-8-2-7-1-1-9-7-8-4-9-1-2-1"
        sodipodi:linespacing="125%"
        transform="scale(1.004807,0.995216)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;amp_sludge3&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
-         x="337.65543"
-         y="175.56445"
+         x="339.64584"
+         y="127.33374"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-3"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:39.39098358px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="359.36023"
-       y="168.04327"
+       y="121.9087"
        id="text413-1-0-2-0-4-5-8-4-9"
        sodipodi:linespacing="125%"
        transform="scale(0.96113866,1.0404326)"><tspan
          sodipodi:role="line"
          id="tspan415-7-2-6-0-2-37-0-0-4"
          x="359.36023"
-         y="168.04327"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">A</tspan></text>
+         y="121.9087"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00;">A</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-6"
        width="72.83812"
        height="17.088524"
        x="288.88806"
-       y="141.22549" />
+       y="93.225487"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;24&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;amp_sludge3&quot;},{&quot;data&quot;:&quot;25&quot;,&quot;param&quot;:&quot;#00FFFF&quot;,&quot;tag&quot;:&quot;amp_sludge3&quot;}]}" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.34228897px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="289.64554"
-       y="158.33507"
+       y="110.01004"
        id="text532-76-30-8-0-9"
        sodipodi:linespacing="125%"
        transform="scale(1.0374763,0.96387744)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-2"
          x="289.64554"
-         y="158.33507"
+         y="110.01004"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">AMPERE</tspan></text>
     <rect
        style="fill:#000000"
@@ -495,7 +497,7 @@
          x="339.27151"
          y="218.88628"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-4-7-9"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.49999998px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00;">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:39.39098358px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -508,7 +510,7 @@
          id="tspan415-7-2-6-0-2-37-0-0-5-1-1"
          x="359.06693"
          y="209.48228"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">H</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.50000003px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00;">H</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-2-1-3"
@@ -535,40 +537,40 @@
        width="73.041107"
        height="20.982718"
        x="288.88806"
-       y="112.71223" />
+       y="64.712227" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.29516602px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="348.06427"
-       y="129.74348"
+       y="81.512756"
        id="text4309-4-8-2-7-1-1-9-7-8-4-9-1-2-49-7"
        sodipodi:linespacing="125%"
        transform="scale(1.004807,0.995216)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;rpm_sludge3&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
          x="348.06427"
-         y="129.74348"
+         y="81.512756"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-58-7"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00;">0.00</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-9-6"
        width="72.83812"
        height="17.088524"
        x="288.88806"
-       y="95.623711" />
+       y="47.623711" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.34228897px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="300.46939"
-       y="111.02431"
+       y="61.225487"
        id="text532-76-30-8-0-4-5"
        sodipodi:linespacing="125%"
        transform="scale(1.0374763,0.96387744)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-16-4"
          x="300.46939"
-         y="111.02431"
+         y="61.225487"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">RPM</tspan></text>
     <rect
        style="fill:#000000"
@@ -576,53 +578,54 @@
        width="73.041107"
        height="21.556707"
        x="603.84546"
-       y="158.31403" />
+       y="110.31403" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.29516602px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="651.10608"
-       y="175.56445"
+       x="653.0965"
+       y="127.33374"
        id="text4309-4-8-2-7-1-1-9-7-8-4-9-1-2-6"
        sodipodi:linespacing="125%"
        transform="scale(1.004807,0.995216)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;amp_sludge5&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
-         x="651.10608"
-         y="175.56445"
+         x="653.0965"
+         y="127.33374"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-9"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:39.39098358px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="687.05219"
-       y="168.04327"
+       y="121.9087"
        id="text413-1-0-2-0-4-5-8-4-54"
        sodipodi:linespacing="125%"
        transform="scale(0.96113866,1.0404326)"><tspan
          sodipodi:role="line"
          id="tspan415-7-2-6-0-2-37-0-0-1"
          x="687.05219"
-         y="168.04327"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">A</tspan></text>
+         y="121.9087"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00;">A</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-8"
        width="72.83812"
        height="17.088524"
        x="603.84546"
-       y="141.22548" />
+       y="93.225479"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;24&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;amp_sludge5&quot;},{&quot;data&quot;:&quot;25&quot;,&quot;param&quot;:&quot;#00FFFF&quot;,&quot;tag&quot;:&quot;amp_sludge5&quot;}]}" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.34228897px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="593.22589"
-       y="158.33507"
+       y="109.37842"
        id="text532-76-30-8-0-95"
        sodipodi:linespacing="125%"
        transform="scale(1.0374763,0.96387744)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-6"
          x="593.22589"
-         y="158.33507"
+         y="109.37842"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">AMPERE</tspan></text>
     <rect
        style="fill:#000000"
@@ -644,7 +647,7 @@
          x="652.72217"
          y="218.88629"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-4-7-1"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.49999998px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00;">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:39.39098358px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -657,7 +660,7 @@
          id="tspan415-7-2-6-0-2-37-0-0-5-1-4"
          x="686.75885"
          y="209.48227"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">H</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.50000003px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00;">H</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-2-1-4"
@@ -684,40 +687,40 @@
        width="73.041107"
        height="20.982718"
        x="603.84546"
-       y="112.71223" />
+       y="64.712227" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.29516602px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="661.51489"
-       y="129.74348"
+       y="81.512756"
        id="text4309-4-8-2-7-1-1-9-7-8-4-9-1-2-49-2"
        sodipodi:linespacing="125%"
        transform="scale(1.004807,0.995216)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;rpm_sludge5&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
          x="661.51489"
-         y="129.74348"
+         y="81.512756"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-58-0"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00;">0.00</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-9-64"
        width="72.83812"
        height="17.088524"
        x="603.84546"
-       y="95.623711" />
+       y="47.623711" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.34228897px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="604.04968"
-       y="111.02431"
+       y="61.225487"
        id="text532-76-30-8-0-4-0"
        sodipodi:linespacing="125%"
        transform="scale(1.0374763,0.96387744)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-16-2"
          x="604.04968"
-         y="111.02431"
+         y="61.225487"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">RPM</tspan></text>
     <rect
        style="fill:#000000"
@@ -725,53 +728,54 @@
        width="73.041107"
        height="21.556707"
        x="113.75537"
-       y="375.09579" />
+       y="345.09579" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.29516602px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="163.36058"
-       y="393.38828"
+       x="165.35101"
+       y="363.24408"
        id="text4309-4-8-2-7-1-1-9-7-8-4-9-1-2-3"
        sodipodi:linespacing="125%"
        transform="scale(1.004807,0.995216)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;amp_sludge2&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
-         x="163.36058"
-         y="393.38828"
+         x="165.35101"
+         y="363.24408"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-4"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:39.39098358px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="177.1465"
-       y="376.4006"
+       y="347.56653"
        id="text413-1-0-2-0-4-5-8-4-1"
        sodipodi:linespacing="125%"
        transform="scale(0.96113866,1.0404326)"><tspan
          sodipodi:role="line"
          id="tspan415-7-2-6-0-2-37-0-0-2"
          x="177.1465"
-         y="376.4006"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">A</tspan></text>
+         y="347.56653"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">A</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-4"
        width="72.83812"
        height="17.088524"
        x="113.75537"
-       y="358.00726" />
+       y="328.00726"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;24&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;amp_sludge2&quot;},{&quot;data&quot;:&quot;25&quot;,&quot;param&quot;:&quot;#00FFFF&quot;,&quot;tag&quot;:&quot;amp_sludge2&quot;}]}" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.34228897px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="120.83912"
-       y="383.241"
+       x="120.93692"
+       y="353.59052"
        id="text532-76-30-8-0-7"
        sodipodi:linespacing="125%"
        transform="scale(1.0374763,0.96387744)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-7"
-         x="120.83912"
-         y="383.241"
+         x="120.93692"
+         y="353.59052"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">AMPERE</tspan></text>
     <rect
        style="fill:#000000"
@@ -793,7 +797,7 @@
          x="164.97667"
          y="436.71011"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-4-7-93"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.49999998px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00;">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:39.39098358px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -806,7 +810,7 @@
          id="tspan415-7-2-6-0-2-37-0-0-5-1-5"
          x="176.8532"
          y="417.8396"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">H</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.50000003px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00;">H</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-2-1-2"
@@ -833,40 +837,40 @@
        width="73.041107"
        height="20.982718"
        x="113.75537"
-       y="329.49399" />
+       y="299.49399" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.29516602px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="173.76942"
-       y="347.56732"
+       y="317.42313"
        id="text4309-4-8-2-7-1-1-9-7-8-4-9-1-2-49-9"
        sodipodi:linespacing="125%"
        transform="scale(1.004807,0.995216)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;rpm_sludge2&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
          x="173.76942"
-         y="347.56732"
+         y="317.42313"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-58-5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-9-1"
        width="72.83812"
        height="17.088524"
        x="113.75537"
-       y="312.40549" />
+       y="282.40549" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.34228897px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="131.66295"
-       y="335.93024"
+       y="304.80597"
        id="text532-76-30-8-0-4-6"
        sodipodi:linespacing="125%"
        transform="scale(1.0374763,0.96387744)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-16-0"
          x="131.66295"
-         y="335.93024"
+         y="304.80597"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">RPM</tspan></text>
     <rect
        style="fill:#000000"
@@ -874,53 +878,54 @@
        width="73.041107"
        height="21.556707"
        x="422.2106"
-       y="372.13409" />
+       y="342.13409" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.29516602px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="470.3399"
-       y="390.41235"
+       x="472.33035"
+       y="360.26816"
        id="text4309-4-8-2-7-1-1-9-7-8-4-9-1-2-1-9"
        sodipodi:linespacing="125%"
        transform="scale(1.004807,0.995216)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;amp_sludge4&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
-         x="470.3399"
-         y="390.41235"
+         x="472.33035"
+         y="360.26816"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-3-9"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:39.39098358px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="498.07343"
-       y="373.55402"
+       y="344.71994"
        id="text413-1-0-2-0-4-5-8-4-9-6"
        sodipodi:linespacing="125%"
        transform="scale(0.96113866,1.0404326)"><tspan
          sodipodi:role="line"
          id="tspan415-7-2-6-0-2-37-0-0-4-3"
          x="498.07343"
-         y="373.55402"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">A</tspan></text>
+         y="344.71994"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">A</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-6-6"
        width="72.83812"
        height="17.088524"
        x="422.2106"
-       y="355.04556" />
+       y="325.04556"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;24&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;amp_sludge4&quot;},{&quot;data&quot;:&quot;25&quot;,&quot;param&quot;:&quot;#00FFFF&quot;,&quot;tag&quot;:&quot;amp_sludge4&quot;}]}" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.34228897px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="418.15225"
-       y="380.16833"
+       x="418.29056"
+       y="351.12833"
        id="text532-76-30-8-0-9-1"
        sodipodi:linespacing="125%"
        transform="scale(1.0374763,0.96387744)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-2-1"
-         x="418.15225"
-         y="380.16833"
+         x="418.29056"
+         y="351.12833"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">AMPERE</tspan></text>
     <rect
        style="fill:#000000"
@@ -942,7 +947,7 @@
          x="471.95599"
          y="433.73416"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-4-7-9-4"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.49999998px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00;">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:39.39098358px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -955,7 +960,7 @@
          id="tspan415-7-2-6-0-2-37-0-0-5-1-1-4"
          x="497.78009"
          y="414.99301"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">H</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.50000003px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00;">H</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-2-1-3-6"
@@ -982,40 +987,40 @@
        width="73.041107"
        height="20.982718"
        x="422.2106"
-       y="326.53229" />
+       y="296.53229" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.29516602px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="480.74878"
-       y="344.5914"
+       y="314.4472"
        id="text4309-4-8-2-7-1-1-9-7-8-4-9-1-2-49-7-1"
        sodipodi:linespacing="125%"
        transform="scale(1.004807,0.995216)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;rpm_sludge4&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
          x="480.74878"
-         y="344.5914"
+         y="314.4472"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-58-7-5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-9-6-0"
        width="72.83812"
        height="17.088524"
        x="422.2106"
-       y="309.44379" />
+       y="279.44379" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.34228897px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="428.9761"
-       y="332.85757"
+       y="301.73331"
        id="text532-76-30-8-0-4-5-5"
        sodipodi:linespacing="125%"
        transform="scale(1.0374763,0.96387744)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-16-4-1"
          x="428.9761"
-         y="332.85757"
+         y="301.73331"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">RPM</tspan></text>
     <rect
        style="fill:#000000"
@@ -1023,53 +1028,54 @@
        width="73.041107"
        height="21.556707"
        x="735.16803"
-       y="372.13409" />
+       y="342.13409" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.29516602px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="781.80017"
-       y="390.41235"
+       x="783.79059"
+       y="360.26816"
        id="text4309-4-8-2-7-1-1-9-7-8-4-9-1-2-6-5"
        sodipodi:linespacing="125%"
        transform="scale(1.004807,0.995216)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;amp_sludge6&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
-         x="781.80017"
-         y="390.41235"
+         x="783.79059"
+         y="360.26816"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-9-7"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:39.39098358px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="823.68457"
-       y="373.55402"
+       y="344.71994"
        id="text413-1-0-2-0-4-5-8-4-54-9"
        sodipodi:linespacing="125%"
        transform="scale(0.96113866,1.0404326)"><tspan
          sodipodi:role="line"
          id="tspan415-7-2-6-0-2-37-0-0-1-6"
          x="823.68457"
-         y="373.55402"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">A</tspan></text>
+         y="344.71994"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">A</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-8-0"
        width="72.83812"
        height="17.088524"
        x="735.16803"
-       y="355.04556" />
+       y="325.04556"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;24&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;amp_sludge6&quot;},{&quot;data&quot;:&quot;25&quot;,&quot;param&quot;:&quot;#00FFFF&quot;,&quot;tag&quot;:&quot;amp_sludge6&quot;}]}" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.34228897px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="719.80444"
-       y="380.16833"
+       y="350.53284"
        id="text532-76-30-8-0-95-0"
        sodipodi:linespacing="125%"
        transform="scale(1.0374763,0.96387744)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-6-1"
          x="719.80444"
-         y="380.16833"
+         y="350.53284"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">AMPERE</tspan></text>
     <rect
        style="fill:#000000"
@@ -1091,7 +1097,7 @@
          x="783.41626"
          y="433.73419"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-4-7-1-2"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.49999998px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00;">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:39.39098358px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1104,7 +1110,7 @@
          id="tspan415-7-2-6-0-2-37-0-0-5-1-4-3"
          x="823.39117"
          y="414.99301"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00">H</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.50000003px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#ffff00;">H</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-2-1-4-3"
@@ -1131,40 +1137,160 @@
        width="73.041107"
        height="20.982718"
        x="735.16803"
-       y="326.53229" />
+       y="296.53229" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.29516602px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="792.20898"
-       y="344.5914"
+       y="314.4472"
        id="text4309-4-8-2-7-1-1-9-7-8-4-9-1-2-49-2-5"
        sodipodi:linespacing="125%"
        transform="scale(1.004807,0.995216)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;rpm_sludge6&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
          x="792.20898"
-         y="344.5914"
+         y="314.4472"
          id="tspan3781-1-8-6-2-6-3-9-4-6-8-5-6-7-58-0-8"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#ffff00">0.00</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
        id="rect299-8-1-2-9-64-9"
        width="72.83812"
        height="17.088524"
        x="735.16803"
-       y="309.44379" />
+       y="279.44379" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.34228897px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="730.62823"
-       y="332.85757"
+       y="301.73331"
        id="text532-76-30-8-0-4-0-5"
        sodipodi:linespacing="125%"
        transform="scale(1.0374763,0.96387744)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-16-2-2"
          x="730.62823"
-         y="332.85757"
+         y="301.73331"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">RPM</tspan></text>
+    <rect
+       style="fill:#008000"
+       id="rect4307-16-8-1-8-7-9-8-9-6-40"
+       width="72.682541"
+       height="20.483727"
+       x="8.4328518"
+       y="136.83241" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.87727833px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="46.013988"
+       y="155.67392"
+       id="text532-76-30-8-0-8-74-17"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0374763,0.96387744)"><tspan
+         sodipodi:role="line"
+         id="tspan534-4-9-7-5-05-2-6"
+         x="46.013988"
+         y="155.67392"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;text-anchor:middle;fill:#ffffff">25-30 A</tspan></text>
+    <rect
+       style="fill:#008000"
+       id="rect4307-16-8-1-8-7-9-8-9-6-40-8"
+       width="72.682541"
+       height="20.483727"
+       x="288.88806"
+       y="131.87074" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.87727833px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="316.33844"
+       y="150.52629"
+       id="text532-76-30-8-0-8-74-17-3"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0374763,0.96387744)"><tspan
+         sodipodi:role="line"
+         id="tspan534-4-9-7-5-05-2-6-0"
+         x="316.33844"
+         y="150.52629"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;text-anchor:middle;fill:#ffffff">25-30 A</tspan></text>
+    <rect
+       style="fill:#008000"
+       id="rect4307-16-8-1-8-7-9-8-9-6-40-0"
+       width="73.088417"
+       height="20.483727"
+       x="603.84546"
+       y="131.87074" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.87727833px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="619.91876"
+       y="150.52631"
+       id="text532-76-30-8-0-8-74-17-1"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0374763,0.96387744)"><tspan
+         sodipodi:role="line"
+         id="tspan534-4-9-7-5-05-2-6-5"
+         x="619.91876"
+         y="150.52631"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;text-anchor:middle;fill:#ffffff">25-30 A</tspan></text>
+    <rect
+       style="fill:#008000"
+       id="rect4307-16-8-1-8-7-9-8-9-6-40-6"
+       width="72.969536"
+       height="20.483727"
+       x="113.75537"
+       y="366.6525" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.87727833px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="147.53198"
+       y="394.10678"
+       id="text532-76-30-8-0-8-74-17-2"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0374763,0.96387744)"><tspan
+         sodipodi:role="line"
+         id="tspan534-4-9-7-5-05-2-6-59"
+         x="147.53198"
+         y="394.10678"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;text-anchor:middle;fill:#ffffff">25-30 A</tspan></text>
+    <rect
+       style="fill:#008000"
+       id="rect4307-16-8-1-8-7-9-8-9-6-40-6-6"
+       width="72.969536"
+       height="20.483727"
+       x="422.2106"
+       y="363.6908" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.87727833px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="444.84503"
+       y="391.03409"
+       id="text532-76-30-8-0-8-74-17-2-3"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0374763,0.96387744)"><tspan
+         sodipodi:role="line"
+         id="tspan534-4-9-7-5-05-2-6-59-3"
+         x="444.84503"
+         y="391.03409"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;text-anchor:middle;fill:#ffffff">25-30 A</tspan></text>
+    <rect
+       style="fill:#008000"
+       id="rect4307-16-8-1-8-7-9-8-9-6-40-6-0"
+       width="72.969536"
+       height="20.483727"
+       x="735.16803"
+       y="363.6908" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.87727833px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="746.49762"
+       y="391.03409"
+       id="text532-76-30-8-0-8-74-17-2-9"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0374763,0.96387744)"><tspan
+         sodipodi:role="line"
+         id="tspan534-4-9-7-5-05-2-6-59-9"
+         x="746.49762"
+         y="391.03409"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;text-anchor:middle;fill:#ffffff">25-30 A</tspan></text>
   </g>
 </svg>

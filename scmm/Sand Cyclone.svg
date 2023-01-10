@@ -141,8 +141,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.87109375"
-     inkscape:cx="485.27472"
-     inkscape:cy="276.81303"
+     inkscape:cx="78.883633"
+     inkscape:cy="296.25512"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -292,16 +292,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.32675743px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="27.285437"
-       y="157.47546"
+       x="19.379271"
+       y="159.49921"
        id="text532-76-30-8-0-1-9"
        sodipodi:linespacing="125%"
        transform="scale(1.0118683,0.9882709)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-0-2"
-         x="27.285437"
-         y="157.47546"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">PRESSURE IN</tspan></text>
+         x="19.379271"
+         y="159.49921"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Tekanan Masuk</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.32675743px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -394,7 +394,7 @@
          id="tspan534-4-9-7-5-0-2-67"
          x="176.51865"
          y="57.555542"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">PRESSURE OUT</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Tekanan Keluar</tspan></text>
     <rect
        style="fill:#000000"
        id="rect4307-16-8-1-8-7-9-8-1-2-5"
@@ -493,16 +493,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.32675743px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="262.67429"
+       x="260.69775"
        y="159.56657"
        id="text532-76-30-8-0-1-9-36"
        sodipodi:linespacing="125%"
        transform="scale(1.0118683,0.9882709)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-0-2-9"
-         x="262.67429"
+         x="260.69775"
          y="159.56657"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">PRESSURE IN</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Tekanan Masuk</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.32675743px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -569,7 +569,7 @@
          id="tspan534-4-9-7-5-0-2-67-3"
          x="405.39328"
          y="59.946121"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">PRESSURE OUT</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Tekanan Keluar</tspan></text>
     <rect
        style="fill:#000000"
        id="rect4307-16-8-1-8-7-9-8-1-2-59"
@@ -668,16 +668,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.32675743px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="495.37723"
-       y="160.30849"
+       x="491.42416"
+       y="162.33223"
        id="text532-76-30-8-0-1-9-1"
        sodipodi:linespacing="125%"
        transform="scale(1.0118683,0.9882709)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-0-2-0"
-         x="495.37723"
-         y="160.30849"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">PRESSURE IN</tspan></text>
+         x="491.42416"
+         y="162.33223"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Tekanan Masuk</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.32675743px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -744,7 +744,7 @@
          id="tspan534-4-9-7-5-0-2-67-1"
          x="640.07184"
          y="62.121834"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">PRESSURE OUT</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Tekanan Keluar</tspan></text>
     <rect
        style="fill:#000000"
        id="rect4307-16-8-1-8-7-9-8-1-2-8"
@@ -843,16 +843,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.32675743px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="718.14398"
-       y="157.29515"
+       x="714.19086"
+       y="159.31889"
        id="text532-76-30-8-0-1-9-11"
        sodipodi:linespacing="125%"
        transform="scale(1.0118683,0.9882709)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-7-5-0-2-5"
-         x="718.14398"
-         y="157.29515"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">PRESSURE IN</tspan></text>
+         x="714.19086"
+         y="159.31889"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Tekanan Masuk</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.32675743px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -919,7 +919,7 @@
          id="tspan534-4-9-7-5-0-2-67-4"
          x="871.91479"
          y="58.836311"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">PRESSURE OUT</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Tekanan Keluar</tspan></text>
     <image
        y="42.557915"
        x="114.06405"
