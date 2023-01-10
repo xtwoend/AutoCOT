@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+      <script type="module" crossorigin src="/assets/vendor.cf2ca3b2.js"></script>
+      <script type="module" crossorigin src="/assets/app.7389e43b.js"></script>
+      <link rel="stylesheet" href="/assets/app.5660bab4.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="table-wrapper">
+                <log-table
+                    url="http://192.168.170.87:9501/table/6/data"
+                    export="http://192.168.170.87:9501/table/6/export"
+                    title="Power Meter GH"
+                    :headers="[
+                        {value: 'terminal_time', text: 'Timestamp', sortable: true, fixed: true, width: 180},
+                        {value: 'voltage_a', text: 'Voltage A'},
+                        {value: 'voltage_b', text: 'Voltage B'},
+                        {value: 'voltage_c', text: 'Voltage C'},
+                        {value: 'voltage_ab', text: 'Voltage AB'},
+                        {value: 'voltage_bc', text: 'Voltage BC'},
+                        {value: 'voltage_ac', text: 'Voltage AC'},
+                        {value: 'active_power_a', text: 'Active Power A'},
+                        {value: 'active_power_b', text: 'Active Power B'},
+                        {value: 'active_power_c', text: 'Active Power C'},
+                        {value: 'total_active_power', text: 'Total Active Power'},
+                        
+                        {value: 'reactive_power_a', text: 'Reactive Power A'},
+                        {value: 'reactive_power_b', text: 'Reactive Power B'},
+                        {value: 'reactive_power_c', text: 'Reactive Power C'},
+                        {value: 'total_reactive_power', text: 'Total Reactive Power'},
+
+                        {value: 'apparent_power_a', text: 'Apparent Power A'},
+                        {value: 'apparent_power_b', text: 'Apparent Power B'},
+                        {value: 'apparent_power_c', text: 'Apparent Power C'},
+                        {value: 'total_apparent_power', text: 'Total Apparent Power'},
+
+                        {value: 'power_factor_a', text: 'Power Factor A'},
+                        {value: 'power_factor_b', text: 'Power Factor B'},
+                        {value: 'power_factor_c', text: 'Power Factor C'},
+                        {value: 'total_power_factor', text: 'Total Power Factor'},
+
+                        {value: 'frequency', text: 'Frequency'},
+                        {value: 'total_kwh', text: 'Total Kwh'},
+                        {value: 'total_kvarh', text: 'Total Kvarh'},
+                        {value: 'forward_kwh', text: 'Forward Kwh'},
+                        {value: 'backward_kwh', text: 'Backward Kwh'},
+                        {value: 'forward_kvarh', text: 'Forward Kvarh'},
+                        {value: 'backward_kvarh', text: 'Backward Kvarh'},
+
+                    ]"
+                    ref="vtable"
+                    >
+                </log-table>
+            </div>
+        </div>
+        
+    </body>
+</html>

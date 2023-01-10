@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+  <script type="module" crossorigin src="/assets/vendor.cf2ca3b2.js"></script>
+  <script type="module" crossorigin src="/assets/app.7389e43b.js"></script>
+  <link rel="stylesheet" href="/assets/app.5660bab4.css">
+</head>
+<body>
+    <div id="app">
+        <div class="section-tool">
+            <div class="control-group">
+                <label for="live">
+                    <input type="radio" name="mode" id="live" value="live" :checked="active == null" @click="active = 'live'">
+                    <span>Live Trend</span>
+                </label>
+            </div>
+            <div class="control-group">
+                <label for="history">
+                    <input type="radio" name="mode" id="history" value="history" :checked="active == 'history'" @click="active = 'history'">
+                    <span>Historical Trend</span>
+                </label>
+            </div>
+        </div>
+        <trend-live 
+            v-if="active == null || active == 'live'"
+            title="Power Meter"
+            url="http://192.168.170.87:9501/mqtt/6/log"
+            :mqtt="{
+                url: 'ws://192.168.170.87:9001',
+                username: 'admin-autocot',
+                password: 'Bumitama123!',
+                topic: 'data/bga/lvboardgh/mknr',
+                timefield: '_terminalTime'
+            }"
+            :default-data="[
+                {data: 'voltage_a', text: 'Voltage A'},
+                {data: 'voltage_b', text: 'Voltage B'},
+                {data: 'voltage_c', text: 'Voltage C'},
+
+                {data: 'frequency', text: 'Frequency'},
+                {data: 'total_kwh', text: 'Total Kwh'},
+            ]"
+            :columns="[
+                {data: 'voltage_a', text: 'Voltage A'},
+                {data: 'voltage_b', text: 'Voltage B'},
+                {data: 'voltage_c', text: 'Voltage C'},
+                {data: 'voltage_ab', text: 'Voltage AB'},
+                {data: 'voltage_bc', text: 'Voltage BC'},
+                {data: 'voltage_ac', text: 'Voltage AC'},
+                {data: 'active_power_a', text: 'Active Power A'},
+                {data: 'active_power_b', text: 'Active Power B'},
+                {data: 'active_power_c', text: 'Active Power C'},
+                {data: 'total_active_power', text: 'Total Active Power'},
+                
+                {data: 'reactive_power_a', text: 'Reactive Power A'},
+                {data: 'reactive_power_b', text: 'Reactive Power B'},
+                {data: 'reactive_power_c', text: 'Reactive Power C'},
+                {data: 'total_reactive_power', text: 'Total Reactive Power'},
+
+                {data: 'apparent_power_a', text: 'Apparent Power A'},
+                {data: 'apparent_power_b', text: 'Apparent Power B'},
+                {data: 'apparent_power_c', text: 'Apparent Power C'},
+                {data: 'total_apparent_power', text: 'Total Apparent Power'},
+
+                {data: 'power_factor_a', text: 'Power Factor A'},
+                {data: 'power_factor_b', text: 'Power Factor B'},
+                {data: 'power_factor_c', text: 'Power Factor C'},
+                {data: 'total_power_factor', text: 'Total Power Factor'},
+
+                {data: 'frequency', text: 'Frequency'},
+                {data: 'total_kwh', text: 'Total Kwh'},
+                {data: 'total_kvarh', text: 'Total Kvarh'},
+                {data: 'forward_kwh', text: 'Forward Kwh'},
+                {data: 'backward_kwh', text: 'Backward Kwh'},
+                {data: 'forward_kvarh', text: 'Forward Kvarh'},
+                {data: 'backward_kvarh', text: 'Backward Kvarh'},
+            ]"></trend-live>
+
+        <trend-view 
+            v-if="active == 'history'"
+            title="Power Meter"
+            url="http://192.168.170.87:9501/trend/6/data"
+            :default-data="[
+                {data: 'voltage_a', text: 'Voltage A'},
+                {data: 'voltage_b', text: 'Voltage B'},
+                {data: 'voltage_c', text: 'Voltage C'},
+
+                {data: 'frequency', text: 'Frequency'},
+                {data: 'total_kwh', text: 'Total Kwh'},
+            ]"
+            :columns="[
+                {data: 'voltage_a', text: 'Voltage A'},
+                {data: 'voltage_b', text: 'Voltage B'},
+                {data: 'voltage_c', text: 'Voltage C'},
+                {data: 'voltage_ab', text: 'Voltage AB'},
+                {data: 'voltage_bc', text: 'Voltage BC'},
+                {data: 'voltage_ac', text: 'Voltage AC'},
+                {data: 'active_power_a', text: 'Active Power A'},
+                {data: 'active_power_b', text: 'Active Power B'},
+                {data: 'active_power_c', text: 'Active Power C'},
+                {data: 'total_active_power', text: 'Total Active Power'},
+                
+                {data: 'reactive_power_a', text: 'Reactive Power A'},
+                {data: 'reactive_power_b', text: 'Reactive Power B'},
+                {data: 'reactive_power_c', text: 'Reactive Power C'},
+                {data: 'total_reactive_power', text: 'Total Reactive Power'},
+
+                {data: 'apparent_power_a', text: 'Apparent Power A'},
+                {data: 'apparent_power_b', text: 'Apparent Power B'},
+                {data: 'apparent_power_c', text: 'Apparent Power C'},
+                {data: 'total_apparent_power', text: 'Total Apparent Power'},
+
+                {data: 'power_factor_a', text: 'Power Factor A'},
+                {data: 'power_factor_b', text: 'Power Factor B'},
+                {data: 'power_factor_c', text: 'Power Factor C'},
+                {data: 'total_power_factor', text: 'Total Power Factor'},
+
+                {data: 'frequency', text: 'Frequency'},
+                {data: 'total_kwh', text: 'Total Kwh'},
+                {data: 'total_kvarh', text: 'Total Kvarh'},
+                {data: 'forward_kwh', text: 'Forward Kwh'},
+                {data: 'backward_kwh', text: 'Backward Kwh'},
+                {data: 'forward_kvarh', text: 'Forward Kvarh'},
+                {data: 'backward_kvarh', text: 'Backward Kvarh'},
+            ]"></trend-view>
+
+    </div>
+    
+</body>
+</html>
