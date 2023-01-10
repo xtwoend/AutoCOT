@@ -17,7 +17,7 @@
                     export="http://192.168.170.87:9501/table/4/export?type=digester_and_press"
                     title="DIGESTER & PRESS DATA LOGGER"
                     :headers="[
-                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true, fixed: true, width: 180},
                         {value: 'temp_dig1', text: 'TEMPERATUR DIGESTER #01'},
                         {value: 'level_dig1', text: 'LEVEL DIGESTER #01'},
                         {value: 'temp_dig2', text: 'TEMPERATUR DIGESTER #02'},

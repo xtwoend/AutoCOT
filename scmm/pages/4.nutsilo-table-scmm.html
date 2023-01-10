@@ -17,7 +17,7 @@
                     export="http://192.168.170.87:9501/table/5/export?type=nut_silo"
                     title="Nut Silo Data Logger"
                     :headers="[
-                        {value: 'terminal_time', text: 'Timestamp', sortable: true},
+                        {value: 'terminal_time', text: 'Timestamp', sortable: true, fixed: true, width: 180},
                         {value: 'level_nutsilo1', text: 'LEVEL NUT SILO 01'},
                         {value: 'temp1_nutsilo1', text: 'TEMPERATUR#1 NUT SILO 01'},
                         {value: 'temp2_nutsilo1', text: 'TEMPERATUR#2 NUT SILO 01'},

@@ -17,7 +17,7 @@
                     export="http://192.168.170.87:9501/table/3/export?type=vacuum_drier"
                     title="Vacuum Drier Data Logger"
                     :headers="[
-                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true, fixed: true, width: 180},
                         {value: 'vacum1', text: 'VACUUM 01'},
                         {value: 'vacum2', text: 'VACUUM 02'},
                         {value: 'hm_vacuum1', text: 'HM VACUUM 1'},

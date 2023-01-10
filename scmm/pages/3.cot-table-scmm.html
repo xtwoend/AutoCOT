@@ -15,7 +15,7 @@
                     export="http://192.168.170.87:9501/table/4/export?type=cot"
                     title="CRUDE OIL TANK DATA LOGGER"
                     :headers="[
-                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true, fixed: true, width: 180},
                         {value: 'level_cot', text: 'LEVEL'},
                         {value: 'temp_cot', text: 'TEMPERATUR'},
                         {value: 'hmcot_motor1', text: 'HM COT MOTOR 1'},

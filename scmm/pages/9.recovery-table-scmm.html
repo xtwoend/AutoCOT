@@ -17,7 +17,7 @@
                     export="http://192.168.170.87:9501/table/3/export?type=recovery_pit"
                     title="Recovery Pit Data Logger"
                     :headers="[
-                        {value: 'terminal_time', text: 'Timestamp', sortable: true},
+                        {value: 'terminal_time', text: 'Timestamp', sortable: true, fixed: true, width: 180},
                         {value: 'temp_inlet_recpit', text: 'TEMPERATUR INLET RECPIT'},
                         {value: 'temp_center_recpit', text: 'TEMPERATUR CENTER RECPIT'},
                         {value: 'temp_outlet_recpit', text: 'TEMPERATUR OUTLET RECPIT'},

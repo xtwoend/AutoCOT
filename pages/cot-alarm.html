@@ -16,7 +16,7 @@
                     url="http://192.168.170.87:9501/alarm"
                     title="Alarm Notification"
                     :headers="[
-                        {text: 'Timestamp', value: 'started_at', sortable: true},
+                        {text: 'Timestamp', value: 'started_at', sortable: true, fixed: true, width: 180},
                         {text: 'Alarm Code', value: 'code', sortable: true},
                         {text: 'Device', value: 'device.name'},
                         {text: 'Status', value: 'status', sortable: true},
