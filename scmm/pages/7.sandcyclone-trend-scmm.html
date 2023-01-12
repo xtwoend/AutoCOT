@@ -38,46 +38,46 @@
                 timefield: 'ts'
             }"
             :default-data="[
-                {data: 'inlet_cyclone1', text: 'INLET CYCLONE 01', range: [0, 6]},
-                {data: 'outlet_cyclone1', text: 'OUTLET CYCLONE 01', range: [0, 6]}, 
-                {data: 'hm_cyclone1', text: 'HM CYCLONE 01', range: [0, 6]},
+                {data: 'inlet_cyclone1', text: 'INLET CYCLONE 01', range: [0, 6], group: 'Cyclone No.1'},
+                {data: 'outlet_cyclone1', text: 'OUTLET CYCLONE 01', range: [0, 6], group: 'Cyclone No.1'}, 
+                {data: 'hm_cyclone1', text: 'HM CYCLONE 01', range: [0, 6], group: 'Cyclone No.1'},
             ]"
             :columns="[
-                {data: 'inlet_cyclone1', text: 'INLET CYCLONE 01', range: [0, 6]},
-                {data: 'outlet_cyclone1', text: 'OUTLET CYCLONE 01', range: [0, 6]}, 
-                {data: 'inlet_cyclone2', text: 'INLET CYCLONE 02', range: [0, 6]},
-                {data: 'outlet_cyclone2', text: 'OUTLET CYCLONE 02', range: [0, 6]}, 
-                {data: 'Inlet_cyclone3', text: 'INLET CYCLONE 03', range: [0, 6]},
-                {data: 'outlet_cyclone3', text: 'OUTLET CYCLONE 03', range: [0, 6]}, 
-                {data: 'inlet_cyclone4', text: 'INLET CYCLONE 04', range: [0, 6]},
-                {data: 'outlet_cyclone4', text: 'OUTLET CYCLONE 04', range: [0, 6]}, 
-                {data: 'hm_cyclone1', text: 'HM CYCLONE 01'},
-                {data: 'hm_cyclone2', text: 'HM CYCLONE 02'},
-                {data: 'hm_cyclone3', text: 'HM CYCLONE 03'},
-                {data: 'hm_cyclone4', text: 'HM CYCLONE 04'},
+                {data: 'inlet_cyclone1', text: 'INLET CYCLONE 01', range: [0, 6], group: 'Cyclone No.1'},
+                {data: 'outlet_cyclone1', text: 'OUTLET CYCLONE 01', range: [0, 6], group: 'Cyclone No.1'}, 
+                {data: 'inlet_cyclone2', text: 'INLET CYCLONE 02', range: [0, 6], group: 'Cyclone No.2'},
+                {data: 'outlet_cyclone2', text: 'OUTLET CYCLONE 02', range: [0, 6], group: 'Cyclone No.2'}, 
+                {data: 'Inlet_cyclone3', text: 'INLET CYCLONE 03', range: [0, 6], group: 'Cyclone No.3'},
+                {data: 'outlet_cyclone3', text: 'OUTLET CYCLONE 03', range: [0, 6], group: 'Cyclone No.3'}, 
+                {data: 'inlet_cyclone4', text: 'INLET CYCLONE 04', range: [0, 6], group: 'Cyclone No.4'},
+                {data: 'outlet_cyclone4', text: 'OUTLET CYCLONE 04', range: [0, 6], group: 'Cyclone No.4'}, 
+                {data: 'hm_cyclone1', text: 'HM CYCLONE 01', group: 'Cyclone No.1'},
+                {data: 'hm_cyclone2', text: 'HM CYCLONE 02', group: 'Cyclone No.2'},
+                {data: 'hm_cyclone3', text: 'HM CYCLONE 03', group: 'Cyclone No.3'},
+                {data: 'hm_cyclone4', text: 'HM CYCLONE 04', group: 'Cyclone No.4'},
             ]"></trend-live>
         <trend-view 
             v-if="active == 'history'"
             title="Sand Cyclone"
             url="http://192.168.170.87:9501/trend/3/data"
             :default-data="[
-                {data: 'inlet_cyclone1', text: 'INLET CYCLONE 01', range: [0, 6]},
-                {data: 'outlet_cyclone1', text: 'OUTLET CYCLONE 01', range: [0, 6]}, 
-                {data: 'hm_cyclone1', text: 'HM CYCLONE 01', range: [0, 6]},
+                {data: 'inlet_cyclone1', text: 'INLET CYCLONE 01', range: [0, 6], group: 'Cyclone No.1'},
+                {data: 'outlet_cyclone1', text: 'OUTLET CYCLONE 01', range: [0, 6], group: 'Cyclone No.1'}, 
+                {data: 'hm_cyclone1', text: 'HM CYCLONE 01', range: [0, 6], group: 'Cyclone No.1'},
             ]"
             :columns="[
-                {data: 'inlet_cyclone1', text: 'INLET CYCLONE 01', range: [0, 6]},
-                {data: 'outlet_cyclone1', text: 'OUTLET CYCLONE 01', range: [0, 6]}, 
-                {data: 'inlet_cyclone2', text: 'INLET CYCLONE 02', range: [0, 6]},
-                {data: 'outlet_cyclone2', text: 'OUTLET CYCLONE 02', range: [0, 6]}, 
-                {data: 'Inlet_cyclone3', text: 'INLET CYCLONE 03', range: [0, 6]},
-                {data: 'outlet_cyclone3', text: 'OUTLET CYCLONE 03', range: [0, 6]}, 
-                {data: 'inlet_cyclone4', text: 'INLET CYCLONE 04', range: [0, 6]},
-                {data: 'outlet_cyclone4', text: 'OUTLET CYCLONE 04', range: [0, 6]}, 
-                {data: 'hm_cyclone1', text: 'HM CYCLONE 01'},
-                {data: 'hm_cyclone2', text: 'HM CYCLONE 02'},
-                {data: 'hm_cyclone3', text: 'HM CYCLONE 03'},
-                {data: 'hm_cyclone4', text: 'HM CYCLONE 04'},
+                {data: 'inlet_cyclone1', text: 'INLET CYCLONE 01', range: [0, 6], group: 'Cyclone No.1'},
+                {data: 'outlet_cyclone1', text: 'OUTLET CYCLONE 01', range: [0, 6], group: 'Cyclone No.1'}, 
+                {data: 'inlet_cyclone2', text: 'INLET CYCLONE 02', range: [0, 6], group: 'Cyclone No.2'},
+                {data: 'outlet_cyclone2', text: 'OUTLET CYCLONE 02', range: [0, 6], group: 'Cyclone No.2'}, 
+                {data: 'Inlet_cyclone3', text: 'INLET CYCLONE 03', range: [0, 6], group: 'Cyclone No.3'},
+                {data: 'outlet_cyclone3', text: 'OUTLET CYCLONE 03', range: [0, 6], group: 'Cyclone No.3'}, 
+                {data: 'inlet_cyclone4', text: 'INLET CYCLONE 04', range: [0, 6], group: 'Cyclone No.4'},
+                {data: 'outlet_cyclone4', text: 'OUTLET CYCLONE 04', range: [0, 6], group: 'Cyclone No.4'}, 
+                {data: 'hm_cyclone1', text: 'HM CYCLONE 01', group: 'Cyclone No.1'},
+                {data: 'hm_cyclone2', text: 'HM CYCLONE 02', group: 'Cyclone No.2'},
+                {data: 'hm_cyclone3', text: 'HM CYCLONE 03', group: 'Cyclone No.3'},
+                {data: 'hm_cyclone4', text: 'HM CYCLONE 04', group: 'Cyclone No.4'},
             ]"></trend-live>
 
     </div>
