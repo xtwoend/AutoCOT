@@ -42,31 +42,49 @@ if(typeof obj_digester == 'object') {
 	setTag( 'level_cot', obj_digester.level_cot);  
 	setTag( 'temp_cot', obj_digester.temp_cot);  
 	
-	setTag( 'temp_sandtrap1 ', obj_digester.temp_sandtrap1);  
+	setTag( 'temp_sandtrap1 ', obj_digester.temp_sandtrap1*1.1);  
 	setTag( 'temp_sandtrap2 ', obj_digester.temp_sandtrap2);  
 
-	setTag( 'hm_dig1 ', obj_digester.hm_dig1);    
-	setTag( 'hm_dig2 ', obj_digester.hm_dig2);    
-	setTag( 'hm_dig3 ', obj_digester.hm_dig3);    
-	setTag( 'hm_dig4 ', obj_digester.hm_dig4);    
-	setTag( 'hm_dig5 ', obj_digester.hm_dig5);    
-	setTag( 'hm_dig6 ', obj_digester.hm_dig6); 
+	setTag( 'hm_dig1_totalizer', obj_digester.hm_dig1);    
+	setTag( 'hm_dig2_totalizer', obj_digester.hm_dig2);    
+	setTag( 'hm_dig3_totalizer', obj_digester.hm_dig3);    
+	setTag( 'hm_dig4_totalizer', obj_digester.hm_dig4);    
+	setTag( 'hm_dig5_totalizer', obj_digester.hm_dig5);    
+	setTag( 'hm_dig6_totalizer', obj_digester.hm_dig6); 
 
-	setTag( 'hm_press1 ', obj_digester.hm_press1);     
-	setTag( 'hm_press2 ', obj_digester.hm_press2);     
-	setTag( 'hm_press3 ', obj_digester.hm_press3);     
-	setTag( 'hm_press4 ', obj_digester.hm_press4);     
-	setTag( 'hm_press5 ', obj_digester.hm_press5);     
-	setTag( 'hm_press6 ', obj_digester.hm_press6); 
+	setTag( 'hm_press1_totalizer', obj_digester.hm_press1);     
+	setTag( 'hm_press2_totalizer', obj_digester.hm_press2);     
+	setTag( 'hm_press3_totalizer', obj_digester.hm_press3);     
+	setTag( 'hm_press4_totalizer', obj_digester.hm_press4);     
+	setTag( 'hm_press5_totalizer', obj_digester.hm_press5);     
+	setTag( 'hm_press6_totalizer', obj_digester.hm_press6); 
 
-	setTag( 'hmcot_motor1 ', obj_digester.hmcot_motor1);      
-	setTag( 'hmcot_motor2 ', obj_digester.hmcot_motor2);      
-	setTag( 'hmcot_motor3', obj_digester.hmcot_motor3); 
+	setTag( 'hmcot_motor1_totalizer', obj_digester.hmcot_motor1);      
+	setTag( 'hmcot_motor2_totalizer', obj_digester.hmcot_motor2);      
+	setTag( 'hmcot_motor3_totalizer', obj_digester.hmcot_motor3); 
 	
 	setTag( 'status_cot_m1 ', obj_digester.status_cot_m1);      
 	setTag( 'status_cot_m2 ', obj_digester.status_cot_m2);      
 	setTag( 'status_cot_m3', obj_digester.status_cot_m3); 
 	setTag( 'temp_vnotch', obj_digester.temp_vnotch); 
+	
+	setTag( 'hm_dig1 ', obj_digester.hm_dig1_daily);    
+	setTag( 'hm_dig2 ', obj_digester.hm_dig2_daily);    
+	setTag( 'hm_dig3 ', obj_digester.hm_dig3_daily);    
+	setTag( 'hm_dig4 ', obj_digester.hm_dig4_daily);    
+	setTag( 'hm_dig5 ', obj_digester.hm_dig5_daily);    
+	setTag( 'hm_dig6 ', obj_digester.hm_dig6_daily); 
+
+	setTag( 'hm_press1 ', obj_digester.hm_press1_daily);     
+	setTag( 'hm_press2 ', obj_digester.hm_press2_daily);     
+	setTag( 'hm_press3 ', obj_digester.hm_press3_daily);     
+	setTag( 'hm_press4 ', obj_digester.hm_press4_daily);     
+	setTag( 'hm_press5 ', obj_digester.hm_press5_daily);     
+	setTag( 'hm_press6 ', obj_digester.hm_press6_daily); 
+
+	setTag( 'hmcot_motor1 ', obj_digester.hmcot_motor1_daily);      
+	setTag( 'hmcot_motor2 ', obj_digester.hmcot_motor2_daily);      
+	setTag( 'hmcot_motor3', obj_digester.hmcot_motor3_daily);
 }
 
 

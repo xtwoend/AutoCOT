@@ -574,5 +574,44 @@
        x="317.63974"
        y="349.86337"
        inkscape:label="{&quot;attr&quot;:&quot;open&quot;,&quot;height&quot;:400,&quot;istag&quot;:0,&quot;src&quot;:&quot;scmm/Recovery PitX.svg&quot;,&quot;type&quot;:&quot;_self&quot;,&quot;width&quot;:500,&quot;x&quot;:100,&quot;y&quot;:100}" />
+    <rect
+       style="fill:#008000"
+       id="rect209-8-9-2-5"
+       width="175.80086"
+       height="21.067045"
+       x="545.35547"
+       y="329.30136" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:35.79690933px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="592.38159"
+       y="344.19278"
+       id="text201-9-4-2-0-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan203-3-3-3-3-8"
+         x="592.38159"
+         y="344.19278"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#f9f9f9">RUNNING HOUR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="594.198"
+       y="415.57843"
+       id="text119"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan121"
+         x="594.198"
+         y="415.57843"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">HM</tspan></text>
+    <rect
+       style="fill:#1a1a1a;fill-opacity:0.11138605"
+       id="rect374-7-6-0-7"
+       width="175.989"
+       height="119.8877"
+       x="545.16736"
+       y="350.36841"
+       inkscape:label="{&quot;attr&quot;:&quot;open&quot;,&quot;height&quot;:400,&quot;istag&quot;:0,&quot;src&quot;:&quot;scmm/HM Digester Press.svg&quot;,&quot;type&quot;:&quot;_self&quot;,&quot;width&quot;:500,&quot;x&quot;:100,&quot;y&quot;:100}" />
   </g>
 </svg>

@@ -71,21 +71,19 @@ setTag( 'hm_vacuumpump1',data.hm_vacuum1);
 setTag( 'hm_vacuumpump2',data.hm_vacuum2);
 
 
-setTag( 'hm_sludge1',data.hm_sludge1);
+setTag( 'hm_sludge1',data.hm_sludge1_daily);
+setTag( 'hm_sludge2',data.hm_sludge2_daily);
+setTag( 'hm_sludge3',data.hm_sludge3_daily);
+setTag('hm_sludge4', data.hm_sludge4_daily);
+setTag( 'hm_sludge5',data.hm_sludge5_daily);
+setTag( 'hm_sludge6',data.hm_sludge6_daily);
 
-setTag( 'hm_sludge2',data.hm_sludge2);
-
-setTag( 'hm_sludge3',data.hm_sludge3);
-
-setTag('hm_sludge4', data.hm_sludge4);
-
-
-setTag( 'hm_sludge5',data.hm_sludge5);
-
-
-setTag( 'hm_sludge6',data.hm_sludge6);
-
-
+setTag( 'hm_sludge1_totalizer',data.hm_sludge1);
+setTag( 'hm_sludge2_totalizer',data.hm_sludge2);
+setTag( 'hm_sludge3_totalizer',data.hm_sludge3);
+setTag('hm_sludge4_totalizer', data.hm_sludge4);
+setTag( 'hm_sludge5_totalizer',data.hm_sludge5);
+setTag( 'hm_sludge6_totalizer',data.hm_sludge6);
 
 setTag( 'hm_sandcyclone1',data.hm_cyclone1);
 

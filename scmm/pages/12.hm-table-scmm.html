@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script type="module" crossorigin src="/assets/vendor.4a0ab857.js"></script>
+    <script type="module" crossorigin src="/assets/app.c029f7af.js"></script>
+    <link rel="stylesheet" href="/assets/app.5660bab4.css">
+</head>
+<body>
+    <div id="app">
+        <div class="section-tool">
+            <div class="control-group">
+                <label for="live">
+                    <input type="radio" name="mode" id="live" value="live" :checked="active == null" @click="active = 'live'">
+                    <span>Live Trend</span>
+                </label>
+            </div>
+            <div class="control-group">
+                <label for="history">
+                    <input type="radio" name="mode" id="history" value="history" :checked="active == 'history'" @click="active = 'history'">
+                    <span>Historical Trend</span>
+                </label>
+            </div>
+        </div>
+        <trend-live 
+            v-if="active == null || active == 'live'"
+            title="Vacuum Drier"
+            url="http://192.168.170.87:9501/mqtt/3/log"
+            :mqtt="{
+                url: 'ws://192.168.170.87:9001',
+                username: 'admin-autocot',
+                password: 'Bumitama123!',
+                topic: 'data/bga/clarification/scmm',
+                timefield: 'ts'
+            }"
+            :default-data="[
+                {data: 'vacum1', text: 'VACUUM 01', range: [-760, 0], group: 'Vacuum No.1'},
+                {data: 'hm_vacuum1', text: 'HM VACUUM 1', group: 'Vacuum No.1'}
+            ]"
+            :columns="[
+                {data: 'vacum1', text: 'VACUUM 01', range: [-760, 0], group: 'Vacuum No.1'},
+                {data: 'vacum2', text: 'VACUUM 02', range: [-760, 0], group: 'Vacuum No.2'},
+                {data: 'hm_vacuum1', text: 'HM VACUUM 1', group: 'Vacuum No.1'},
+                {data: 'hm_vacuum2', text: 'HM VACUUM 2', group: 'Vacuum No.2'},
+            ]"></trend-live>
+
+        <trend-view 
+            v-if="active == 'history'"
+            title="Vacuum Drier"
+            url="http://192.168.170.87:9501/trend/3/data"
+            :default-data="[
+                {data: 'vacum1', text: 'VACUUM 01', range: [-760, 0], group: 'Vacuum No.1'},
+                {data: 'hm_vacuum1', text: 'HM VACUUM 1', group: 'Vacuum No.1'}
+            ]"
+            :columns="[
+                {data: 'vacum1', text: 'VACUUM 01', range: [-760, 0], group: 'Vacuum No.1'},
+                {data: 'vacum2', text: 'VACUUM 02', range: [-760, 0], group: 'Vacuum No.2'},
+                {data: 'hm_vacuum1', text: 'HM VACUUM 1', group: 'Vacuum No.1'},
+                {data: 'hm_vacuum2', text: 'HM VACUUM 2', group: 'Vacuum No.2'},
+            ]"></trend-live>
+
+    </div>
+    
+</body>
+</html>
