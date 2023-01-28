@@ -12,9 +12,9 @@
         <div id="app">
             <div class="table-wrapper">
                 <log-table
-                    url="http://192.168.170.87:9501/table/6/data"
-                    export="http://192.168.170.87:9501/table/6/export"
-                    title="Power Meter GH"
+                    url="http://192.168.170.87:9501/table/10/data"
+                    export="http://192.168.170.87:9501/table/10/export"
+                    title="Table Log Power Meter CKNT"
                     :headers="[
                         {value: 'terminal_time', text: 'Timestamp', sortable: true, fixed: true, width: 180},
                         {value: 'voltage_a', text: 'Voltage A'},
@@ -46,6 +46,7 @@
                         {value: 'frequency', text: 'Frequency'},
                         {value: 'total_kwh', text: 'Total Kwh'},
                         {value: 'total_kvarh', text: 'Total Kvarh'},
+                        {value: 'total_daily_kwh', text: 'Today Kwh'},
                         {value: 'forward_kwh', text: 'Forward Kwh'},
                         {value: 'backward_kwh', text: 'Backward Kwh'},
                         {value: 'forward_kvarh', text: 'Forward Kvarh'},

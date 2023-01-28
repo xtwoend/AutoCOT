@@ -28,13 +28,13 @@
         </div>
         <trend-live 
             v-if="active == null || active == 'live'"
-            title="Power Meter"
-            url="http://192.168.170.87:9501/mqtt/6/log"
+            title="Power Meter PKS"
+            url="http://192.168.170.87:9501/mqtt/8/log"
             :mqtt="{
                 url: 'ws://192.168.170.87:9001',
                 username: 'admin-autocot',
                 password: 'Bumitama123!',
-                topic: 'data/bga/lvboardgh/mknr',
+                topic: 'data/bga/lvboardpks/mknr',
                 timefield: '_terminalTime'
             }"
             :default-data="[
@@ -44,6 +44,7 @@
 
                 {data: 'frequency', text: 'Frequency'},
                 {data: 'total_kwh', text: 'Total Kwh'},
+                {data: 'total_daily_kwh', text: 'Today Kwh'},
             ]"
             :columns="[
                 {data: 'voltage_a', text: 'Voltage A'},
@@ -73,6 +74,7 @@
                 {data: 'total_power_factor', text: 'Total Power Factor'},
 
                 {data: 'frequency', text: 'Frequency'},
+                {data: 'total_daily_kwh', text: 'Today Kwh'},
                 {data: 'total_kwh', text: 'Total Kwh'},
                 {data: 'total_kvarh', text: 'Total Kvarh'},
                 {data: 'forward_kwh', text: 'Forward Kwh'},
@@ -83,8 +85,8 @@
 
         <trend-view 
             v-if="active == 'history'"
-            title="Power Meter"
-            url="http://192.168.170.87:9501/trend/6/data"
+            title="Power Meter PKS"
+            url="http://192.168.170.87:9501/trend/8/data"
             :default-data="[
                 {data: 'voltage_a', text: 'Voltage A'},
                 {data: 'voltage_b', text: 'Voltage B'},
@@ -92,6 +94,7 @@
 
                 {data: 'frequency', text: 'Frequency'},
                 {data: 'total_kwh', text: 'Total Kwh'},
+                {data: 'total_daily_kwh', text: 'Today Kwh'},
             ]"
             :columns="[
                 {data: 'voltage_a', text: 'Voltage A'},
@@ -121,6 +124,7 @@
                 {data: 'total_power_factor', text: 'Total Power Factor'},
 
                 {data: 'frequency', text: 'Frequency'},
+                {data: 'total_daily_kwh', text: 'Today Kwh'},
                 {data: 'total_kwh', text: 'Total Kwh'},
                 {data: 'total_kvarh', text: 'Total Kvarh'},
                 {data: 'forward_kwh', text: 'Forward Kwh'},

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" crossorigin src="/assets/vendor.60f6099b.js"></script>
+    <script type="module" crossorigin src="/assets/app.d4cbeaa0.js"></script>
+    <link rel="stylesheet" href="/assets/app.5660bab4.css">
+</head>
+<body>
+    <div id="app">
+        <div class="section-tool">
+            <div class="control-group">
+                <label for="daily">
+                    <input type="radio" name="mode" id="daily" value="daily" :checked="active == null" @click="active = 'daily'">
+                    <span>Daily Report</span>
+                </label>
+            </div>
+            <div class="control-group">
+                <label for="monthly">
+                    <input type="radio" name="mode" id="monthly" value="monthly" :checked="active == 'monthly'" @click="active = 'monthly'">
+                    <span>Monthly Report</span>
+                </label>
+            </div>
+        </div>
+       
+        <pwr-trend
+            v-if="active == null || active == 'daily'"
+            title="Power Meter Daily Report"
+            url="http://192.168.170.87:9501/powermeter/graph"
+            :default-data="[
+                {data: 6, text: 'PWR Guest House'},
+            ]"
+            :columns="[
+                {data: 6, text: 'PWR Guest House'},
+                {data: 7, text: 'PWR Kantor Wilayah'},
+                {data: 8, text: 'PWR PKS'},
+                {data: 9, text: 'PWR Perum Staf'},
+                {data: 10, text: 'PWR CKNT'},
+                {data: 11, text: 'PWR BKCW'},
+                {data: 12, text: 'PWR KNDE'},
+                {data: 13, text: 'PWR KNLA'},
+                {data: 14, text: 'PWR Engine Room'},
+            ]"></pwr-trend>
+       
+        <pwr-trend
+            v-if="active == 'monthly'"
+            title="Power Meter Monthly Report"
+            url="http://192.168.170.87:9501/powermeter/graph/monthly"
+            :default-data="[
+                {data: 6, text: 'PWR Guest House'},
+            ]"
+            :columns="[
+                {data: 6, text: 'PWR Guest House'},
+                {data: 7, text: 'PWR Kantor Wilayah'},
+                {data: 8, text: 'PWR PKS'},
+                {data: 9, text: 'PWR Perum Staf'},
+                {data: 10, text: 'PWR CKNT'},
+                {data: 11, text: 'PWR BKCW'},
+                {data: 12, text: 'PWR KNDE'},
+                {data: 13, text: 'PWR KNLA'},
+                {data: 14, text: 'PWR Engine Room'},
+            ]"></pwr-trend>
+
+    </div>
+</body>
+</html>
