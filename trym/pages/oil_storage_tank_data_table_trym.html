@@ -3,63 +3,64 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Auto COT Pump</title>
         
-      <script type="module" crossorigin src="/assets/vendor.995a312e.js"></script>
-      <script type="module" crossorigin src="/assets/app.2ed33e8a.js"></script>
-      <link rel="stylesheet" href="/assets/app.ca473573.css">
+      <script type="module" crossorigin src="/assets/vendor.60f6099b.js"></script>
+      <script type="module" crossorigin src="/assets/app.d4cbeaa0.js"></script>
+      <link rel="stylesheet" href="/assets/app.5660bab4.css">
     </head>
     <body>
         <div id="app">
             <div class="table-wrapper">
                 <log-table
-                    url="http://192.168.170.87:9501/table/4/data"
-                    export="http://192.168.170.87:9501/table/4/export?type=digester_and_press"
-                    title="DIGESTER & PRESS DATA LOGGER"
+                    url="http://192.168.170.87:9501/table/15/data"
+                    export="http://192.168.170.87:9501/table/15/export"
+                    title="OIL STORAGE"
                     :headers="[
-                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
-                        {value: 'temp_dig1', text: 'TEMPERATUR DIGESTER #01'},
-                        {value: 'level_dig1', text: 'LEVEL DIGESTER #01'},
-                        {value: 'temp_dig2', text: 'TEMPERATUR DIGESTER #02'},
-                        {value: 'level_dig2', text: 'LEVEL DIGESTER #02'},
-                        {value: 'temp_dig3', text: 'TEMPERATUR DIGESTER #03'},
-                        {value: 'level_dig3', text: 'LEVEL DIGESTER #03'},
-                        {value: 'temp_dig4', text: 'TEMPERATUR DIGESTER #04'},
-                        {value: 'level_dig4', text: 'LEVEL DIGESTER #04'},
-                        {value: 'temp_dig5', text: 'TEMPERATUR DIGESTER #05'},
-                        {value: 'level_dig5', text: 'LEVEL DIGESTER #05'},
-                        {value: 'temp_dig6', text: 'TEMPERATUR DIGESTER #06'},
-                        {value: 'level_dig6', text: 'LEVEL DIGESTER #06'},
-                        {value: 'amp_dig1', text: 'AMPERE DIGESTER #01'},
-                        {value: 'amp_press1', text: 'AMPERE PRESS #01'},
-                        {value: 'amp_dig2', text: 'AMPERE DIGESTER #02'},
-                        {value: 'amp_press2', text: 'AMPERE PRESS #02'},
-                        {value: 'amp_dig3', text: 'AMPERE DIGESTER #03'},
-                        {value: 'amp_press3', text: 'AMPERE PRESS #03'},
-                        {value: 'amp_dig4', text: 'AMPERE DIGESTER #04'},
-                        {value: 'amp_press4', text: 'AMPERE PRESS #04'},
-                        {value: 'amp_dig5', text: 'AMPERE DIGESTER #05'},
-                        {value: 'amp_press5', text: 'AMPERE PRESS #05'},
-                        {value: 'amp_dig6', text: 'AMPERE DIGESTER #06'},
-                        {value: 'amp_press6', text: 'AMPERE PRESS #06'},
-                        {value: 'pressure_dig1', text: 'PRESSURE DIGESTER #01'},
-                        {value: 'pressure_dig2', text: 'PRESSURE DIGESTER #02'},
-                        {value: 'pressure_dig3', text: 'PRESSURE DIGESTER #03'},
-                        {value: 'pressure_dig4', text: 'PRESSURE DIGESTER #04'},
-                        {value: 'pressure_dig5', text: 'PRESSURE DIGESTER #05'},
-                        {value: 'pressure_dig6', text: 'PRESSURE DIGESTER #06'},
-                        {value: 'hm_dig1', text: 'HM DIGESTER #01'},
-                        {value: 'hm_dig2', text: 'HM DIGESTER #02'},
-                        {value: 'hm_dig3', text: 'HM DIGESTER #03'},
-                        {value: 'hm_dig4', text: 'HM DIGESTER #04'},
-                        {value: 'hm_dig5', text: 'HM DIGESTER #05'},
-                        {value: 'hm_dig6', text: 'HM DIGESTER #06'},
-                        {value: 'hm_press1', text: 'HM PRESS #01'},
-                        {value: 'hm_press2', text: 'HM PRESS #02'},
-                        {value: 'hm_press3', text: 'HM PRESS #03'},
-                        {value: 'hm_press4', text: 'HM PRESS #04'},
-                        {value: 'hm_press5', text: 'HM PRESS #05'},
-                        {value: 'hm_press6', text: 'HM PRESS #06'},
+                        {value: 'terminal_time', text: 'Timestamp', sortable: true, fixed: true, width: 180},
+                        
+                        {value: 'level_tank1', text: 'Level Tank 1'},
+                        {value: 'temp1_tank1', text: 'Temp. 1 Tank 1'},
+                        {value: 'temp2_tank1', text: 'Temp. 2 Tank 1'},
+                        {value: 'temp3_tank1', text: 'Temp. 3 Tank 1'},
+                        {value: 'temp4_tank1', text: 'Temp. 4 Tank 1'},
+                        {value: 'meter_tank1', text: 'Height Oil Tank 1'},
+                        {value: 'volume_tank1', text: 'Volume Tank 1'},
+                        {value: 'factor_corection_tank1', text: 'FK Tank 1'},
+                        {value: 'density_tank1', text: 'DS Tank 1'},
+                        
+                        {value: 'level_tank2', text: 'Level Tank 2'},
+                        {value: 'temp1_tank2', text: 'Temp. 1 Tank 2'},
+                        {value: 'temp2_tank2', text: 'Temp. 2 Tank 2'},
+                        {value: 'temp3_tank2', text: 'Temp. 3 Tank 2'},
+                        {value: 'temp4_tank2', text: 'Temp. 4 Tank 2'},
+                        {value: 'meter_tank2', text: 'Height Oil Tank 2'},
+                        {value: 'volume_tank2', text: 'Volume Tank 2'},
+                        {value: 'factor_corection_tank2', text: 'FK Tank 2'},
+                        {value: 'density_tank2', text: 'DS Tank 2'},
+
+                        {value: 'level_tank3', text: 'Level Tank 3'},
+                        {value: 'temp1_tank3', text: 'Temp. 1 Tank 3'},
+                        {value: 'temp2_tank3', text: 'Temp. 2 Tank 3'},
+                        {value: 'temp3_tank3', text: 'Temp. 3 Tank 3'},
+                        {value: 'temp4_tank3', text: 'Temp. 4 Tank 3'},
+                        {value: 'meter_tank3', text: 'Height Oil Tank 3'},
+                        {value: 'volume_tank3', text: 'Volume Tank 3'},
+                        {value: 'factor_corection_tank3', text: 'FK Tank 3'},
+                        {value: 'density_tank3', text: 'DS Tank 3'},
+
+                        {value: 'level_tank4', text: 'Level Tank 4'},
+                        {value: 'temp1_tank4', text: 'Temp. 1 Tank 4'},
+                        {value: 'temp2_tank4', text: 'Temp. 2 Tank 4'},
+                        {value: 'temp3_tank4', text: 'Temp. 3 Tank 4'},
+                        {value: 'temp4_tank4', text: 'Temp. 4 Tank 4'},
+                        {value: 'meter_tank4', text: 'Height Oil Tank 4'},
+                        {value: 'volume_tank4', text: 'Volume Tank 4'},
+                        {value: 'factor_corection_tank4', text: 'FK Tank 4'},
+                        {value: 'density_tank4', text: 'DS Tank 4'},
+
+                        {value: 'temp_middle_sounding', text: 'Temprature Middle Sounding'},
+                        {value: 'temp_buttom_sounding', text: 'Temprature Bottom Sounding'},
+
                     ]"
                     ref="vtable"
                     >
