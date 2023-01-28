@@ -29,7 +29,7 @@
         <trend-live 
             v-if="active == null || active == 'live'"
             title="Kernel Silo"
-            url="http://192.168.170.87:9501/mqtt/5/log"
+            url="http://192.168.170.87:9501/mqtt/15/log"
             :mqtt="{
                 url: 'ws://192.168.170.87:9001',
                 username: 'admin-autocot',
@@ -97,7 +97,7 @@
         <trend-view 
             v-if="active == 'history'"
             title="Kernel Silo"
-            url="http://192.168.170.87:9501/trend/5/data"
+            url="http://192.168.170.87:9501/trend/15/data"
             :default-data="[
                 {data: 'level_tank1', text: 'Level Tank 1', group: 'Oil Storage Tank 1'},
                 {data: 'temp1_tank1', text: 'Temp. 1 Tank 1', group: 'Oil Storage Tank 1'},
