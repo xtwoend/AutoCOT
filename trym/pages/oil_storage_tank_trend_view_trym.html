@@ -28,7 +28,7 @@
         </div>
         <trend-live 
             v-if="active == null || active == 'live'"
-            title="Kernel Silo"
+            title="Oil Storage Tank"
             url="http://192.168.170.87:9501/mqtt/15/log"
             :mqtt="{
                 url: 'ws://192.168.170.87:9001',
@@ -96,7 +96,7 @@
              
         <trend-view 
             v-if="active == 'history'"
-            title="Kernel Silo"
+            title="Oil Storage Tank"
             url="http://192.168.170.87:9501/trend/15/data"
             :default-data="[
                 {data: 'level_tank2', text: 'Level Tank 2', group: 'Oil Storage Tank 2'},
