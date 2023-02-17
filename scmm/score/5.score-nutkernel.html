@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" crossorigin src="/assets/vendor.3bd57d60.js"></script>
+    <script type="module" crossorigin src="/assets/app.5b9a199d.js"></script>
+    <link rel="stylesheet" href="/assets/app.c316c2cb.css">
+</head>
+<body>
+    <div id="app">
+        <pie
+            title="Clarification Live Score Conformance"
+            station="clarification"
+            :mqtt="{
+                url: 'ws://192.168.170.87:9001',
+                username: 'admin-autocot',
+                password: 'Bumitama123!',
+                topic: 'data/bga/scoring/scmm'
+            }"
+            :default-data="[
+                {data: 'level_nutsilo1', text: 'LEVEL NUT SILO 01', range: [0,100], group: 'Nut Silo No.1'},
+                {data: 'temp1_nutsilo1', text: 'TEMPERATUR#1 NUT SILO 01', range: [0,150], group: 'Nut Silo No.1'},
+                {data: 'temp2_nutsilo1', text: 'TEMPERATUR#2 NUT SILO 01', range: [0,150], group: 'Nut Silo No.1'},
+                {data: 'temp3_nutsilo1', text: 'TEMPERATUR#3 NUT SILO 01', range: [0,150], group: 'Nut Silo No.1'},
+                {data: 'level_nutsilo2', text: 'LEVEL NUT SILO 02', range: [0,100], group: 'Nut Silo No.2'},
+                {data: 'temp1_nutsilo2', text: 'TEMPERATUR#1 NUT SILO 02', range: [0,150], group: 'Nut Silo No.2'},
+                {data: 'temp2_nutsilo2', text: 'TEMPERATUR#2 NUT SILO 02', range: [0,150], group: 'Nut Silo No.2'},
+                {data: 'temp3_nutsilo2', text: 'TEMPERATUR#3 NUT SILO 02', range: [0,150], group: 'Nut Silo No.2'},
+                {data: 'hm_nutsilo1', text: 'HM NUT SILO 01', group: 'Nut Silo No.1'}, 
+                {data: 'hm_nutsilo2', text: 'HM NUT SILO 02', group: 'Nut Silo No.2'},
+            ]"
+            :columns="[
+                {data: 'level_nutsilo1', text: 'LEVEL NUT SILO 01', range: [0,100], group: 'Nut Silo No.1'},
+                {data: 'temp1_nutsilo1', text: 'TEMPERATUR#1 NUT SILO 01', range: [0,150], group: 'Nut Silo No.1'},
+                {data: 'temp2_nutsilo1', text: 'TEMPERATUR#2 NUT SILO 01', range: [0,150], group: 'Nut Silo No.1'},
+                {data: 'temp3_nutsilo1', text: 'TEMPERATUR#3 NUT SILO 01', range: [0,150], group: 'Nut Silo No.1'},
+                {data: 'level_nutsilo2', text: 'LEVEL NUT SILO 02', range: [0,100], group: 'Nut Silo No.2'},
+                {data: 'temp1_nutsilo2', text: 'TEMPERATUR#1 NUT SILO 02', range: [0,150], group: 'Nut Silo No.2'},
+                {data: 'temp2_nutsilo2', text: 'TEMPERATUR#2 NUT SILO 02', range: [0,150], group: 'Nut Silo No.2'},
+                {data: 'temp3_nutsilo2', text: 'TEMPERATUR#3 NUT SILO 02', range: [0,150], group: 'Nut Silo No.2'},
+                {data: 'hm_nutsilo1', text: 'HM NUT SILO 01', group: 'Nut Silo No.1'}, 
+                {data: 'hm_nutsilo2', text: 'HM NUT SILO 02', group: 'Nut Silo No.2'},
+            ]"
+        ></pie>
+
+        <score-bar
+            url="http://192.168.170.87:9501/score/5/trend"
+            title="Clarification Score Conformance"
+            :default-data="[
+                {data: 'level_nutsilo1', text: 'LEVEL NUT SILO 01', range: [0,100], group: 'Nut Silo No.1'},
+                {data: 'temp1_nutsilo1', text: 'TEMPERATUR#1 NUT SILO 01', range: [0,150], group: 'Nut Silo No.1'},
+                {data: 'temp2_nutsilo1', text: 'TEMPERATUR#2 NUT SILO 01', range: [0,150], group: 'Nut Silo No.1'},
+                {data: 'temp3_nutsilo1', text: 'TEMPERATUR#3 NUT SILO 01', range: [0,150], group: 'Nut Silo No.1'},
+                {data: 'level_nutsilo2', text: 'LEVEL NUT SILO 02', range: [0,100], group: 'Nut Silo No.2'},
+                {data: 'temp1_nutsilo2', text: 'TEMPERATUR#1 NUT SILO 02', range: [0,150], group: 'Nut Silo No.2'},
+                {data: 'temp2_nutsilo2', text: 'TEMPERATUR#2 NUT SILO 02', range: [0,150], group: 'Nut Silo No.2'},
+                {data: 'temp3_nutsilo2', text: 'TEMPERATUR#3 NUT SILO 02', range: [0,150], group: 'Nut Silo No.2'},
+                {data: 'hm_nutsilo1', text: 'HM NUT SILO 01', group: 'Nut Silo No.1'}, 
+                {data: 'hm_nutsilo2', text: 'HM NUT SILO 02', group: 'Nut Silo No.2'},
+            ]"
+            :columns="[
+                {data: 'level_nutsilo1', text: 'LEVEL NUT SILO 01', range: [0,100], group: 'Nut Silo No.1'},
+                {data: 'temp1_nutsilo1', text: 'TEMPERATUR#1 NUT SILO 01', range: [0,150], group: 'Nut Silo No.1'},
+                {data: 'temp2_nutsilo1', text: 'TEMPERATUR#2 NUT SILO 01', range: [0,150], group: 'Nut Silo No.1'},
+                {data: 'temp3_nutsilo1', text: 'TEMPERATUR#3 NUT SILO 01', range: [0,150], group: 'Nut Silo No.1'},
+                {data: 'level_nutsilo2', text: 'LEVEL NUT SILO 02', range: [0,100], group: 'Nut Silo No.2'},
+                {data: 'temp1_nutsilo2', text: 'TEMPERATUR#1 NUT SILO 02', range: [0,150], group: 'Nut Silo No.2'},
+                {data: 'temp2_nutsilo2', text: 'TEMPERATUR#2 NUT SILO 02', range: [0,150], group: 'Nut Silo No.2'},
+                {data: 'temp3_nutsilo2', text: 'TEMPERATUR#3 NUT SILO 02', range: [0,150], group: 'Nut Silo No.2'},
+                {data: 'hm_nutsilo1', text: 'HM NUT SILO 01', group: 'Nut Silo No.1'}, 
+                {data: 'hm_nutsilo2', text: 'HM NUT SILO 02', group: 'Nut Silo No.2'},
+            ]"
+        ></score-bar>
+    </div>
+</body>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" crossorigin src="/assets/vendor.3bd57d60.js"></script>
+    <script type="module" crossorigin src="/assets/app.5b9a199d.js"></script>
+    <link rel="stylesheet" href="/assets/app.c316c2cb.css">
+</head>
+<body>
+    <div id="app">
+        <pie
+            title="Digester Live Score Conformance"
+            station="digester"
+            :mqtt="{
+                url: 'ws://192.168.170.87:9001',
+                username: 'admin-autocot',
+                password: 'Bumitama123!',
+                topic: 'data/bga/scoring/scmm'
+            }"
+            :default-data="[
+                {data: 'temp_dig1', text: 'TEMPERATUR DIGESTER #01', range: [0, 150], group: 'Digester Press No.1'},
+                {data: 'temp_dig2', text: 'TEMPERATUR DIGESTER #02', range: [0, 150], group: 'Digester Press No.2'},
+                {data: 'temp_dig3', text: 'TEMPERATUR DIGESTER #03', range: [0, 150], group: 'Digester Press No.3'},
+                {data: 'temp_dig4', text: 'TEMPERATUR DIGESTER #04', range: [0, 150], group: 'Digester Press No.4'},
+                {data: 'temp_dig5', text: 'TEMPERATUR DIGESTER #05', range: [0, 150], group: 'Digester Press No.5'},
+                {data: 'temp_dig6', text: 'TEMPERATUR DIGESTER #06', range: [0, 150], group: 'Digester Press No.6'},
+                {data: 'amp_dig1', text: 'AMPERE DIGESTER #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'amp_press1', text: 'AMPERE PRESS #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'amp_dig2', text: 'AMPERE DIGESTER #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'amp_press2', text: 'AMPERE PRESS #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'amp_dig3', text: 'AMPERE DIGESTER #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'amp_press3', text: 'AMPERE PRESS #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'amp_dig4', text: 'AMPERE DIGESTER #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'amp_press4', text: 'AMPERE PRESS #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'amp_dig5', text: 'AMPERE DIGESTER #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'amp_press5', text: 'AMPERE PRESS #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'amp_dig6', text: 'AMPERE DIGESTER #06', range: [0, 100], group: 'Digester Press No.6'},
+                {data: 'amp_press6', text: 'AMPERE PRESS #06', range: [0, 100], group: 'Digester Press No.6'},
+                {data: 'pressure_dig1', text: 'PRESSURE DIGESTER #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'pressure_dig2', text: 'PRESSURE DIGESTER #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'pressure_dig3', text: 'PRESSURE DIGESTER #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'pressure_dig4', text: 'PRESSURE DIGESTER #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'pressure_dig5', text: 'PRESSURE DIGESTER #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'pressure_dig6', text: 'PRESSURE DIGESTER #06', range: [0, 100], group: 'Digester Press No.6'},
+            ]"
+            :columns="[
+                {data: 'temp_dig1', text: 'TEMPERATUR DIGESTER #01', range: [0, 150], group: 'Digester Press No.1'},
+                {data: 'level_dig1', text: 'LEVEL DIGESTER #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'temp_dig2', text: 'TEMPERATUR DIGESTER #02', range: [0, 150], group: 'Digester Press No.2'},
+                {data: 'level_dig2', text: 'LEVEL DIGESTER #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'temp_dig3', text: 'TEMPERATUR DIGESTER #03', range: [0, 150], group: 'Digester Press No.3'},
+                {data: 'level_dig3', text: 'LEVEL DIGESTER #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'temp_dig4', text: 'TEMPERATUR DIGESTER #04', range: [0, 150], group: 'Digester Press No.4'},
+                {data: 'level_dig4', text: 'LEVEL DIGESTER #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'temp_dig5', text: 'TEMPERATUR DIGESTER #05', range: [0, 150], group: 'Digester Press No.5'},
+                {data: 'level_dig5', text: 'LEVEL DIGESTER #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'temp_dig6', text: 'TEMPERATUR DIGESTER #06', range: [0, 150], group: 'Digester Press No.6'},
+                {data: 'level_dig6', text: 'LEVEL DIGESTER #06', range: [0, 100], group: 'Digester Press No.6'},
+                {data: 'amp_dig1', text: 'AMPERE DIGESTER #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'amp_press1', text: 'AMPERE PRESS #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'amp_dig2', text: 'AMPERE DIGESTER #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'amp_press2', text: 'AMPERE PRESS #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'amp_dig3', text: 'AMPERE DIGESTER #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'amp_press3', text: 'AMPERE PRESS #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'amp_dig4', text: 'AMPERE DIGESTER #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'amp_press4', text: 'AMPERE PRESS #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'amp_dig5', text: 'AMPERE DIGESTER #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'amp_press5', text: 'AMPERE PRESS #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'amp_dig6', text: 'AMPERE DIGESTER #06', range: [0, 100], group: 'Digester Press No.6'},
+                {data: 'amp_press6', text: 'AMPERE PRESS #06', range: [0, 100], group: 'Digester Press No.6'},
+                {data: 'pressure_dig1', text: 'PRESSURE DIGESTER #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'pressure_dig2', text: 'PRESSURE DIGESTER #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'pressure_dig3', text: 'PRESSURE DIGESTER #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'pressure_dig4', text: 'PRESSURE DIGESTER #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'pressure_dig5', text: 'PRESSURE DIGESTER #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'pressure_dig6', text: 'PRESSURE DIGESTER #06', range: [0, 100], group: 'Digester Press No.6'},
+            ]"
+        ></pie>
+
+        <score-bar
+            url="http://192.168.170.87:9501/score/4/trend"
+            title="Digester Score Conformance"
+            :default-data="[
+                {data: 'temp_dig1', text: 'TEMPERATUR DIGESTER #01', range: [0, 150], group: 'Digester Press No.1'},
+                {data: 'temp_dig2', text: 'TEMPERATUR DIGESTER #02', range: [0, 150], group: 'Digester Press No.2'},
+                {data: 'temp_dig3', text: 'TEMPERATUR DIGESTER #03', range: [0, 150], group: 'Digester Press No.3'},
+                {data: 'temp_dig4', text: 'TEMPERATUR DIGESTER #04', range: [0, 150], group: 'Digester Press No.4'},
+                {data: 'temp_dig5', text: 'TEMPERATUR DIGESTER #05', range: [0, 150], group: 'Digester Press No.5'},
+                {data: 'temp_dig6', text: 'TEMPERATUR DIGESTER #06', range: [0, 150], group: 'Digester Press No.6'},
+                {data: 'amp_dig1', text: 'AMPERE DIGESTER #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'amp_press1', text: 'AMPERE PRESS #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'amp_dig2', text: 'AMPERE DIGESTER #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'amp_press2', text: 'AMPERE PRESS #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'amp_dig3', text: 'AMPERE DIGESTER #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'amp_press3', text: 'AMPERE PRESS #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'amp_dig4', text: 'AMPERE DIGESTER #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'amp_press4', text: 'AMPERE PRESS #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'amp_dig5', text: 'AMPERE DIGESTER #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'amp_press5', text: 'AMPERE PRESS #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'amp_dig6', text: 'AMPERE DIGESTER #06', range: [0, 100], group: 'Digester Press No.6'},
+                {data: 'amp_press6', text: 'AMPERE PRESS #06', range: [0, 100], group: 'Digester Press No.6'},
+                {data: 'pressure_dig1', text: 'PRESSURE DIGESTER #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'pressure_dig2', text: 'PRESSURE DIGESTER #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'pressure_dig3', text: 'PRESSURE DIGESTER #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'pressure_dig4', text: 'PRESSURE DIGESTER #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'pressure_dig5', text: 'PRESSURE DIGESTER #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'pressure_dig6', text: 'PRESSURE DIGESTER #06', range: [0, 100], group: 'Digester Press No.6'},
+            ]"
+            :columns="[
+                {data: 'temp_dig1', text: 'TEMPERATUR DIGESTER #01', range: [0, 150], group: 'Digester Press No.1'},
+                {data: 'level_dig1', text: 'LEVEL DIGESTER #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'temp_dig2', text: 'TEMPERATUR DIGESTER #02', range: [0, 150], group: 'Digester Press No.2'},
+                {data: 'level_dig2', text: 'LEVEL DIGESTER #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'temp_dig3', text: 'TEMPERATUR DIGESTER #03', range: [0, 150], group: 'Digester Press No.3'},
+                {data: 'level_dig3', text: 'LEVEL DIGESTER #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'temp_dig4', text: 'TEMPERATUR DIGESTER #04', range: [0, 150], group: 'Digester Press No.4'},
+                {data: 'level_dig4', text: 'LEVEL DIGESTER #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'temp_dig5', text: 'TEMPERATUR DIGESTER #05', range: [0, 150], group: 'Digester Press No.5'},
+                {data: 'level_dig5', text: 'LEVEL DIGESTER #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'temp_dig6', text: 'TEMPERATUR DIGESTER #06', range: [0, 150], group: 'Digester Press No.6'},
+                {data: 'level_dig6', text: 'LEVEL DIGESTER #06', range: [0, 100], group: 'Digester Press No.6'},
+                {data: 'amp_dig1', text: 'AMPERE DIGESTER #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'amp_press1', text: 'AMPERE PRESS #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'amp_dig2', text: 'AMPERE DIGESTER #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'amp_press2', text: 'AMPERE PRESS #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'amp_dig3', text: 'AMPERE DIGESTER #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'amp_press3', text: 'AMPERE PRESS #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'amp_dig4', text: 'AMPERE DIGESTER #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'amp_press4', text: 'AMPERE PRESS #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'amp_dig5', text: 'AMPERE DIGESTER #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'amp_press5', text: 'AMPERE PRESS #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'amp_dig6', text: 'AMPERE DIGESTER #06', range: [0, 100], group: 'Digester Press No.6'},
+                {data: 'amp_press6', text: 'AMPERE PRESS #06', range: [0, 100], group: 'Digester Press No.6'},
+                {data: 'pressure_dig1', text: 'PRESSURE DIGESTER #01', range: [0, 100], group: 'Digester Press No.1'},
+                {data: 'pressure_dig2', text: 'PRESSURE DIGESTER #02', range: [0, 100], group: 'Digester Press No.2'},
+                {data: 'pressure_dig3', text: 'PRESSURE DIGESTER #03', range: [0, 100], group: 'Digester Press No.3'},
+                {data: 'pressure_dig4', text: 'PRESSURE DIGESTER #04', range: [0, 100], group: 'Digester Press No.4'},
+                {data: 'pressure_dig5', text: 'PRESSURE DIGESTER #05', range: [0, 100], group: 'Digester Press No.5'},
+                {data: 'pressure_dig6', text: 'PRESSURE DIGESTER #06', range: [0, 100], group: 'Digester Press No.6'}]"
+        ></score-bar>
+    </div>
+</body>

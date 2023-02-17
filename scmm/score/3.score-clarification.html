@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" crossorigin src="/assets/vendor.3bd57d60.js"></script>
+    <script type="module" crossorigin src="/assets/app.5b9a199d.js"></script>
+    <link rel="stylesheet" href="/assets/app.c316c2cb.css">
+</head>
+<body>
+    <div id="app">
+        <pie
+            title="Clarification Live Score Conformance"
+            station="clarification"
+            :mqtt="{
+                url: 'ws://192.168.170.87:9001',
+                username: 'admin-autocot',
+                password: 'Bumitama123!',
+                topic: 'data/bga/scoring/scmm'
+            }"
+            :default-data="[
+                {data: 'level_oiltank1', text: 'LEVEL OIL TANK 01', group: 'Oil Tank No.1'},
+                {data: 'level_oiltank2', text: 'LEVEL OIL TANK 02', group: 'Oil Tank No.2'},
+                {data: 'temp_cst1', text: 'TEMPERATUR CST 01', group: 'Oil Tank No.1'},
+                {data: 'temp_cst2', text: 'TEMPERATUR CST 02', group: 'Oil Tank No.2'}, 
+                {data: 'temp_sludge1', text: 'TEMPERATUR SLUDGE 01', group: 'Oil Tank No.1'},
+                {data: 'temp_sludge2', text: 'TEMPERATUR SLUDGE 02', group: 'Oil Tank No.2'},
+                {data: 'temp_oiltank1', text: 'TEMPERATUR OIL TANK 01', group: 'Oil Tank No.1'},
+                {data: 'temp_oiltank2', text: 'TEMPERATUR OIL TANK 02', group: 'Oil Tank No.2'},
+                {data: 'temp_buffertank', text: 'TEMPERATUR BUFFER TANK', group: 'Buffer Tank'},
+                {data: 'level_buffertank', text: 'LEVEL BUFFER TANK', group: 'Buffer Tank'},
+                {data: 'hm_cst1', text: 'HM CST 1', group: 'Oil Tank No.1'},
+                {data: 'hm_cst2', text: 'HM CST 2', group: 'Oil Tank No.2'},
+                {data: 'hm_oilpump1', text: 'HM OIL PUMP 1', group: 'Oil Tank No.1'},
+                {data: 'hm_oilpump2', text: 'HM OIL PUMP 2', group: 'Oil Tank No.2'},
+            ]"
+            :columns="[
+                {data: 'level_oiltank1', text: 'LEVEL OIL TANK 01', group: 'Oil Tank No.1'},
+                {data: 'level_oiltank2', text: 'LEVEL OIL TANK 02', group: 'Oil Tank No.2'},
+                {data: 'temp_cst1', text: 'TEMPERATUR CST 01', group: 'Oil Tank No.1'},
+                {data: 'temp_cst2', text: 'TEMPERATUR CST 02', group: 'Oil Tank No.2'}, 
+                {data: 'temp_sludge1', text: 'TEMPERATUR SLUDGE 01', group: 'Oil Tank No.1'},
+                {data: 'temp_sludge2', text: 'TEMPERATUR SLUDGE 02', group: 'Oil Tank No.2'},
+                {data: 'temp_oiltank1', text: 'TEMPERATUR OIL TANK 01', group: 'Oil Tank No.1'},
+                {data: 'temp_oiltank2', text: 'TEMPERATUR OIL TANK 02', group: 'Oil Tank No.2'},
+                {data: 'temp_buffertank', text: 'TEMPERATUR BUFFER TANK', group: 'Buffer Tank'},
+                {data: 'level_buffertank', text: 'LEVEL BUFFER TANK', group: 'Buffer Tank'},
+                {data: 'hm_cst1', text: 'HM CST 1', group: 'Oil Tank No.1'},
+                {data: 'hm_cst2', text: 'HM CST 2', group: 'Oil Tank No.2'},
+                {data: 'hm_oilpump1', text: 'HM OIL PUMP 1', group: 'Oil Tank No.1'},
+                {data: 'hm_oilpump2', text: 'HM OIL PUMP 2', group: 'Oil Tank No.2'},
+            ]"
+        ></pie>
+
+        <score-bar
+            url="http://192.168.170.87:9501/score/3/trend"
+            title="Clarification Score Conformance"
+            :default-data="[
+                {data: 'level_oiltank1', text: 'LEVEL OIL TANK 01', group: 'Oil Tank No.1'},
+                {data: 'level_oiltank2', text: 'LEVEL OIL TANK 02', group: 'Oil Tank No.2'},
+                {data: 'temp_cst1', text: 'TEMPERATUR CST 01', group: 'Oil Tank No.1'},
+                {data: 'temp_cst2', text: 'TEMPERATUR CST 02', group: 'Oil Tank No.2'}, 
+                {data: 'temp_sludge1', text: 'TEMPERATUR SLUDGE 01', group: 'Oil Tank No.1'},
+                {data: 'temp_sludge2', text: 'TEMPERATUR SLUDGE 02', group: 'Oil Tank No.2'},
+                {data: 'temp_oiltank1', text: 'TEMPERATUR OIL TANK 01', group: 'Oil Tank No.1'},
+                {data: 'temp_oiltank2', text: 'TEMPERATUR OIL TANK 02', group: 'Oil Tank No.2'},
+                {data: 'temp_buffertank', text: 'TEMPERATUR BUFFER TANK', group: 'Buffer Tank'},
+                {data: 'level_buffertank', text: 'LEVEL BUFFER TANK', group: 'Buffer Tank'},
+                {data: 'hm_cst1', text: 'HM CST 1', group: 'Oil Tank No.1'},
+                {data: 'hm_cst2', text: 'HM CST 2', group: 'Oil Tank No.2'},
+                {data: 'hm_oilpump1', text: 'HM OIL PUMP 1', group: 'Oil Tank No.1'},
+                {data: 'hm_oilpump2', text: 'HM OIL PUMP 2', group: 'Oil Tank No.2'},
+            ]"
+            :columns="[
+                {data: 'level_oiltank1', text: 'LEVEL OIL TANK 01', group: 'Oil Tank No.1'},
+                {data: 'level_oiltank2', text: 'LEVEL OIL TANK 02', group: 'Oil Tank No.2'},
+                {data: 'temp_cst1', text: 'TEMPERATUR CST 01', group: 'Oil Tank No.1'},
+                {data: 'temp_cst2', text: 'TEMPERATUR CST 02', group: 'Oil Tank No.2'}, 
+                {data: 'temp_sludge1', text: 'TEMPERATUR SLUDGE 01', group: 'Oil Tank No.1'},
+                {data: 'temp_sludge2', text: 'TEMPERATUR SLUDGE 02', group: 'Oil Tank No.2'},
+                {data: 'temp_oiltank1', text: 'TEMPERATUR OIL TANK 01', group: 'Oil Tank No.1'},
+                {data: 'temp_oiltank2', text: 'TEMPERATUR OIL TANK 02', group: 'Oil Tank No.2'},
+                {data: 'temp_buffertank', text: 'TEMPERATUR BUFFER TANK', group: 'Buffer Tank'},
+                {data: 'level_buffertank', text: 'LEVEL BUFFER TANK', group: 'Buffer Tank'},
+                {data: 'hm_cst1', text: 'HM CST 1', group: 'Oil Tank No.1'},
+                {data: 'hm_cst2', text: 'HM CST 2', group: 'Oil Tank No.2'},
+                {data: 'hm_oilpump1', text: 'HM OIL PUMP 1', group: 'Oil Tank No.1'},
+                {data: 'hm_oilpump2', text: 'HM OIL PUMP 2', group: 'Oil Tank No.2'}
+            ]"
+        ></score-bar>
+    </div>
+</body>
