@@ -29,7 +29,7 @@
         <trend-live 
             v-if="active == null || active == 'live'"
             title="Oil Storage Tank"
-            url="http://192.168.170.87:9501/mqtt/15/log"
+            url="http://192.168.170.87:9501/mqtt/16/log"
             :mqtt="{
                 url: 'ws://192.168.170.87:9001',
                 username: 'admin-autocot',
@@ -87,25 +87,13 @@
                 {data: 'density_tank3', text: 'DS Tank 3', group: 'Oil Storage Tank 3'},
                 {data: 'stock_cpo_tank3', text: 'CPO Tank 3', group: 'Oil Storage Tank 3'},
                 {data: 'temp_buttom_tank3', text: 'Temp. Bottom Tank 3', group: 'Oil Storage Tank 3'},
-
-                {data: 'level_tank4', text: 'Level Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'temp1_tank4', text: 'Temp. 1 Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'temp2_tank4', text: 'Temp. 2 Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'temp3_tank4', text: 'Temp. 3 Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'temp4_tank4', text: 'Temp. 4 Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'meter_tank4', text: 'Height Oil Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'volume_tank4', text: 'Volume Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'factor_corection_tank4', text: 'FK Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'density_tank4', text: 'DS Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'stock_cpo_tank4', text: 'CPO Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'temp_buttom_tank4', text: 'Temp. Bottom Tank 4', group: 'Oil Storage Tank 4'},
                 
             ]"></trend-live>
              
         <trend-view 
             v-if="active == 'history'"
             title="Oil Storage Tank"
-            url="http://192.168.170.87:9501/trend/15/data"
+            url="http://192.168.170.87:9501/trend/16/data"
             :default-data="[
                 {data: 'level_tank2', text: 'Level Tank 2', group: 'Oil Storage Tank 2'},
                 {data: 'temp1_tank2', text: 'Temp. 1 Tank 2', group: 'Oil Storage Tank 2'},
@@ -156,18 +144,6 @@
                 {data: 'density_tank3', text: 'DS Tank 3', group: 'Oil Storage Tank 3'},
                 {data: 'stock_cpo_tank3', text: 'CPO Tank 3', group: 'Oil Storage Tank 3'},
                 {data: 'temp_buttom_tank3', text: 'Temp. Bottom Tank 3', group: 'Oil Storage Tank 3'},
-
-                {data: 'level_tank4', text: 'Level Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'temp1_tank4', text: 'Temp. 1 Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'temp2_tank4', text: 'Temp. 2 Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'temp3_tank4', text: 'Temp. 3 Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'temp4_tank4', text: 'Temp. 4 Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'meter_tank4', text: 'Height Oil Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'volume_tank4', text: 'Volume Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'factor_corection_tank4', text: 'FK Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'density_tank4', text: 'DS Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'stock_cpo_tank4', text: 'CPO Tank 4', group: 'Oil Storage Tank 4'},
-                {data: 'temp_buttom_tank4', text: 'Temp. Bottom Tank 4', group: 'Oil Storage Tank 4'},
                 
             ]"></trend-view>
     </div>
