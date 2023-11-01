@@ -13,7 +13,7 @@ setTag('mknr_kwil_current_c', data.current_c);
 setTag('mknr_kwil_active_power_a', data.active_power_a);
 setTag('mknr_kwil_active_power_b', data.active_power_b);
 setTag('mknr_kwil_active_power_c', data.active_power_c);
-setTag('mknr_kwil_total_active_power', data.total_active_power);
+setTag('mknr_kwil_total_active_power',(parseInt(data.total_active_power)*0.0001));
 
 
 setTag('mknr_kwil_reactive_power_a', data.reactive_power_a);
@@ -27,14 +27,13 @@ setTag('mknr_kwil_power_factor_c', data.power_factor_c);
 setTag('mknr_kwil_total_power_factor', data.total_power_factor);
 
 
-setTag('mknr_kwil_frequency', data.frequency/100);
-setTag('mknr_kwil_total_kwh', data.total_kwh/100);
-setTag('mknr_kwil_total_kvarh', (data.total_kvarh/100)*-1);
+setTag('mknr_kwil_frequency', parseInt(data.frequency)/100);
+setTag('mknr_kwil_total_kwh', parseInt(data.total_kwh)/100);
+setTag('mknr_kwil_total_kvarh', (parseInt(data.total_kvarh)/100)*-1);
 
 }  
   
-  
-  var pm_pks_mknr = getTag('pm_pks');
+var pm_pks_mknr = getTag('pm_pks');
 
 eval('data =' + pm_pks_mknr);
 //debugString(pm_pks_mknr);
@@ -49,7 +48,7 @@ setTag('mknr_pks_current_c', data.current_c);
 setTag('mknr_pks_active_power_a', data.active_power_a);
 setTag('mknr_pks_active_power_b', data.active_power_b);
 setTag('mknr_pks_active_power_c', data.active_power_c);
-setTag('mknr_pks_total_active_power', data.total_active_power);
+setTag('mknr_pks_total_active_power', parseInt(data.total_active_power)*0.0001);
 
 
 setTag('mknr_pks_reactive_power_a', data.reactive_power_a);
@@ -63,9 +62,9 @@ setTag('mknr_pks_power_factor_c', data.power_factor_c);
 setTag('mknr_pks_total_power_factor', data.total_power_factor);
 
 
-setTag('mknr_pks_frequency', data.frequency/100);
-setTag('mknr_pks_total_kwh', data.total_kwh/100);
-setTag('mknr_pks_total_kvarh', data.total_kvarh/100);
+setTag('mknr_pks_frequency', parseInt(data.frequency)/100);
+setTag('mknr_pks_total_kwh', parseInt(data.total_kwh)/100);
+setTag('mknr_pks_total_kvarh', parseInt(data.total_kvarh)/100);
 
 }  
   
@@ -85,7 +84,7 @@ setTag('mknr_cknt_current_c', data.current_c);
 setTag('mknr_cknt_active_power_a', data.active_power_a); 
 setTag('mknr_cknt_active_power_b', data.active_power_b); 
 setTag('mknr_cknt_active_power_c', data.active_power_c); 
-setTag('mknr_cknt_total_active_power', data.total_active_power); 
+setTag('mknr_cknt_total_active_power', parseInt(data.total_active_power)*0.0001); 
  
  
 setTag('mknr_cknt_reactive_power_a', data.reactive_power_a); 
@@ -99,9 +98,9 @@ setTag('mknr_cknt_power_factor_c', data.power_factor_c);
 setTag('mknr_cknt_total_power_factor', data.total_power_factor); 
  
  
-setTag('mknr_cknt_frequency', data.frequency/100); 
-setTag('mknr_cknt_total_kwh', data.total_kwh/100); 
-setTag('mknr_cknt_total_kvarh', data.total_kvarh/100); 
+setTag('mknr_cknt_frequency', parseInt(data.frequency)/100); 
+setTag('mknr_cknt_total_kwh', parseInt(data.total_kwh)/100); 
+setTag('mknr_cknt_total_kvarh', parseInt(data.total_kvarh)/100); 
  
 }   
    
@@ -124,7 +123,7 @@ setTag('mknr_bkcw_current_c', data.current_c);
 setTag('mknr_bkcw_active_power_a', data.active_power_a);
 setTag('mknr_bkcw_active_power_b', data.active_power_b);
 setTag('mknr_bkcw_active_power_c', data.active_power_c);
-setTag('mknr_bkcw_total_active_power', data.total_active_power);
+setTag('mknr_bkcw_total_active_power', data.total_active_power*0.0001);
 
 
 setTag('mknr_bkcw_reactive_power_a', data.reactive_power_a);
@@ -160,7 +159,7 @@ setTag('mknr_knde_current_c', data.current_c);
 setTag('mknr_knde_active_power_a', data.active_power_a);
 setTag('mknr_knde_active_power_b', data.active_power_b);
 setTag('mknr_knde_active_power_c', data.active_power_c);
-setTag('mknr_knde_total_active_power', data.total_active_power);
+setTag('mknr_knde_total_active_power', data.total_active_power* (-0.0001));
 
 
 setTag('mknr_knde_reactive_power_a', data.reactive_power_a);
@@ -197,7 +196,7 @@ setTag('mknr_knla_current_c', data.current_c);
 setTag('mknr_knla_active_power_a', data.active_power_a);
 setTag('mknr_knla_active_power_b', data.active_power_b);
 setTag('mknr_knla_active_power_c', data.active_power_c);
-setTag('mknr_knla_total_active_power', data.total_active_power);
+setTag('mknr_knla_total_active_power', data.total_active_power*0.0001);
 
 
 setTag('mknr_knla_reactive_power_a', data.reactive_power_a);
@@ -232,7 +231,7 @@ setTag('mknr_perum_current_c', data.current_c);
 setTag('mknr_perum_active_power_a', data.active_power_a);
 setTag('mknr_perum_active_power_b', data.active_power_b);
 setTag('mknr_perum_active_power_c', data.active_power_c);
-setTag('mknr_perum_total_active_power', data.total_active_power);
+setTag('mknr_perum_total_active_power', data.total_active_power*0.0001);
 
 
 setTag('mknr_perum_reactive_power_a', data.reactive_power_a);
@@ -268,7 +267,7 @@ setTag('mknr_gh_current_c', data.current_c);
 setTag('mknr_gh_active_power_a', data.active_power_a); 
 setTag('mknr_gh_active_power_b', data.active_power_b); 
 setTag('mknr_gh_active_power_c', data.active_power_c); 
-setTag('mknr_gh_total_active_power', data.total_active_power); 
+setTag('mknr_gh_total_active_power', data.total_active_power*0.0001); 
  
  
 setTag('mknr_gh_reactive_power_a', data.reactive_power_a); 
@@ -291,6 +290,7 @@ setTag('mknr_gh_total_kvarh', data.total_kvarh/100);
 
 
 var pm_engine_mknr = getTag('pm_engine'); 
+
  
 eval('data =' + pm_engine_mknr); 
 //debugString(pm_gh_mknr); 
@@ -298,6 +298,58 @@ if(typeof data == 'object') {
  
 setTag('mknr_engine_total_kwh', data.total_kwh/1000000); 
 setTag('mknr_engine_total_kvarh', data.total_kvarh/1000000);
+
+setTag('mknr_engine_total_active_power',( parseInt(data.active_power_a) +  parseInt(data.active_power_b) + parseInt(data.active_power_c))* 0.000000001);
  
 }   
    
+   
+
+var pm_utilization_mknr = getTag('pm_utilization'); 
+ 
+eval('data =' + pm_utilization_mknr); 
+//debugString(pm_gh_mknr); 
+if(typeof data == 'object') { 
+ if (data.device_id == 6 ){
+ setTag('mknr_gh_kwh_today', data.total_daily_kwh*0.01); 
+ }
+ 
+  if (data.device_id == 7 ){
+ setTag('mknr_kwil_kwh_today', data.total_daily_kwh*0.01); 
+ }
+ 
+  if (data.device_id == 8 ){
+ setTag('mknr_pks_kwh_today', data.total_daily_kwh*0.01); 
+ }
+ 
+  if (data.device_id == 9 ){
+ setTag('mknr_perum_kwh_today', data.total_daily_kwh*0.01); 
+ }
+
+
+  if (data.device_id == 11 ){
+
+ setTag('mknr_bkcw_kwh_today', data.total_daily_kwh *0.01); 
+
+ }
+ 
+  if (data.device_id == 12 ){
+
+ setTag('mknr_knde_kwh_today', data.total_daily_kwh *0.01); 
+
+ }
+ 
+  if (data.device_id == 13 ){
+
+ setTag('mknr_knla_kwh_today', data.total_daily_kwh *0.01); 
+
+ }
+ 
+   if (data.device_id == 14 ){
+
+
+ setTag('mknr_engine_kwh_today', data.total_daily_kwh/1000); 
+
+
+ }
+}   

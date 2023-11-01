@@ -11,11 +11,14 @@ if(typeof data == 'object') {
 setTag('level_nutsilo1', data.level_nutsilo1 );
 setTag('temp1_nutsilo1', data.temp1_nutsilo1 );
 setTag('temp2_nutsilo1', data.temp2_nutsilo1 );
-setTag('temp3_nutsilo1', data.temp3_nutsilo1 );
-setTag('level_nutsilo2', data.level_nutsilo2 );
+setTag('level_nutsilo2', data.temp3_nutsilo1 );
+setTag('level_nutsilo3', data.level_nutsilo2 );
 setTag('temp1_nutsilo2', data.temp1_nutsilo2 );
 setTag('temp2_nutsilo2', data.temp2_nutsilo2 );
-setTag('temp3_nutsilo2', data.temp3_nutsilo2 );
+setTag('level_nutsilo4', data.temp3_nutsilo2 );
+
+
+
 setTag('level_kernelsilo1', data.level_kernelsilo1 );
 setTag('temp1_kernelsilo1', data.temp1_kernelsilo1 );
 setTag('temp2_kernelsilo1', data.temp2_kernelsilo1 );

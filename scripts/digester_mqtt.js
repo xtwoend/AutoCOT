@@ -42,7 +42,7 @@ if(typeof obj_digester == 'object') {
 	setTag( 'level_cot', obj_digester.level_cot);  
 	setTag( 'temp_cot', obj_digester.temp_cot);  
 	
-	setTag( 'temp_sandtrap1 ', obj_digester.temp_sandtrap1*1.1);  
+	setTag( 'temp_sandtrap1 ', obj_digester.temp_sandtrap1*0.95);  
 	setTag( 'temp_sandtrap2 ', obj_digester.temp_sandtrap2);  
 
 	setTag( 'hm_dig1_totalizer', obj_digester.hm_dig1);    
