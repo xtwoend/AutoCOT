@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+      <script type="module" crossorigin src="/assets/vendor.3bd57d60.js"></script>
+      <script type="module" crossorigin src="/assets/app.5b9a199d.js"></script>
+      <link rel="stylesheet" href="/assets/app.c316c2cb.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="table-wrapper">
+                <log-table
+                    url="http://192.168.170.87:9501/lhpp/send/15/logs"
+                    title="TRYM TO LHPP LOGS"
+                    :headers="[
+                        {value: 'data_date', text: 'DATE', sortable: true, fixed: true, width: 180},
+                        {value: 'body', text: 'DATA'},
+                        {value: 'response', text: 'RESPONSE'},
+                        {value: 'response_code', text: 'STATUS CODE'},
+                    ]"
+                    ref="vtable"
+                    >
+                </log-table>
+            </div>
+        </div>
+        
+    </body>
+</html>
