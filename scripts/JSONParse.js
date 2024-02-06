@@ -1,7 +1,7 @@
 //Data KTWM COT PUMP
 var mqttdata_ktwm = getTag('dataMQTT_cotpump_ktwm');
 
-debugString(mqttdata_ktwm);
+//debugString(mqttdata_ktwm);
 
 eval('obj_ktwm =' + mqttdata_ktwm);
 
@@ -49,7 +49,7 @@ if(typeof obj_ktwm == 'object') {
 //Data LMDM COT PUMP
 var mqttdata_lmdm = getTag('dataMQTT_cotpump_lmdm');
 
-debugString(mqttdata_lmdm);
+//debugString(mqttdata_lmdm);
 
 eval('obj_lmdm =' + mqttdata_lmdm);
 

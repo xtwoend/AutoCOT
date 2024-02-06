@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend-View</title>
+    <!-- 
+    <script type="text/javascript" src="Scripts/bgamodules/jquery.min.js"></script>
+    <script type="text/javascript" src="Scripts/bgamodules/jquery.canvasjs.min.js"></script>
+    <script src="Scripts/bgaapp/bgaapp.js"></script> -->
+    <link rel="stylesheet" href="dcscripts/bgaapp/bgaapp.css">
+
+</head>
+
+<body>
+    <div id="bgaapp">
+        <div class="section-tool">
+            <div class="control-group">
+                <label for="liveChart">
+                    <input type="radio" name="mode" id="liveChart" value="live" checked>
+                    <span>Live Trend</span>
+                </label>
+            </div>
+            <div class="control-group">
+                <label for="historyChart">
+                    <input type="radio" name="mode" id="historyChart" value="history">
+                    <span>Historical Trend</span>
+                </label>
+            </div>
+        </div>
+        <div>
+            <form action="#">
+                <div class="section-filter">
+                    <div class="group-filter">
+                        <label for="group">Archive Group</label>
+                        <select name="archiveGroup" id="group"></select>
+                    </div>
+                    <div class="group-filter">
+                        <label class="hidden-filter" for="startDate">Start date:</label>
+                        <input class="hidden-filter" type="datetime-local" id="startDate" name="start-date" value={date()} />
+                    </div>
+                    <div class="group-filter">
+                        <label class="hidden-filter" for="endDate">End date:</label>
+                        <input class="hidden-filter" type="datetime-local" id="endDate" name="end-date" value={date()} />
+                    </div>
+                    <div class="group-filter">
+                        <input type="submit" value="Submit" />
+                    </div>
+                    <div class="group-filter">
+                        <!-- <input type="button" value="Start" id="startTrend" /> -->
+                        <button type="button" id="startTrend">Start</button>
+                    </div>
+                    <div class="group-filter">
+                        <!-- <input type="button" value="Stop"  id="startTrend" /> -->
+                        <button type="button" id="stopTrend">Stop</button>
+                    </div>
+                    <div class="group-filter">
+                        <!-- <input type="button" value="Stop"  id="startTrend" /> -->
+                        <button type="button" id="restartTrend">Restart</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- <div id="selected-item">abd</div>         -->
+        <div id="chartContainer" style="height: 700px; max-width: 95%; margin: 50px auto; "></div>
+        <p></p>
+    </div>
+
+
+    <script type="text/javascript" src="dcscripts/bgamodules/jquery.min.js"></script>
+    <script type="text/javascript" src="dcscripts/bgamodules/jquery.canvasjs.min.js"></script>
+    <script src="dcscripts/bgaapp/bgaapp.js"></script>
+</body>
