@@ -14,7 +14,18 @@
   <body>
     <div id="app">
       <h4>Threshold Digester Setting</h4>
-      <page-threshold url="/threshold/4" sensor-url="/threshold/sensor/4"></page-threshold>
+      <page-threshold 
+        url="/threshold/4" 
+        sensor-url="/threshold/sensor/4"
+        :groups="[
+          'DIGESTER PRESS 1',
+          'DIGESTER PRESS 2',
+          'DIGESTER PRESS 3',
+          'DIGESTER PRESS 4',
+          'DIGESTER PRESS 5',
+          'DIGESTER PRESS 6',
+        ]"
+        ></page-threshold>
     </div>
   </body>
 </html>

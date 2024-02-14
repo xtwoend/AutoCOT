@@ -14,7 +14,36 @@
   <body>
     <div id="app">
       <h4>Threshold Clarification Setting</h4>
-      <page-threshold url="/threshold/3" sensor-url="/threshold/sensor/3"></page-threshold>
+      <page-threshold 
+        url="/threshold/3" 
+        sensor-url="/threshold/sensor/3"
+        :groups="[
+          'DIGESTER PRESS 1',
+          'DIGESTER PRESS 2',
+          'DIGESTER PRESS 3',
+          'DIGESTER PRESS 4',
+          'DIGESTER PRESS 5',
+          'DIGESTER PRESS 6',
+          'SAND TRAP TANK NO.1',
+          'SAND TRAP TANK NO.2',
+          'CRUDE OIL TANK (COT)',
+          'SLUDGE TANK NO.1',
+          'SLUDGE TANK NO.2',
+          'VACUUM DRIER NO.1',
+          'VACUUM DRIER NO.2',
+          'RECOVERY PIT VERTIKAL',
+          'RECOVERY PIT INLET',
+          'RECOVERY PIT CENTER',
+          'RECOVERY PIT OUTLET',
+          'BUFFER TANK',
+          'SLUDGE CENTRIFUDGE NO.1',
+          'SLUDGE CENTRIFUDGE NO.2',
+          'SLUDGE CENTRIFUDGE NO.3',
+          'SLUDGE CENTRIFUDGE NO.4',
+          'SLUDGE CENTRIFUDGE NO.5',
+          'SLUDGE CENTRIFUDGE NO.6',
+        ]"
+      ></page-threshold>
     </div>
   </body>
 </html>
