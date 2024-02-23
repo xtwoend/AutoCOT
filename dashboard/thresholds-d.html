@@ -1,24 +1,23 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="base_url" content="http://192.168.170.87:9501">
-    <base target="_parent">
-    <title>--</title>
-    <script type="module" crossorigin src="/assets-dash/history-nwZl-qIT.js"></script>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="base_url" content="http://192.168.170.87:9501">
+  <base target="_parent">
+  <title>--</title>
+  <script type="module" crossorigin src="/assets-dash/history-nwZl-qIT.js"></script>
   <link rel="modulepreload" crossorigin href="/assets-dash/style-95uUns4W.js">
   <link rel="modulepreload" crossorigin href="/assets-dash/vendor-_TY6xysw.js">
   <link rel="stylesheet" crossorigin href="/assets-dash/style-teQjFNQc.css">
-  </head>
-  <body>
-    <div id="page">
-      <h4>Threshold Digester Setting</h4>
-      <page-threshold 
-        url="/threshold/4" 
-        sensor-url="/threshold/sensor/4"
-        :groups="[
+</head>
+
+<body>
+  <div id="page">
+    <h4>Threshold Digester Setting</h4>
+    <page-threshold url="/threshold/4" sensor-url="/threshold/sensor/4" :groups="[
           'DIGESTER PRESS 1',
           'DIGESTER PRESS 2',
           'DIGESTER PRESS 3',
@@ -29,8 +28,8 @@
           'TEMP COT',
           'SAND TRAP TANK NO.1',
           'SAND TRAP TANK NO.2',
-        ]"
-        ></page-threshold>
-    </div>
-  </body>
+        ]"></page-threshold>
+  </div>
+</body>
+
 </html>
