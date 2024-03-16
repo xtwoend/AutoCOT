@@ -5,9 +5,8 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="base_url" content="http://192.168.170.87:9501">
-  <base target="_parent">
-  <title>--</title>
+  <meta name="base_url" content="http://192.168.170.87:9502">
+  <title>BGA DASHBOARD</title>
   <script type="module" crossorigin src="/assets-dash/style-95uUns4W.js"></script>
   <script type="module" crossorigin src="/assets-dash/vendor-oCMwW_3J.js"></script>
   <script type="module" crossorigin src="/assets-dash/page-5YhN5KSv.js"></script>
@@ -17,17 +16,7 @@
 
 <body>
   <div id="page">
-    <h4>Threshold Nutkernel Setting</h4>
-    <page-threshold url="/threshold/5" sensor-url="/threshold/sensor/5" :groups="[
-          'NUT SILO 1',
-          'NUT SILO 2',
-          'NUT SILO 3',
-          'NUT SILO 4',
-          'KERNEL SILO 1',
-          'KERNEL SILO 2',
-          'KERNEL SILO 3',
-          'KERNEL SILO 4',
-        ]"></page-threshold>
+    <page-fossnirgroup></page-fossnirgroup>
   </div>
 </body>
 
