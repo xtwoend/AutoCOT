@@ -29,12 +29,12 @@
         <trend-live 
             v-if="active == null || active == 'live'"
             title="Oil Storage Tank"
-            url="http://192.168.170.87:9501/mqtt/16/log"
+            url="http://192.168.170.87:9501/mqtt/17/log"
             :mqtt="{
                 url: 'ws://192.168.170.87:9001',
                 username: 'admin-autocot',
                 password: 'Bumitama123!',
-                topic: 'data/bga/atg/trym/calculate',
+                topic: 'data/bga/atg/scmm/calculate',
                 timefield: 'terminal_time'
             }"
             :default-data="[
@@ -87,29 +87,13 @@
                 {data: 'factor_corection_tank2', text: 'FK Tank 2', group: 'Oil Storage Tank 2'},
                 {data: 'density_tank2', text: 'DS Tank 2', group: 'Oil Storage Tank 2'},
                 {data: 'stock_cpo_tank2', text: 'CPO Tank 2', group: 'Oil Storage Tank 2'},
-
-                {data: 'level_tank3', text: 'Level Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp1_tank3', text: 'Temp. 1 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp2_tank3', text: 'Temp. 2 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp3_tank3', text: 'Temp. 3 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp4_tank3', text: 'Temp. 4 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp5_tank3', text: 'Temp. 5 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp6_tank3', text: 'Temp. 6 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp7_tank3', text: 'Temp. 7 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp8_tank3', text: 'Temp. 8 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'avg_temp3', text: 'AVG Temp. Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'meter_tank3', text: 'Height Oil Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'volume_tank3', text: 'Volume Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'factor_corection_tank3', text: 'FK Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'density_tank3', text: 'DS Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'stock_cpo_tank3', text: 'CPO Tank 3', group: 'Oil Storage Tank 3'},
                 
             ]"></trend-live>
              
         <trend-view 
             v-if="active == 'history'"
             title="Oil Storage Tank"
-            url="http://192.168.170.87:9501/trend/16/data"
+            url="http://192.168.170.87:9501/trend/17/data"
             :default-data="[
                 {data: 'level_tank1', text: 'Level Tank 1', group: 'Oil Storage Tank 1'},
                 {data: 'temp1_tank1', text: 'Temp. 1 Tank 1', group: 'Oil Storage Tank 1'},
@@ -161,22 +145,6 @@
                 {data: 'density_tank2', text: 'DS Tank 2', group: 'Oil Storage Tank 2'},
                 {data: 'stock_cpo_tank2', text: 'CPO Tank 2', group: 'Oil Storage Tank 2'},
 
-                {data: 'level_tank3', text: 'Level Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp1_tank3', text: 'Temp. 1 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp2_tank3', text: 'Temp. 2 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp3_tank3', text: 'Temp. 3 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp4_tank3', text: 'Temp. 4 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp5_tank3', text: 'Temp. 5 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp6_tank3', text: 'Temp. 6 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp7_tank3', text: 'Temp. 7 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'temp8_tank3', text: 'Temp. 8 Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'avg_temp3', text: 'AVG Temp. Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'meter_tank3', text: 'Height Oil Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'volume_tank3', text: 'Volume Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'factor_corection_tank3', text: 'FK Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'density_tank3', text: 'DS Tank 3', group: 'Oil Storage Tank 3'},
-                {data: 'stock_cpo_tank3', text: 'CPO Tank 3', group: 'Oil Storage Tank 3'},
-                
             ]"></trend-view>
     </div>
     
