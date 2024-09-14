@@ -102,7 +102,16 @@ setTag( 'hm_oiltank1',data.hm_oilpump1);
 
 
 setTag('hm_oiltank2', data.hm_oilpump2);
-setTag( 'temp_recovery_tank',data.temp_recovery_tank);
+
+
+ 
+   if (data.temp_recovery_tank > 0 ){
+
+setTag( 'temp_recovery_tank',data.temp_recovery_tank); }
+if (data.temp_recovery_tank < 0 ){
+
+setTag( 'temp_recovery_tank',0.0); }
+
 
 }  
   

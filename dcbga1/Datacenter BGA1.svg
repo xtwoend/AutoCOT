@@ -141,8 +141,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.484375"
-     inkscape:cx="403.88476"
-     inkscape:cy="365.9475"
+     inkscape:cx="433.4453"
+     inkscape:cy="365.6605"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -3414,7 +3414,7 @@
        height="44.646023"
        x="487.13062"
        y="84.547142"
-       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFF00&quot;,&quot;tag&quot;:&quot;dcbga1_general_resetalarm&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#90EE90&quot;,&quot;tag&quot;:&quot;dcbga1_general_resetalarm&quot;},{&quot;data&quot;:&quot;2&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;dcbga1_general_resetalarm&quot;}]},{&quot;attr&quot;:&quot;script&quot;,&quot;list&quot;:[{&quot;evt&quot;:&quot;mouseup&quot;,&quot;param&quot;:&quot;var sig = getTag('dcbga1_general_resetalarmcmd');\n\nif(sig == 0) {\nsetTag('dcbga1_general_resetalarmcmd', 1);\n} else {\nsetTag('dcbga1_general_resetalarmcmd', 0);\n}\n\n&quot;}]}" />
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFF00&quot;,&quot;tag&quot;:&quot;dcbga1_general_resetalarm&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#90EE90&quot;,&quot;tag&quot;:&quot;dcbga1_general_resetalarm&quot;},{&quot;data&quot;:&quot;2&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;dcbga1_general_resetalarm&quot;}]},{&quot;attr&quot;:&quot;script&quot;,&quot;list&quot;:[{&quot;evt&quot;:&quot;mouseup&quot;,&quot;param&quot;:&quot;var sig = getTag('dcbga1_general_resetalarmcmd');\n\nif(sig == 0) {\nsetTag('dcbga1_tagname', 'ResetAlarmCommand ');\nsetTag('dcbga1_value', 1);\n} else {\nsetTag('dcbga1_tagname', 'ResetAlarmCommand ');\nsetTag('dcbga1_value', 0);\n}\n\n&quot;}]}" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

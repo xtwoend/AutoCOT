@@ -1,7 +1,7 @@
 var startDate = new Date("2024-01-20T00:00:00Z");
 var endDate = new Date("2024-01-26T00:00:00Z");
-const endPoint = `http://192.168.170.89:5000/api/`;
-// const  chart = new CanvasJS.Chart("chartContainer", chartOptions);
+const endPoint = `http://192.168.170.89:5080/api/`;
+//const endPoint = `http://localhost:5000/api/`;
 
 const groupSelect = document.getElementById("group");
 groupSelect.addEventListener("change", (e) => {
@@ -179,7 +179,21 @@ async function getArchives(form, pageNumber, pageSize) {
       },
     });
   });
-}
+};
+
+async function getHistoryArchives(form, pageNumber, pageSize) {
+  return new Promise((resolve, reject) => {
+    $.ajax({
+      type: "POST",
+      data: JSON.stringify(form),
+      contentType: "application/json",
+      url: `${endPoint}Archive/GetHistoryArchives?PageNumber=${pageNumber}&PageSize=${pageSize}`,
+      success: function (data, status) {
+        resolve(data);
+      },
+    });
+  });
+};
 
 function getData({ data }) {
   const [a] = data;
@@ -191,65 +205,126 @@ function firstUpdateChart(chart) {
 
   responseInfo.pageNumber = 1;
   chartOptions.data = [];
-  getArchives(form, responseInfo.pageNumber, responseInfo.pageSize).then(
-    (data) => {
-      if (!data.success) {
-        alert(data.message);
-        enabledControl();
-        startGetArchives = false;
-        restartGetArchives = false;
-      } else {
-        if (data.totalPages > 0) {
-          responseInfo.pageNumber = data.pageNumber + 1;
-          responseInfo.pageSize = data.pageSize;
-          responseInfo.totalPages = data.totalPages;
-        }
-
-        const apiData = getData(data);
-        if (apiData.data.length > 0) {
-          const newdata = [];
-          apiData.data.forEach((ele) => {
-            //console.log("ele", ele);
-            let [found] = chartOptions.data.filter((x) => x.name === ele.name);
-            //console.log("found ori", found);
-            if (found === undefined || found.length <= 0) {
-              found = { ...ele };
-              //console.log("not found", found);
-            } else {
-              found.dataPoints = [...found.dataPoints, ...ele.dataPoints];
-              //console.log("found", found);
-            }
-            newdata.push(found);
-          });
-          chartOptions.data = [...newdata];
-          chartOptions.title.text = apiData.title;
-          chartOptions.axisY = apiData.axisY;
-          chartOptions.axisX = apiData.axisX;
-
-          //console.log("chartOptions", chartOptions);
-          //console.log("chart", chart);
-          chart.render();
-        } else {
-          alert("No data found");
-          startGetArchives = false;
+  if(trendMode === "live"){
+    getArchives(form, responseInfo.pageNumber, responseInfo.pageSize).then(
+      (data) => {
+        if (!data.success) {
+          alert(data.message);
           enabledControl();
-        }
-
-        if (restartGetArchives) {
+          startGetArchives = false;
           restartGetArchives = false;
-        }
-        if (startGetArchives) {
-          calculateNextForm(chartOptions);
-          nextUpdateChart(chart);
+        } else {
+          if (data.totalPages > 0) {
+            responseInfo.pageNumber = data.pageNumber + 1;
+            responseInfo.pageSize = data.pageSize;
+            responseInfo.totalPages = data.totalPages;
+          }
+  
+          const apiData = getData(data);
+          if (apiData.data.length > 0) {
+            const newdata = [];
+            apiData.data.forEach((ele) => {
+              //console.log("ele", ele);
+              let [found] = chartOptions.data.filter((x) => x.name === ele.name);
+              //console.log("found ori", found);
+              if (found === undefined || found.length <= 0) {
+                found = { ...ele };
+                //console.log("not found", found);
+              } else {
+                found.dataPoints = [...found.dataPoints, ...ele.dataPoints];
+                //console.log("found", found);
+              }
+              newdata.push(found);
+            });
+            chartOptions.data = [...newdata];
+            chartOptions.title.text = apiData.title;
+            chartOptions.axisY = apiData.axisY;
+            chartOptions.axisX = apiData.axisX;
+  
+            //console.log("chartOptions", chartOptions);
+            //console.log("chart", chart);
+            chart.render();
+          } else {
+            alert("No data found");
+            startGetArchives = false;
+            enabledControl();
+          }
+  
+          if (restartGetArchives) {
+            restartGetArchives = false;
+          }
+          if (startGetArchives) {
+            calculateNextForm(chartOptions);
+            nextUpdateChart(chart);
+          }
         }
       }
-    }
-  );
+    );
+  };
+  if(trendMode === "history"){
+    getHistoryArchives(form, responseInfo.pageNumber, responseInfo.pageSize).then(
+      (data) => {
+        if (!data.success) {
+          alert(data.message);
+          enabledControl();
+          startGetArchives = false;
+          restartGetArchives = false;
+        } else {
+          if (data.totalPages > 0) {
+            responseInfo.pageNumber = data.pageNumber + 1;
+            responseInfo.pageSize = data.pageSize;
+            responseInfo.totalPages = data.totalPages;
+          }
+  
+          const apiData = getData(data);
+          if (apiData.data.length > 0) {
+            const newdata = [];
+            apiData.data.forEach((ele) => {
+              //console.log("ele", ele);
+              let [found] = chartOptions.data.filter((x) => x.name === ele.name);
+              //console.log("found ori", found);
+              if (found === undefined || found.length <= 0) {
+                found = { ...ele };
+                //console.log("not found", found);
+              } else {
+                found.dataPoints = [...found.dataPoints, ...ele.dataPoints];
+                //console.log("found", found);
+              }
+              newdata.push(found);
+            });
+            chartOptions.data = [...newdata];
+            chartOptions.title.text = apiData.title;
+            chartOptions.axisY = apiData.axisY;
+            chartOptions.axisX = apiData.axisX;
+  
+            //console.log("chartOptions", chartOptions);
+            //console.log("chart", chart);
+            chart.render();
+          } else {
+            alert("No data found");
+            startGetArchives = false;
+            enabledControl();
+          }
+  
+          if (restartGetArchives) {
+            restartGetArchives = false;
+          }
+          if (startGetArchives) {
+            calculateNextForm(chartOptions);
+            nextUpdateChart(chart);
+          }
+        }
+      }
+    );
+  };
+  
+  console.log("firstUpdateChart; responseInfo", responseInfo);
 }
 
 function nextUpdateChart(chart) {
   //   console.log("nextUpdateChart start");
 
+  if(trendMode === "live"){
   getArchives(form, responseInfo.pageNumber, responseInfo.pageSize).then(
     (data) => {
       if (!data.success) {
@@ -308,7 +383,7 @@ function nextUpdateChart(chart) {
             }, nTime);
           }
           if (
-            responseInfo.pageNumber >= responseInfo.totalPages &&
+            responseInfo.pageNumber > responseInfo.totalPages &&
             trendMode === "history"
           ) {
             startGetArchives = false;
@@ -322,6 +397,83 @@ function nextUpdateChart(chart) {
       }
     }
   );
+  };
+  if(trendMode === "history"){
+    getHistoryArchives(form, responseInfo.pageNumber, responseInfo.pageSize).then(
+      (data) => {
+        if (!data.success) {
+          alert(data.message);
+          enabledControl();
+          startGetArchives = false;
+          restartGetArchives = false;
+        } else {
+          if (data.totalPages > 0) {
+            responseInfo.pageNumber = data.pageNumber + 1;
+            responseInfo.pageSize = data.pageSize;
+            responseInfo.totalPages = data.totalPages;
+          }
+  
+          const apiData = getData(data);
+          const newdata = [];
+          //console.log("apiData", apiData);
+          if (apiData.data.length > 0) {
+            apiData.data.forEach((ele) => {
+              //console.log("ele", ele);
+              let [found] = chartOptions.data.filter((x) => x.name === ele.name);
+              //console.log("found ori", found);
+              if (found === undefined || found.length <= 0) {
+                found = { ...ele };
+                //console.log("not found", found);
+              } else {
+                found.dataPoints = [...found.dataPoints, ...ele.dataPoints];
+                //console.log("found", found);
+              }
+              newdata.push(found);
+            });
+            chartOptions.data = [...newdata];
+  
+            chart.render();
+          }
+          // else {
+          //   alert("No data found");
+          //   startGetArchives = false;
+          //   enabledControl();
+          // }
+          //console.log("chartOptions after", chartOptions);
+          //console.log("chartOptions", chartOptions);
+          //console.log("chart", chart);
+          if (startGetArchives && !restartGetArchives) {
+            if (
+              responseInfo.pageNumber <= responseInfo.totalPages ||
+              trendMode === "live"
+            ) {
+              let nTime = 100;
+              if (trendMode === "live") {
+                nTime = 10000;
+              }
+              setTimeout(function () {
+                calculateNextForm(chartOptions);
+                nextUpdateChart(chart);
+              }, nTime);
+            }
+            if (
+              responseInfo.pageNumber > responseInfo.totalPages &&
+              trendMode === "history"
+            ) {
+              startGetArchives = false;
+              enabledControl();
+            }
+          }
+          if (restartGetArchives) {
+            initForm();
+            firstUpdateChart(chart);
+          }
+        }
+      }
+    );
+    };
+    
+  console.log("nextUpdateChart; responseInfo", responseInfo);
 }
 
 async function getGroups() {
@@ -367,7 +519,7 @@ function calculateNextForm({ data }) {
     form.EndDate = endDate;
   }
   //console.log("calculateNextForm; Form after", form);
-  //console.log("calculateNextForm; responseInfo", responseInfo);
+  console.log("calculateNextForm; responseInfo", responseInfo);
 }
 
 function initForm() {

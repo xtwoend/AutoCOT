@@ -90,6 +90,7 @@ setTag('dcbga1_general_pac2feed', data.PAC2Feed);
 setTag('dcbga1_general_doorswitch', data.DoorSwitch);
 setTag('dcbga1_general_waterleakage', data.WaterLeakage);
 setTag('dcbga1_general_resetalarm', data.ResetAlarm);
+setTag('dcbga1_general_resetalarmcmd', data.ResetAlarmCommand);
 setTag('dcbga1_general_fm200fault', data.FM200Fault);
 };
 
@@ -161,7 +162,7 @@ setTag('dcbga1_autonics2_presentvalue', data.PresentValue);
 var pmvar1 = getTag('dcbga1_pm1');
 
 
-debugString(pmvar1);
+//debugString(pmvar1);
 
 eval('data =' + pmvar1);
 
@@ -187,7 +188,7 @@ setTag('dcbga1_pm1_totalactiveenergy', data.TotalActiveEnergy);
 
 var pmvar2 = getTag('dcbga1_pm2');
 
-debugString(pmvar2);
+//debugString(pmvar2);
 
 eval('data =' + pmvar2);
 
@@ -216,3 +217,10 @@ eval('data =' + RackServer);
 if(typeof data == 'object') {
 setTag('Rack_Server_Temp', data.Temperature) ;
 }; 
+
+//setTag('dcbga1_tagname', "");
+//setTag('dcbga1_value', 0);
+//setTag('dcbga1_test', "ResetAlarmCommand");
+var tagTest = getTag('dcbga1_test');
+
+debugString('test : ' + tagTest);
